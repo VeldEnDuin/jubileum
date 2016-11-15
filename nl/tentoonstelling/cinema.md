@@ -17,7 +17,5 @@ media:
       link: /media/video/sample-01.mp4
 ---
 
-## Cinema Campadiso
-
 Komt dat zien!
 
