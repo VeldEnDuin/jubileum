@@ -3,7 +3,7 @@
 {% for m1 in site.data.menu %}
    {% unless m1.hide %}
     <li class="{% if m1.submenu %}dropdown{% endif %} {% if active1 == m1 %}active{% endif %}">
-        <a href="{{ site.data.linkcode[m1.linkcode][pgLang] }}"
+        <a href="{{ site.baseurl }}{{ site.data.linkcode[m1.linkcode][pgLang] }}"
            {% if m1.submenu %}{% unless m1.linkcode %}
                data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"
            {% endunless %}{% endif %}
@@ -14,7 +14,7 @@
             <ul class="dropdown-menu" role="menu">
                 {% for m2 in m1.submenu %}
                     <li {% if active2 == m2 %}class="active"{% endif %} >
-                        <a href="{{ site.data.linkcode[m2.linkcode][pgLang] }}" >
+                        <a href="{{ site.baseurl }}{{ site.data.linkcode[m2.linkcode][pgLang] }}" >
                         {{ m2.menutekst[pgLang]}}
                         </a>
                     </li>

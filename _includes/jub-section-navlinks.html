@@ -7,7 +7,7 @@
     {% assign next_menu = site.data.menu[next_index] %}
     {% assign next_link = site.data.linkcode[next_menu.linkcode][pgLang] %}
     {% assign next_text = next_menu.menutekst[pgLang] %}
-    <a href="{{next_link}}" class="btn btn-default">
+    <a href="{{site.baseurl}}{{next_link}}" class="btn btn-default">
       <span class="glyphicon glyphicon-chevron-down"></span> {{ next_text }}
     </a>
 {% endif %}
