@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+{% include layout-prelude.html %}
 
 <a href="{{site.baseurl}}todo-link-audiopage-js?">
   <button class="btn btn-default pull-right">
-    <span class="glyphicon glyphicon-bullhorn"></span>
+    <i class="fa fa-microphone" aria-hidden="true"></i>
     {{site.data.langs[pgLang].dict.outloud}}
   </button>
 </a><h2>{{page.title}}</h2>
