@@ -93,6 +93,7 @@ body:before {
 }
 .vd-banner {
     height: 450px;
+    margin-bottom:  1em;
 }
 .vd-banner:after {
     content: "";

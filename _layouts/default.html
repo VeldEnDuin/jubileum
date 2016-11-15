@@ -69,31 +69,29 @@ tcs: [1,2,3,5,6,9]
     {% endif %}
     </header>
 
+    {% assign lvl2nav = false %}
+    {% if lvl1.submenu and lvl1.linkcode and lvl1.submenu.size > 1 %}
+        {% assign lvl2nav = true %}
+    {% endif %}
+
     <article>
       <div class="container-fluid">
         <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-    {% include secondary-menu.html %}
 
-    {% if page.insert contains 'level3-tiles' %}
-        {% include level3-tiles.html  %}
+    {% if lvl2nav %}
+          <div class="col-lg-4 col-lg-push-8">
+        {% include geonav.html %}
+        {% include secondary-menu.html %}
+          </div>
+          <div class="col-lg-8 col-lg-pull-4">
     {% endif %}
-    {% if page.insert contains 'level3-accordeon' %}
-        {% include level3-accordeon.html  %}
-    {% endif %}
-
-    {% if page.insert contains 'page-images-top' %}
-        {% assign imgs = page.images %}
-        {% include imgs_as_strip.html %}
-    {% endif %}
-
 
     {{ content }}
 
-
-    {% if page.insert contains 'page-images-bottom' %}
-        {% assign imgs = page.images %}
-        {% include imgs_as_strip.html %}
+    {% if lvl2nav %}
+          </div>
     {% endif %}
+
 
     {% if page.insert contains 'virtualtour' %}
         {% include virtualtour.html %}
