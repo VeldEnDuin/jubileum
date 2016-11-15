@@ -684,6 +684,7 @@ a:hover .vd-button .vd-button-tag-invert .vd-button-inner,
 a:hover .vd-select-item-inner,
 a.notd:hover button,
 a.notd:hover div.jub-section-preview,
+.jub-exhibit a.notd:hover > div,
 button.vd-callout-btn:hover {
     transform: scale(1.01, 1.01);
 }
@@ -1553,13 +1554,14 @@ h1, h2 {
 div.vgroup-ctrl {
     position: absolute;
     padding: 0 5px;
-    top: 35%;
+    top: 45%;
+    z-index:  1;
 }
 div.vgroup-ctrl.left {
-    right: 100%;
+    right: 95%;
 }
 div.vgroup-ctrl.right {
-    left: 100%;
+    left: 85%;
 }
 
 .jub-section-vgroup > div > div {
@@ -1666,4 +1668,19 @@ hr.jub-fact-separator {
 }
 .text-center ul {
     list-style-position: inside;
+}
+
+.jub-exhibit {
+    position: relative;
+}
+.jub-exhibit .active img {
+    border: 5px solid #ed7f2d;
+}
+.jub-exhibit .title {
+    padding-top: -0.5em;
+    font-size: 0.9em;
+}
+.jub-exhibit > a > div {
+    overflow: hidden;
+    white-space: nowrap;
 }
