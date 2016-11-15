@@ -34,7 +34,6 @@ tcs: [1,2,3,5,6,9]
   </head>
   <body data-translations='{{ site.data.langs[pgLang] | jsonify }}'>
     <header {%unless page.insert contains 'banner'%}class="spaced"{%endunless%}>
-      <a name="top"></a>
       <nav class="navbar navbar-default navbar-inverse">
         <div class="vd-menu"><div class="container-fluid">
         <div class="navbar-header">
@@ -79,11 +78,11 @@ tcs: [1,2,3,5,6,9]
         <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 
     {% if lvl2nav %}
-          <div class="col-lg-4 col-lg-push-8">
+          <div class="col-md-4 col-md-push-8 col-sm-4 col-sm-push-8 col-xs-4 col-xs-push-8 ">
         {% include geonav.html %}
         {% include secondary-menu.html %}
           </div>
-          <div class="col-lg-8 col-lg-pull-4">
+          <div class="col-md-8 col-md-pull-4 col-sm-8 col-sm-pull-4 col-xs-8 col-xs-pull-4 ">
     {% endif %}
 
     {{ content }}
