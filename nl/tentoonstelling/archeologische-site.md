@@ -14,6 +14,5 @@ media:
     - type: image
       link: /media/img/sample-02.jpg
     - type: image
-      link: /media/img/sample-03.jpg
-        
+      link: /media/img/sample-03.jpg 
 ---
