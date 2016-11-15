@@ -1,0 +1,23 @@
+<!-- search-drop-menu -->
+<li id="search">
+    <a href=""
+        data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"
+       ><span class="fa fa-search"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+        <li><a><form id="gcse-search" role="jq.gcse.form" action="{{site.data.linkcode.search[pgLang]}}">
+            <div class="form-group">
+                <div class="input-group">
+                    <input style="min-width: 20em" type="text" class="form-control"
+                           name="q"
+                           placeholder="{{ site.data.langs[pgLang].dict.search }}...">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-success">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </form></a></li>
+    </ul>
+</li>

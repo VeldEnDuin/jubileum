@@ -1,0 +1,52 @@
+- linkcode: jubileum
+  menutekst:
+    nl: Jubileum
+    fr: Anniversaire
+    de: Jahrestag
+    en: Anniversary
+
+- linkcode: facts
+  hide: true
+  menutekst:
+    nl:  Fun Facts
+    fr:  Faits Amusants
+    de:  Spaß Fakten
+    en:  Fun Facts
+
+- linkcode: exhibit
+  menutekst:
+    nl:  Tentoonstelling
+    fr:  Exposition
+    en:  Exhibition
+    de:  Ausstellung
+  submenu:
+    - linkcode: exhibit_01_crash
+    - linkcode: exhibit_02_lostfound
+    - linkcode: exhibit_03_cinema
+    - linkcode: exhibit_04_archeo
+    - linkcode: exhibit_05_haag
+    - linkcode: exhibit_06_tijdpaal
+    - linkcode: exhibit_07_toonboom
+    - linkcode: exhibit_08_korentelcel
+
+- linkcode: program
+  menutekst:
+    nl: Programma
+    fr: Programme
+    de: Programm
+    en: Program
+
+- linkcode: games
+  hide: true
+  menutekst:
+    nl: Spelletjes
+    fr: Jeux
+    de: Spiele
+    en: Games
+
+- linkcode: goeddoel
+  menutekst:
+    nl: Goede Doel
+    fr: Charité
+    de: Nächstenliebe
+    en: Charity

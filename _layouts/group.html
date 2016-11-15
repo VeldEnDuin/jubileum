@@ -1,0 +1,123 @@
+---
+layout: default
+---
+{% include layout-prelude.html %}
+
+{% assign grp   = page.data %}
+{% capture key %}{{ grp }}{% endcapture %}
+{% capture groupid %}vd-group-{{ key }}{% endcapture %}
+{% assign items = site.data[key].items %}
+{% assign style = site.data[key].class %}
+{% assign names = site.data[key].subgroups[pgLang] %}
+{% assign sortkey = 'ranking' %}
+{% assign imgbg = site.data[key]['img-in-background'] %}
+{% assign addspacer = site.data[key].style.spacer %}
+
+{% if site.data[key].id %}
+    {% assign groupid = site.data[key].id %}
+{% endif %}
+
+{% if site.data[key].sort.key %}
+    {% assign sortkey = site.data[key].sort.key %}
+    {% assign rankeditems = items | sort: sortkey  %}
+{% else %}
+    {% assign rankeditems = items  %}
+{% endif %}
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+  <div class="vd-group-intro vd-group-{{grp}}-intro">
+    {{ content }}
+  </div>
+
+  <div id="{{ groupid }}" class="vd-group-list {{style.list}}"
+       data-geolocation="{{site.geolocation.lat}}, {{site.geolocation.lon}}"
+       data-subgroupnames='{{ names | jsonify }}'>
+
+{% if site.data[key].sort.reverse %}
+    {% assign rankeditems = rankeditems | reverse  %}
+{% endif %}
+{% for it in rankeditems %}
+    {% assign title       = it.title[pgLang] %}
+    {% assign label       = it.label %}
+    {% assign my_date     = it.date | date: "%m.%Y" %}
+    {% assign m_date      = it.date | date: "%-m" |modulo: 12%}
+    {% assign m_date_ndx  = m_date  | minus: 1 %}
+    {% comment %}- sign removes zero padding --> still text though, |modulo: 12 makes it numeral - useable as arrayindex {% endcomment %}
+    {% assign m_text      = site.data.langs[pgLang].months[m_date_ndx] %}
+    {% assign y_date      = it.date | date: "%Y" %}
+    {% assign description = it.description[pgLang] %}
+    {% assign link        = it.link[pgLang] %}
+    {% assign caption     = it.caption[pgLang] %}
+    {% if addspacer %}
+    <div class="vd-group-item-spacer {{style.item}}"></div>
+    {% endif %}
+    <div class="vd-group-item vd-group-{{grp}}-item {{style.item}}"
+         data-title      = "{{ title }}"
+         data-caption    = "{{ caption }}"
+         data-images     = '{{ it.images | jsonify}}'
+         data-link       = "{{ link  }}"
+         data-format     = "dist"
+         data-location   = "{{ it.location }}"
+         data-subgroups  = '{{ it.subgroups | jsonify }}'
+         data-ranking    = "{{ it.ranking }}"
+    >
+      <div class="vd-group-item-inner"
+        {% if imgbg %}
+           style="background-image: url('{{it.images[0]}}');"
+        {% endif %}
+      >
+        <div class="vd-group-content">
+          <div class="vd-group-content-inner">
+        {% if label %}
+            <div class="vd-group-date"><span class="year">{{ label }}</span></div>
+        {% else %}
+            {% if my_date %}
+                <div class="vd-group-date"><span class="month">{{ m_text }}</span>&nbsp;<span class="year">{{ y_date }}</span></div>
+            {% endif %}
+        {% endif %}
+            <div class="vd-group-title">
+        {% if link %}
+              <a class="vd-link" href="{{ link }}" target="_blank">
+                <!-- <span class="glyphicon glyphicon-new-window"></span> -->
+                {{ title }}
+              </a>
+        {% else %}
+            {{ title }}
+        {% endif %}
+            </div>
+        {% if caption %}
+            <div class="vd-group-caption">{{ caption }}</div>
+        {% endif %}
+        {% if it.location %}
+            <div class="vd-group-info">
+              <a class="vd-location" target="_blank"
+                 href="https://www.google.be/maps/dir/{{site.geolocation.lat}}, {{site.geolocation.lon}}/{{it.location}}?hl={{ pgLang }}"
+              >
+                <span class="glyphicon glyphicon-map-marker"></span>
+              </a>
+            </div>
+        {% endif %}
+        {% unless imgbg %}
+            {% if it.images.size > 0 %}
+                {% if it.images.size == 1 %}
+                <div class="vd-group-img"><img src="{{it.images[0]}}" class="img img-rounded img-responsive"></div>
+                {% else %}
+                    {% assign imgs = it.images %}
+                    {% include imgs_as_strip.html %}
+                {% endif%}
+           {% endif%}
+        {% endunless %}
+        {% if description %}
+            <div class="vd-group-description">
+                {{ description }}
+            </div>
+        {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+{% endfor %}
+  </div>
+</div>

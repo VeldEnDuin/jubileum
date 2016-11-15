@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/projects/VeldEnDuin.github.io
+./rundev.sh

@@ -1,0 +1,16 @@
+{% include layout-prelude.html %}
+{% for gm in site.data.games %}
+<div class="col-xs-6">
+
+<h2>{{gm.name[pgLang]}}</h2>
+<a class="notd"  target="_blank" href="//scratch.mit.edu/projects/{{gm.id}}#fullscreen">
+  <img class="img img-responsive img-rounded" src="{{site.baseurl}}{{gm.img}}">
+  {% comment %}
+  <iframe allowtransparency="true"
+      width="600" height="500"
+      src="//scratch.mit.edu/projects/embed/{{gm.id}}/?autostart=false"
+      frameborder="0" allowfullscreen></iframe>
+  {% endcomment %}
+</a>
+</div>
+{% endfor %}

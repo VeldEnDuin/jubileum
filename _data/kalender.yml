@@ -1,0 +1,40 @@
+class:
+  item: "vd-group-timeline-item col-lg-6 col-md-6 col-sm-12 col-xs-12"
+  list: "vd-group-timeline row"
+style:
+  spacer: true
+sort:
+    key: date
+    reverse: true
+items:
+  - date: 2017-04-01
+    title:
+      nl: "Opening Jubileumjaar"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Openen, lintjes, gesteld lichamen...
+      fr: >
+      de: >
+      en: >
+
+    images:
+      - /img/kalender/2017-04-01_opening.jpg
+
+
+  - date: 2017-06-25
+    title:
+      nl: "Jubelweekend"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+            Jubelen dat het een frang geeft
+      fr: >
+      de: >
+      en: >
+    images:
+      - /img/kalender/2017-06-25/jubelen.jpg

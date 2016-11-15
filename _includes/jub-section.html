@@ -1,0 +1,29 @@
+{% assign select_mode = 'default' %}
+<div class="jub-section">
+  <div class="clearfix">
+{% if section.submenu %}
+    {% assign select_mode = 'vgroup' %}
+    <div class="vgroup-ctrl left"><button class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span></button></div>
+    <div class="jub-section-vgroup">
+      <div class="row">
+    {% for sub in section.submenu %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 clearfix">
+          <a name="{{sub.linkcode}}"></a>
+        {% assign select = sub.linkcode %}
+        {% include jub-section-select.html %}
+        </div>
+    {% endfor %}
+      </div>
+    </div>
+    <div class="vgroup-ctrl right"><button class="btn btn-default"><span class="glyphicon glyphicon-chevron-right"></span></button></div>
+{% else %}
+    {% assign select = section.linkcode | append: '_index' %}
+    {% if site.data.linkcode[select] %}
+        {% assign select_mode = 'see_more' %}
+    {% else %}
+        {% assign select = section_linkcode | append: '_include' %}
+    {% endif  %}
+    {% include jub-section-select.html %}
+{% endif %}
+  </div>
+</div>

@@ -1,0 +1,60 @@
+jubileum:
+    nl: /nl/index.html
+    fr: /fr/index.html
+    de: /de/index.html
+    en: /en/index.html
+
+facts:
+    nl: "/nl/index.html#facts"
+facts_include:
+    nl: /nl/feitjes.html
+
+exhibit:
+    nl: "/nl/index.html#tentoonstelling"
+    fr: "/fr/index.html#exposition"
+    de: "/de/index.html#Ausstellung"
+    en: "/en/index.html#exhibition"
+
+games:
+    nl: "/nl/index.html#spelletjes"
+games_index:
+    nl: /nl/spelletjes.html
+
+program:
+    nl: "/nl/index.html#program"
+program_index:
+    nl: /nl/activiteiten/kalender.html
+
+
+goeddoel:
+    nl: "/nl/index.html#goeddoel"
+goeddoel_index:
+    nl: /nl/goed-doel.html
+
+
+exhibit_01_crash:
+    nl: /nl/tentoonstelling/start.html
+
+exhibit_02_lostfound:
+    nl: /nl/tentoonstelling/verloren-voorwerpen.html
+
+exhibit_03_cinema:
+    nl: /nl/tentoonstelling/cinema.html
+
+exhibit_04_archeo:
+    nl: /nl/tentoonstelling/archelogosische-site.html
+
+exhibit_05_haag:
+    nl: /nl/tentoonstelling/klaag-haag.html
+
+exhibit_06_tijdpaal:
+    nl: /nl/tentoonstelling/tijd-mijl-paal.html
+
+exhibit_07_toonboom:
+    nl: /nl/tentoonstelling/tentoonstellingsboom.html
+
+exhibit_08_korentelcel:
+    nl: /nl/tentoonstelling/korenveld-telefooncel.html
+
+
+

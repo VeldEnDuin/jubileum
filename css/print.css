@@ -1,0 +1,11 @@
+@media print {
+
+    @page {size: landscape}
+
+    #submenu,
+    ul.nav,
+    div.vd-news-feed {
+        display: none;
+    }
+
+}

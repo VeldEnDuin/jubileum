@@ -1,0 +1,30 @@
+{% assign pgLang = 'nl' %}{% assign pgLink = page.url %}{% assign segments = pgLink | split:'/' %}<!-- segments = {{segments | jsonify}} -->
+{% assign maxloop = 0 %}{% for segm in segments limit:3 offset:1 %}
+  {% assign maxloop = forloop.index %}
+  {% case forloop.index %}{% when 1 %} {% assign pgLang = segm  %}{% endcase %}
+{% endfor %}{% unless site.data.langs contains pgLang %}{% assign pgLang = 'nl' %}{% endunless %}
+
+<!-- menuinfo data -->
+{% for m1 in site.data.menu %}
+    {% if pgLink == site.data.linkcode[m1.linkcode][pgLang] %}{% assign lvl1 = m1 %}{% endif %}
+    {% for m2 in m1.submenu %}
+        {% if pgLink == site.data.linkcode[m2.linkcode][pgLang] %}{% assign lvl1 = m1 %}{% assign lvl2 = m2 %}{% endif %}
+        {% for m3 in m2.submenu %}
+            {% if pgLink == site.data.linkcode[m3.linkcode][pgLang] %}{% assign lvl1 = m1 %}{% assign lvl2 = m2 %}{% assign lvl3 = m3 %}{% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+
+<!-- default settings for site -->
+{% assign ogTitle  = site.name %}
+{% assign ogType   = 'website' %}
+{% assign ogImgUrl = site.imgurl %}
+{% assign ogUrl    = '' %}
+{% assign ogDescr  = site.description %}
+
+<!-- specific settings for page -->
+{%if page.title            %}{%assign ogTitle  = page.title       %}{%endif%}
+{%if page.ogType           %}{%assign ogType   = page.ogType      %}{%endif%}
+{%if page.images |size > 0 %}{%assign ogImgUrl = page.images[0]   %}{%endif%}
+{%if page.url              %}{%assign ogUrl    = page.url         %}{%endif%}
+{%if page.description      %}{%assign ogDescr  = page.description %}{%endif%}

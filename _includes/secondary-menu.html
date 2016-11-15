@@ -1,0 +1,52 @@
+<!-- 2nd level -menu -->
+
+{% if lvl1.submenu and lvl1.linkcode and lvl1.submenu.size > 1 %}
+<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs"><div class="vd-group-filter"><div class="vd-group-filter-inner">
+  <ul id="submenu" class="vd-group-filter-nav nav nav-pills nav-justified" >
+    {% for m2 in lvl1.submenu %}
+    <li {% if lvl2 == m2 %}class="active"{% endif %} >
+      <a href="{{ site.data.linkcode[m2.linkcode][pgLang] }}" >
+        {% if m2.menutekst[pgLang] %}
+            {% assign mlbl = m2.menutekst[pgLang]%}
+        {% else %}
+            {% for pg in site.pages %}
+                {% if pg.url == site.data.linkcode[m2.linkcode][pgLang] %}
+                    {% assign mlbl = pg.title %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {{ mlbl }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div></div></div>
+
+<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+  <ul class="nav navbar-nav">
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{lvl1.menutekst[pgLang]}} <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+    {% for m2 in lvl1.submenu %}
+        <li {% if lvl2 == m2 %}class="active"{% endif %} >
+          <a href="{{ site.data.linkcode[m2.linkcode][pgLang] }}" >
+        {% if m2.menutekst[pgLang] %}
+            {% assign mlbl = m2.menutekst[pgLang]%}
+        {% else %}
+            {% for pg in site.pages %}
+                {% if pg.url == site.data.linkcode[m2.linkcode][pgLang] %}
+                    {% assign mlbl = pg.title %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {{ mlbl }}
+          </a>
+        </li>
+    {% endfor %}
+      </ul>
+    </li>
+  </ul>
+
+</div>
+
+{% endif %}

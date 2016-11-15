@@ -1,0 +1,38 @@
+name: Veld & Duin Jubileum
+
+markdown: kramdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: rouge
+
+description: 50 jaar Veld & Duin, Camping Bredene
+url: http://www.veldenduin.be/
+baseurl: /jubileum
+
+contact:
+    owner: Veld & Duin nv
+    site-url: www.veldenduin.be
+    street: K. Astridlaan 87
+    zip: 8450
+    city: Bredene
+    email: info@veldenduin.be
+    phone: +32 (0)59 322 479
+
+geolocation:
+    lat: 51.252331
+    lon: 2.978033
+fb-app-id: "357843984399164"
+gp-id: "111743051856683336205"
+gcse:
+    apikey: "AIzaSyCMGfdDaSfjqv5zYoS0mTJnOT3e9MURWkU"
+    striplink: (www\\.)?veldenduin\\.be/?
+
+strip-album: "www-footer-imgstrip"
+
+links:
+    social:
+        fb: https://www.facebook.com/VeldEnDuin
+#  gp: https://plus.google.com/+VeldenduinBe
+#  tw: https://twitter.com/....
+#  in: https://www.linkedin.com/in/....
+

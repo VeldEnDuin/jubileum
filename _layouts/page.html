@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% include layout-prelude.html %}
+
+<div>
+  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+    <div class="vd-layout-page">
+
+{{ content }}
+
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+{%if lvl3%}
+    <div class="vd-nav">
+      <ul class="nav nav-pills nav-stacked">
+    {% for m3 in lvl2.submenu %}
+        {% assign linklangurl = site.data.linkcode[m3.linkcode][pgLang]%}
+        <li class="{%if linklangurl == page.url %}active{% endif %}">
+          <a href="{{linklangurl}}" >
+
+        {% for pg in site.pages %}
+            {% if pg.url == linklangurl %}
+                {% assign title = pg.title %}
+                {% if pg.preview.title %}
+                    {% assign title = pg.preview.title %}
+                {% endif %}
+                {% if pg.icon %}
+            <span class="glyphicon glyphicon-{{pg.icon}}"></span>&nbsp;
+                {% else %}
+                    {%if pg.picto %}<img class="img-icon" src="{{pg.picto}}">{% endif %}
+                {% endif%}
+                {{ title }}
+            {% endif %}
+        {% endfor %}
+          </a>
+        </li>
+    {%endfor %}
+      </ul>
+    </div>
+    <br />
+{% endif %}
+  </div>
+</div>

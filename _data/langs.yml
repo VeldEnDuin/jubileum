@@ -1,0 +1,63 @@
+nl:
+    label: NL
+    directions: ["N", "NO", "O", "ZO", "Z", "ZW", "W", "NW"]
+    months: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
+    lost:
+        nl: Verdwaald? We komen je graag redden!
+        fr: Perdu(e)? Nous venons à votre secours!
+        de: Verirrt? Wir retten Sie gern!
+        en: Lost? We’ll gladly come to your rescue!
+    dict:
+        all: alle
+        imgloading: Beelden worden geladen...
+        readmore: Lees Meer...
+        top: Top
+        next: Volgende
+
+
+    gcse:
+        use: Geef een zoekterm in!
+        wait: Zoekopdracht in behandeling...
+        empty: Helaas, geen resultaten gevonden voor de huidige zoekterm.
+
+fr:
+    label: FR
+    directions: ["N", "NO", "O", "ZO", "Z", "ZW", "W", "NW"]
+    months: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+    dict:
+        all: tout
+        imgloading: images en cours de chargement...
+        readmore: Lire plus...
+
+    gcse:
+        use: Veuillez introduire un mot clé!
+        wait: Recherche en cours ...
+        empty: Nous n’avons malheureusement pas trouvé de résultat correspondant à votre mot clé.
+
+de:
+    label: DE
+    directions: ["N", "NO", "O", "ZO", "Z", "ZW", "W", "NW"]
+    months: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+    dict:
+        all: alle
+        imgloading: Bilder werden geladen...
+        readmore: Lesen Sie mehr...
+
+    gcse:
+        use: Geben Sie einen Suchbegriff ein!
+        wait: Suchauftrag läuft...
+        empty: Leider kein Ergebnis für diesen Suchbegriff gefunden.
+
+en:
+    label: EN
+    directions: ["N", "NO", "O", "ZO", "Z", "ZW", "W", "NW"]
+    months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    dict:
+        all: all
+        imgloading: Images are being loaded...
+        readmore: Read more
+
+    gcse:
+        use: Keyword!
+        wait: Search request...
+        empty: Unfortunately, no results found...

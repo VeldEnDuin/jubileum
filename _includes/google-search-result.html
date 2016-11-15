@@ -1,0 +1,72 @@
+<!-- make and customise your google custom search engine at https://cse.google.com/cse/all -->
+{% include layout-prelude.html %}
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+    <div role="jq.gcse"
+         data-gcse='{"cx": "{{site.data.langs[pgLang].id.cx}}",
+                    "key": "{{site.gcse.apikey}}",
+                    "lang": "{{pgLang}}",
+                    "striplink": "{{ site.gcse.striplink }}/",
+                    "msg":{"use":   {{site.data.langs[pgLang].gcse.use   | jsonify}},
+                           "empty": {{site.data.langs[pgLang].gcse.empty | jsonify}},
+                           "wait":  {{site.data.langs[pgLang].gcse.wait  | jsonify}}
+                          }
+                    }'
+    >
+      <div role="jq.gcse.search.clone"    class="vd-gcse-search">
+      </div>
+
+      <div role="jq.gcse.msg"             class="vd-gcse-result-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      </div>
+
+      <div role="jq.gcse.results"         class="vd-gcse-result-list">
+        <div style="display: none"
+             role="jq.gcse.template"          class="vd-gcse-result-item" >
+          <div                                class="vd-gcse-result-inner">
+            <div><span role="jq.gcse.title"   class="vd-gcse-title"   >TITLE</span></div>
+            <div><span role="jq.gcse.link"    class="vd-gcse-link"    >Link</span></div>
+            <div><span role="jq.gcse.snippet" class="vd-gcse-snippet hidden-sm hidden-xs" >snippet...</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div                                class="vd-gcse-footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div role="jq.gcse.pager"         class="vd-gcse-pager col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        </div>
+        <div style="display: none"
+             role="jq.gcse.info"          class="vd-gcse-info  col-lg-6 col-md-6 hidden-sm hidden-xs">
+          <span class="fa fa-clock-o"></span>
+          <span role="jq.gcse.time"         class="vd-gcse-time"   ></span>
+          &nbsp;
+
+          <span role="jq.gcse.first"        class="vd-gcse-first"  ></span>
+          <span class="fa fa-arrows-h"></span>
+          <span role="jq.gcse.last"         class="vd-gcse-last"  ></span>
+          &nbsp;
+
+          <span class="fa fa-arrows-v"></span>
+          <span role="jq.gcse.total"        class="vd-gcse-total"  ></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="vd-faq-list col-lg-4 col-md-4 col-sm-12 hidden-xs">
+      <div class="col-lg-12 col-md-12 cols-sm-12 col-xs-12">
+        <h2>{{ site.data.langs[pgLang].dict.mostwanted }}</h2>
+      </div>
+      <div class="col-lg-12 col-md-12 cols-sm-12 col-xs-12">
+  {% include link-nieuws-archive.html %}
+  {% include link-foto-archive.html %}
+        <br />
+      </div>
+
+      <div class="col-lg-12 col-md-12 cols-sm-12 col-xs-12 row">
+  {% include select.html %}
+      </div>
+
+
+  </div>
+</div>

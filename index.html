@@ -1,1 +1,17 @@
-jub-page
+---
+---
+<html>
+    <head>
+        <!-- atom feed -->
+        <link rel="alternate" type="application/atom+xml" href="/atomfeed.xml">
+        <!-- redirect default language -->
+        <script type="text/javascript">
+            var hl = navigator.language || navigator.userLanguage;
+            hl = hl.slice(0, 2);
+            if (["de", "en", "fr", "nl"].indexOf(hl) === -1) {
+                hl = "nl";
+            }
+            window.location= "{{ site.baseurl }}" + "/" + hl + "/";
+        </script>
+    </head>
+</html>
