@@ -1673,8 +1673,12 @@ hr.jub-fact-separator {
 .jub-exhibit {
     position: relative;
 }
-.jub-exhibit .active img {
-    border: 5px solid #ed7f2d;
+.jub-exhibit > a > div  {
+    padding: 6px;
+    border-radius: 6px;
+}
+.jub-exhibit > a > div.active  {
+    background-color: #ED7F2D;
 }
 .jub-exhibit .title {
     padding-top: -0.5em;
