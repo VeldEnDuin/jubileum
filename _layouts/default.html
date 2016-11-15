@@ -61,13 +61,11 @@ tcs: [1,2,3,5,6,9]
       </nav>
     {% if page.insert contains 'banner' %}
          {% assign bannerimg = '/img/style/banner.jpg' %}
+         {%if page.preview.image %}{% assign bannerimg = page.preview.image %}{%endif%}
          {%if page.bannerimg %}{% assign bannerimg = page.bannerimg %}{%endif%}
       <div class="vd-banner hidden-sm hidden-xs"
-          style="background-image: url('{{bannerimg}}'); background-position: center top; background-size: cover;"
+          style="background-image: url('{{bannerimg}}'); background-position: center center; background-size: cover;"
       ></div>
-        {% unless page.remove contains 'callout' %}
-            {% include callout-form.html %}
-        {% endunless%}
     {% endif %}
     </header>
 

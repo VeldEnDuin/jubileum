@@ -1,6 +1,8 @@
 ---
 layout: exhibit
 title: Opgravingen
+insert:
+    - banner
 preview: 
     image: /img/tentoonstelling/todo-img-04.jpg
     text: >

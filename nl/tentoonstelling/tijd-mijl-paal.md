@@ -1,6 +1,8 @@
 ---
 layout: exhibit
 title: 50 jaar in vogelvlucht
+insert:
+    - banner
 preview: 
     image: /img/tentoonstelling/todo-img-06.jpg
     text: >

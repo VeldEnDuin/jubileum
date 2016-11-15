@@ -1,6 +1,8 @@
 ---
 layout: exhibit
 title: Valère Onverloren
+insert:
+    - banner
 preview: 
     image: /img/tentoonstelling/todo-img-02.jpg
     text: >

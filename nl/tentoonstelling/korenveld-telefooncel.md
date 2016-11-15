@@ -1,6 +1,8 @@
 ---
 layout: exhibit
 title: Koren voor The Queen
+insert:
+    - banner
 preview: 
     image: /img/tentoonstelling/todo-img-08.jpg
     text: >

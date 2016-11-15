@@ -1,6 +1,8 @@
 ---
 layout: exhibit
 title: De KlaagHaag
+insert:
+    - banner
 preview: 
     image: /img/tentoonstelling/todo-img-05.jpg
     text: >

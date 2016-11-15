@@ -1,6 +1,8 @@
 ---
 layout: exhibit
 title: De «Crash»
+insert:
+    - banner
 preview: 
     image: /img/tentoonstelling/todo-img-01.jpg
     text: >

@@ -1,6 +1,8 @@
 ---
 layout: exhibit
 title: Cinema Campadiso
+insert:
+    - banner
 preview: 
     image: /img/tentoonstelling/todo-img-03.jpg
     text: >
