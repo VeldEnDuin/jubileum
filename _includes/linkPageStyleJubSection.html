@@ -12,9 +12,8 @@
             {% assign img_cols = 3 %}
             {% assign txt_cols = 9 %}
         {% endif %}
-  <div class="col-xs-{{img_cols}}">
+  <div class="col-xs-12 col-sm-{{img_cols}}">
     <img class="img-responsive img-rounded" src="{{site.baseurl}}{{linkPage.preview.image}}">
-  </div>
     {% endif %}
 
     {% if select_mode == 'vgroup' %}
@@ -25,9 +24,12 @@
         {% endif %}
     {% endif %}
 
+    {% if linkPage.preview.image %}
+  </div>
+    {% endif %}
 
     {% if linkPage.preview.text.size > 0 %}
-  <div class="col-xs-{{txt_cols}} text-center">
+  <div class="hidden-xs col-sm-{{txt_cols}} text-center">
         {% for ln in linkPage.preview.text %}
         {{ ln }}<br>
         {% endfor %}
@@ -35,7 +37,7 @@
     {% endif %}
 
     {% if linkPage.preview.list.size > 0 %}
-  <div class="col-xs-{{txt_cols}} text-center">
+  <div class="hidden-xs col-sm-{{txt_cols}} text-center">
     <ul>
         {% for it in linkPage.preview.list %}
       <li>{{ it }}</li>

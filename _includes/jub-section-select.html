@@ -13,11 +13,11 @@
 </a>
             {% elsif select_mode == 'see_more' %}
 <a href="{{ site.baseurl }}{{linkPage.url}}" class="notd">
-  <div class="col-xs-10">
+  <div class="col-xs-12 col-sm-8 col-md-10">
                 {% include linkPageStyleJubSection.html %}
   </div>
-  <div class="col-xs-2 jub-more">
-    <button class="btn btn-lg btn-success">{{site.data.langs[pgLang].dict.readmore}}</button>
+  <div class="col-xs-12 col-sm-4 col-md-2 jub-more">
+    <button class="btn btn-lg btn-success center-block">{{site.data.langs[pgLang].dict.readmore}}</button>
   </div>
 </a>
             {% else %}
