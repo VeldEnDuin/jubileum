@@ -1,0 +1,46 @@
+---
+layout: default
+title: Contact
+remove:
+    - banner
+---
+
+<h1>{{page.title}}</h1>
+<div class="vd-contact-page">
+  <div class="vd-contact-inner col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="vd-contact-item">
+      <a target="_blank" class="vd-barelink" href="{{site.contact.gmap.link}}&hl={{pgLang}}">
+        <span class="vd-contact-badge "><span class="fa fa-map-marker"></span></span>
+        {{site.contact.street}}<br>{{site.contact.zip}} {{site.contact.city}}
+      </a>
+    </div>
+    <div class="vd-contact-item">
+      <a target="_blank" class="vd-barelink" href="{{site.contact.gmap.link}}?hl={{pgLang}}">
+        <span class="vd-contact-badge "><span class="fa fa-location-arrow"></span></span>
+        gps: {{ site.geolocation.lat }} - {{ site.geolocation.lon }}
+        </a>
+    </div>
+    <div class="vd-contact-item">
+      <a target="_blank" class="vd-barelink" href="mailto:{{site.contact.email}}">
+        <span class="vd-contact-badge "><span class="fa fa-envelope"></span></span>
+        {{ site.contact.email }}
+      </a>
+    </div>
+    <div class="vd-contact-item">
+      <span class="vd-contact-badge "><span class="fa fa-phone"></span></span>
+      {{ site.contact.phone }}
+    </div>
+    <div class="vd-contact-item">
+      <span class="vd-contact-badge "><span class="fa fa-legal"></span></span>
+      btw : {{ site.contact.btw }}
+    </div>
+    <div class="vd-contact-item">
+{% include socialmedia-links.html %}
+    </div>
+  </div>
+
+  <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+    <iframe src="{{site.contact.gmap.embed}}&hl={{pgLang}}" width="100%" height="550px"
+            frameborder="0" style="border:0"></iframe>
+  </div>
+</div>
