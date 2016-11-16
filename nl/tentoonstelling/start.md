@@ -12,6 +12,12 @@ preview:
 media:
     - type: image
       link: /media/img/sample-06.jpg
+      title: Schoon beeld
     - type: audio
       link: /media/audio/sample-03.mp3
+      view: /media/img/sample-04.jpg
+      title: Fragment abc
+    - type: audio
+      link: /media/audio/sample-02.mp3
+      title: Fragment xyz
 ---
