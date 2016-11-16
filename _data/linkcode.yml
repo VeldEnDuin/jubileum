@@ -1,3 +1,9 @@
+search:
+    nl:  /nl/zoeken.html
+    fr:  /fr/chercher.html
+    en:  /en/search.html
+    de:  /de/suchen.html
+
 jubileum:
     nl: /nl/index.html
     fr: /fr/index.html
