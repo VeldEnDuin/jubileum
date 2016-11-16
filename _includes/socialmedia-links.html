@@ -1,0 +1,9 @@
+<div class="vd-social-links">
+  <span>
+    <span class="vd-share-grp">
+{% for slnk in site.links.social %}
+      <a class="vd-barelink" href="{{slnk[1]}}"><span class="fa vd-social-fa-{{slnk[0]}} vd-share-{{slnk[0]}}"></span></a>
+{% endfor %}
+    </span>
+  </span>
+</div>
