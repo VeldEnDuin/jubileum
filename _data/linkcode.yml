@@ -4,6 +4,13 @@ search:
     en:  /en/search.html
     de:  /de/suchen.html
 
+contact:
+    nl:  /contact.html
+    fr:  /contact.html
+    en:  /contact.html
+    de:  /contact.html
+
+
 jubileum:
     nl: /nl/index.html
     fr: /fr/index.html
