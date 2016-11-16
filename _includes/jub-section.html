@@ -1,13 +1,18 @@
 {% assign select_mode = 'default' %}
-<div class="jub-section">
-  <div class="clearfix">
+{% assign role_attr = '' %}
 {% if section.submenu %}
     {% assign select_mode = 'vgroup' %}
-    <div class="vgroup-ctrl left"><button class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span></button></div>
+    {% assign role_attr = 'role="vctrl"' %}
+{% endif %}
+
+<div class="jub-section" {{role_attr}} >
+  <div class="clearfix">
+{% if section.submenu %}
+    <div class="vgroup-ctrl left"><button class="btn btn-default" role="vctrl-prev"><span class="glyphicon glyphicon-chevron-left"></span></button></div>
     <div class="jub-section-vgroup">
-      <div class="row">
+      <div class="row" role="vctrl-list">
     {% for sub in section.submenu %}
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 clearfix">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 clearfix" role="vctrl-item">
           <a name="{{sub.linkcode}}"></a>
         {% assign select = sub.linkcode %}
         {% include jub-section-select.html %}
@@ -15,7 +20,7 @@
     {% endfor %}
       </div>
     </div>
-    <div class="vgroup-ctrl right"><button class="btn btn-default"><span class="glyphicon glyphicon-chevron-right"></span></button></div>
+    <div class="vgroup-ctrl right"><button class="btn btn-default" role="vctrl-next"><span class="glyphicon glyphicon-chevron-right"></span></button></div>
 {% else %}
     {% assign select = section.linkcode | append: '_index' %}
     {% if site.data.linkcode[select] %}

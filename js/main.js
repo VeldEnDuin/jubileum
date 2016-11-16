@@ -211,6 +211,38 @@
                 document.title = text;
             }
         }());
+
+        /**
+         * make vdctrl links work ok
+         * =======================================================================
+         */
+        (function () {
+            $("*[role='vctrl']").each(function () {
+                var $grp, $lst, $scroll, $items, $prev, $next, lstWidth, lstCount, itemWidth, pos = 0;
+                $grp  = $(this);
+                $lst  = $("*[role='vctrl-list']", $grp);
+                $scroll = $lst.parent();
+                $items = $("*[role='vctrl-item']", $lst);
+                $prev = $("*[role='vctrl-prev']", $grp);
+                $next = $("*[role='vctrl-next']", $grp);
+                lstWidth  = $lst.width();
+                lstCount  = $items.length;
+                itemWidth = Math.ceil($items.eq(1).position().left);
+
+                function scrollPos() {
+                    $scroll.scrollLeft(pos * itemWidth);
+                    pos = Math.floor($scroll.scrollLeft() / itemWidth);
+                }
+                function nav(offset) {
+                    pos = Math.min(Math.max((pos + offset), 0), (lstCount - 1));
+                    scrollPos();
+                    return -1;
+                }
+                $prev.click(function () {nav(-1); });
+                $next.click(function () {nav(+1); });
+                scrollPos(0);
+            });
+        }());
     });
 
 
