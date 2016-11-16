@@ -3,16 +3,55 @@ layout: default
 ---
 {% include layout-prelude.html %}
 
+<a href="#media">
+  <button class="btn btn-default pull-right">
+    <span class="glyphicon glyphicon-paperclip"></span>
+    {{site.data.langs[pgLang].dict.mediatitle}}
+  </button>
+</a>
 <a href="{{site.baseurl}}todo-link-audiopage-js?">
   <button class="btn btn-default pull-right">
     <i class="fa fa-microphone" aria-hidden="true"></i>
     {{site.data.langs[pgLang].dict.outloud}}
   </button>
-</a><h2>{{page.title}}</h2>
+</a>
+<h2>{{page.title}}</h2>
 
+<div class="media-content">
 {{content}}
-
-<hr>
-<div class="alert alert-info">
-  todo: media-listing & preview...
 </div>
+
+{% if page.media.size > 0%}
+<hr>
+<div class="row vd-group-list vd-group-grid">
+  <h3><a name="media"></a>
+    <span class="glyphicon glyphicon-paperclip"></span>
+    {{site.data.langs[pgLang].dict.mediatitle}}
+  </h3>
+    {% for media in page.media %}
+  <div class="vd-group-item col-xs-12 col-sm-6 col-md-4 col-lg-3 media-item" data-media="{{media | jsonify}}">
+    {% assign medialink = media.link %}
+    {% assign typelink = '/img/svg/style/media-' |append: media.type |append: '.svg' %}
+    {% assign imglink = typelink %}
+    {% assign mediatitle = media.title %}
+    {% if media.type == 'image' %}{% assign imglink = medialink %}{% endif %}
+    {% if media.view %}{% assign imglink = media.view %}{% endif %}
+    {% unless media.title %}{% assign mediatitle = medialink |split: '/'|last%}{% endunless %}
+    <a class="vd-location" name="mx-{{forloop.index}}" href="#" role="medialink" data-medialink="{{site.baseurl}}{{medialink}}">
+      <div
+          class="vd-group-item-inner"
+          style="background-image: url('{{site.baseurl}}{{imglink}}'); background-repeat: no-repeat; background-size: cover;">
+        <div class="vd-group-content">
+          <div class="vd-group-content-inner clearfix">
+            <div class="vd-group-info">
+              <img class="pull-right img img-responsive" src="{{site.baseurl }}{{typelink}}">
+            </div>
+            <div class="vd-group-title">{{mediatitle}}</div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+    {% endfor %}
+</div>
+{% endif %}

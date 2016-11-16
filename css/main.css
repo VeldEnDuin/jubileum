@@ -1688,3 +1688,20 @@ hr.jub-fact-separator {
     overflow: hidden;
     white-space: nowrap;
 }
+.vd-group-grid .vd-group-item.media-item {
+    height: 10em !important;
+}
+
+.vd-group-grid .media-item .vd-group-title  {
+    font-size: 1em;
+}
+.media-item a, media-item:hover {
+    font-family: Martel, serif;
+    color: #15959a;
+}
+
+.media-item .vd-group-info img {
+    height: 2em;
+    border-radius: 50%;
+    border: 1px solid #15959a;
+}
