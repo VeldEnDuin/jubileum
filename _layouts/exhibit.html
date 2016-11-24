@@ -23,6 +23,7 @@ layout: default
 
 {% if page.media.size > 0%}
 <hr>
+
 <div class="row vd-group-list vd-group-grid">
   <h3><a name="media"></a>
     <span class="glyphicon glyphicon-paperclip"></span>
@@ -37,7 +38,8 @@ layout: default
     {% if media.type == 'image' %}{% assign imglink = medialink %}{% endif %}
     {% if media.view %}{% assign imglink = media.view %}{% endif %}
     {% unless media.title %}{% assign mediatitle = medialink |split: '/'|last%}{% endunless %}
-    <a class="vd-location" name="mx-{{forloop.index}}" href="#" role="medialink" data-medialink="{{site.baseurl}}{{medialink}}">
+    <a class="vd-location" name="mx-{{forloop.index}}" href="#mx-{{forloop.index}}"
+       role="medialink" data-media='{{media | jsonify}}'>
       <div
           class="vd-group-item-inner"
           style="background-image: url('{{site.baseurl}}{{imglink}}'); background-repeat: no-repeat; background-size: cover;">

@@ -172,30 +172,6 @@
 
 
         /*
-         * make the callout form appear when called for
-         * =======================================================================
-         */
-        (function () {
-            var $btnOn, $btnOff, $callout, select, initTop;
-            function showForm() {
-                $callout.animate({"top": 0}, 500);
-            }
-            function hideForm() {
-                $callout.animate({"top": initTop}, 500);
-            }
-            $btnOn = $('.vd-callout-btn');
-            if ($btnOn.length > 0) {
-                select = $btnOn.data('calloutselect');
-                $callout = $(select);
-                $btnOff = $('.btn[role="close"]', $callout);
-                initTop = $callout.css('top');
-                $btnOn.click(showForm);
-                $btnOff.click(hideForm);
-            }
-        }());
-
-
-        /*
          * make 404 adapt to language
          * =======================================================================
          */
@@ -218,7 +194,8 @@
          */
         (function () {
             $("*[role='vctrl']").each(function () {
-                var $grp, $lst, $scroll, $items, $prev, $next, lstWidth, lstCount, itemWidth, pos = 0;
+                var $grp, $lst, $scroll, $items, $prev, $next, lstWidth, lstCount,
+                    itemWidth, itemHeight = 0, pos = 0;
                 $grp  = $(this);
                 $lst  = $("*[role='vctrl-list']", $grp);
                 $scroll = $lst.parent();
@@ -228,6 +205,10 @@
                 lstWidth  = $lst.width();
                 lstCount  = $items.length;
                 itemWidth = Math.ceil($items.eq(1).position().left);
+
+                //align heights
+                $items.each(function () { itemHeight = Math.max(itemHeight, $(this).height()); });
+                $items.each(function () { $(this).height(itemHeight); });
 
                 function scrollPos() {
                     $scroll.scrollLeft(pos * itemWidth);
@@ -243,7 +224,97 @@
                 scrollPos(0);
             });
         }());
-    });
 
+
+        /*
+         * make the media previews work
+         * =======================================================================
+         */
+        (function () {
+            var $mediaview, $btnOff, $btnPrev, $btnNext, $content, initTop,
+                $medialink, $embedlink,
+                medias = [], sitebaseurl, showNdx = 0,
+                MEDIA_TYPE_IMAGE = "image",
+                MEDIA_TYPE_AUDIO = "audio",
+                MEDIA_TYPE_VIDEO = "video",
+                MEDIA_TYPE_TEXT = "text";
+            function showView() {
+                $mediaview.animate({"top": 0}, 500);
+            }
+            function hideView() {
+                $mediaview.animate({"top": initTop}, 500);
+            }
+            $mediaview = $('#media-player');
+            $content = $('[role="content"]', $mediaview);
+            sitebaseurl = $mediaview.data('baseurl') || '';
+            $btnOff = $('.btn[role="close"]', $mediaview);
+            $btnPrev = $('.btn[role="vctrl-prev"]', $mediaview);
+            $btnNext = $('.btn[role="vctrl-next"]', $mediaview);
+            initTop = $mediaview.css('top');
+            $btnOff.click(hideView);
+            $medialink = $('a[role="medialink"]'); // has @name and @data-medialink
+            $embedlink = $('a', $('.media-content')); //todo filter out only ones that have href first char #
+
+            function media2html(media) {
+                if (isEmpty(media2html[media.type])) {
+                    return;
+                } //else
+                return media2html[media.type](media);
+            }
+            media2html[MEDIA_TYPE_IMAGE] = function (media) {
+                return '<img src="' + sitebaseurl + media.link +
+                    '" class="img img-responsive">';
+            };
+            media2html[MEDIA_TYPE_AUDIO] = function (media) {
+                return "AUDIO TAG src='" + sitebaseurl + media.link + "'";
+            };
+            media2html[MEDIA_TYPE_VIDEO] = function (media) {
+                return "VIDEO TAG src='" + sitebaseurl + media.link + "'";
+            };
+            media2html[MEDIA_TYPE_TEXT] = function (media) {
+                return "TEXT Tag ? src='" + sitebaseurl + media.link + "'";
+            };
+
+            // map the media objects
+            medias[0] = {html: $content.html()};
+            $medialink.each(function () {
+                var $ml = $(this),
+                    href = $ml.attr('href'),
+                    anchor = href.slice(1),
+                    index = Number(anchor.split('-')[1]),
+                    hash = href.charAt(0),
+                    media = $ml.data('media');
+                media.id = anchor;
+                if (hash === '#') {
+                    media.html = media2html(media);
+                    medias[index] = media;
+                }
+            });
+
+
+            function showIndex(ndx) {
+                showNdx = ndx;
+                $content.html(medias[showNdx].html);
+                showView();
+                return false;
+            }
+
+            // call show link when link is present
+            function showMedia($ml) {
+                var anchor = $ml.attr('href').slice(1),
+                    index = Number(anchor.split('-')[1]);
+                return showIndex(index);
+            }
+            $medialink.click(function () { return showMedia($(this)); });
+            $embedlink.click(function () { return showMedia($(this)); });
+
+            //make the ctrl buttons work
+            function showOffset(offset) {
+                showIndex(Math.max(Math.min(showNdx + offset, medias.length), 1));
+            }
+            $btnPrev.click(function () { showOffset(-1); });
+            $btnNext.click(function () { showOffset(+1); });
+        }());
+    });
 
 }(window.jQuery));

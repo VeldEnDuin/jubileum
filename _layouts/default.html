@@ -22,7 +22,6 @@ tcs: [1,2,3,5,6,9]
     <link type="text/css" rel="stylesheet" href="/css/jquery.mCustomScrollbar.css">
     -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/style/vd-jubileum-ico-48.png">
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
@@ -33,6 +32,8 @@ tcs: [1,2,3,5,6,9]
 
   </head>
   <body data-translations='{{ site.data.langs[pgLang] | jsonify }}'>
+
+
     <header {%unless page.insert contains 'banner'%}class="spaced"{%endunless%}>
       <nav class="navbar navbar-default navbar-inverse">
         <div class="vd-menu"><div class="container-fluid">
@@ -65,6 +66,23 @@ tcs: [1,2,3,5,6,9]
       <div class="vd-banner hidden-sm hidden-xs"
           style="background-image: url('{{site.baseurl}}{{bannerimg}}'); background-position: center center; background-size: cover;"
       ></div>
+    {% endif %}
+
+    {% if page.media.size > 0%}
+      <div id="media-player" class="media-container vd-callout-form" data-baseurl="{{site.baseurl}}">
+        <div class="media-content-wrap">
+          <div class="vgroup-ctrl left">
+            <button class="btn btn-default" role="vctrl-prev"><span class="glyphicon glyphicon-chevron-left"></span></button>
+          </div>
+          <div role="content" class="media-content col-xs-12">
+            <div class="alert alert-info">play media here.</div>
+          </div>
+          <div class="vgroup-ctrl right">
+            <button class="btn btn-default" role="vctrl-next"><span class="glyphicon glyphicon-chevron-right"></span></button>
+          </div>
+        </div>
+        <button role="close" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-remove"></span> {{site.data.langs[pgLang].dict.close}}</button>
+      </div>
     {% endif %}
     </header>
 
