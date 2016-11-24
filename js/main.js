@@ -233,11 +233,7 @@
         (function () {
             var $mediaview, $btnOff, $btnPrev, $btnNext, $content, initTop,
                 $medialink, $embedlink,
-                medias = [], sitebaseurl, showNdx = 0,
-                MEDIA_TYPE_IMAGE = "image",
-                MEDIA_TYPE_AUDIO = "audio",
-                MEDIA_TYPE_VIDEO = "video",
-                MEDIA_TYPE_TEXT = "text";
+                medias = [], sitebaseurl, showNdx = 0;
             function showView() {
                 $mediaview.animate({"top": 0}, 500);
             }
@@ -256,24 +252,10 @@
             $embedlink = $('a', $('.media-content')); //todo filter out only ones that have href first char #
 
             function media2html(media) {
-                if (isEmpty(media2html[media.type])) {
-                    return;
-                } //else
-                return media2html[media.type](media);
+                var $tmpl = $('#' + media.id);
+                return $tmpl.html();
             }
-            media2html[MEDIA_TYPE_IMAGE] = function (media) {
-                return '<img src="' + sitebaseurl + media.link +
-                    '" class="img img-responsive">';
-            };
-            media2html[MEDIA_TYPE_AUDIO] = function (media) {
-                return "AUDIO TAG src='" + sitebaseurl + media.link + "'";
-            };
-            media2html[MEDIA_TYPE_VIDEO] = function (media) {
-                return "VIDEO TAG src='" + sitebaseurl + media.link + "'";
-            };
-            media2html[MEDIA_TYPE_TEXT] = function (media) {
-                return "TEXT Tag ? src='" + sitebaseurl + media.link + "'";
-            };
+
 
             // map the media objects
             medias[0] = {html: $content.html()};

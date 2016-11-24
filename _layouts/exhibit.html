@@ -53,6 +53,29 @@ layout: default
         </div>
       </div>
     </a>
+    <template id="mx-{{forloop.index}}">
+    {% if media.type == 'image' %}
+      <img src="{{site.baseurl}}{{medialink}}" class="img img-responsive">
+    {% elsif media.type == 'audio' %}
+      <audio src="{{site.baseurl}}{{medialink}}" autoplay controls>
+        <div class="alert alert-warning">
+        {{site.data.langs[pgLang].dict.noaudio}}
+        <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
+        </div>
+      </audio>
+    {% elsif media.type == 'video' %}
+      <video src="{{site.baseurl}}{{medialink}}" autoplay controls
+         poster="{{site.baseurl}}{{typelink}}">
+        <div class="alert alert-warning">
+        {{site.data.langs[pgLang].dict.novideo}}
+        <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
+        </div>
+      </video>
+    {% else %}
+      <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
+    {% endif %}
+
+    </template>
   </div>
     {% endfor %}
 </div>
