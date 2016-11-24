@@ -13,6 +13,7 @@ media:
       link: /media/img/sample-01.jpg
     - type: audio
       link: /media/audio/sample-01.mp3
+      view: /media/img/sample-07.jpg
     - type: video
       link: /media/video/sample-01.mp4
 ---
