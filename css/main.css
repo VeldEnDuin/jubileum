@@ -1730,6 +1730,12 @@ hr.jub-fact-separator {
     min-height: 200px;
     z-index: 10;
 }
+.media-content-wrap h1,
+.media-content-wrap h2,
+.media-content-wrap h3 {
+    color: #fff;
+    text-align: center;
+}
 .media-content {
     /* margin-top: 3em; */
     display: table-cell;
