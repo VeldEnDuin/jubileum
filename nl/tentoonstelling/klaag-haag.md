@@ -4,10 +4,10 @@ title: De KlaagHaag
 insert:
     - banner
 preview: 
-    image: /img/tentoonstelling/todo-img-05.jpg
+    image: /media/img/klaaghaag.jpg
     text: >
         Als gebeden in de wind... het alternatief voor online reviews dat echt werkt!
 media:
     - type: audio
-      link: /media/audio/sampole-02.mp3
+      link: /media/audio/demo/demo-02.mp3
 ---

@@ -4,18 +4,18 @@ title: Cinema Campadiso
 insert:
     - banner
 preview: 
-    image: /img/tentoonstelling/todo-img-03.jpg
+    image: /media/img/campingcinema.jpg
     text: >
         De meest mobiele cinema ter wereld staat netjes geïntegreerd op Veld & Duin.
         
 media:
     - type: image
-      link: /media/img/sample-01.jpg
+      link: /media/img/demo/demo-01.jpg
     - type: audio
-      link: /media/audio/sample-01.mp3
-      view: /media/img/sample-07.jpg
+      link: /media/audio/demo/demo-01.mp3
+      view: /media/img/demo/demo-07.jpg
     - type: video
-      link: /media/video/sample-01.mp4
+      link: /media/video/demo/demo-01.mp4
 ---
 
 ### Komt dat zien!
