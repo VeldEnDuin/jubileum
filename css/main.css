@@ -1447,25 +1447,27 @@ h1, h2 {
 .jub-section-wrap.e:before {
     content: "";
     display: block;
-    background-image: url('../img/style/jub/clr-001.jpg');
+    background-color: #ede2d2;
+    background-image: url('../img/style/jub/bgsep.png');
     background-size: cover;
     margin: 0 -60px 0 -60px;
     height: 140px;
 }
 .jub-section-wrap.e.bg-k1:before {
-    background-image: url('../img/style/jub/clr-001.jpg');
+    /* background-image: url('../img/style/jub/bgk1.png'); */
 }
 .jub-section-wrap.e.bg-k2:before {
-    background-image: url('../img/style/jub/clr-002.jpg');
+    /* background-image: url('../img/style/jub/bgk2.png'); */
+    background-position: center top;
 }
 .jub-section-wrap.e.bg-k3:before {
-    background-image: url('../img/style/jub/clr-002.jpg');
+    /* background-image: url('../img/style/jub/bgk3.png'); */
 }
 .jub-section-wrap.e.bg-k4:before {
-    background-image: url('../img/style/jub/clr-001.jpg');
+/*    background-image: url('../img/style/jub/bgk4.png');*/
 }
 .jub-section-wrap.e.bg-k5:before {
-    background-image: url('../img/photos/clr-001.jpg');
+/*    background-image: url('../img/photos/bgk5.png');*/
 }
 
 .jub-section-wrap h2 {
@@ -1522,7 +1524,7 @@ h1, h2 {
 }
 
 .jub-more {
-    padding: 0;http://www.veldenduin.be/jubileum/img/style/jub/bw-002.jpg
+    padding: 0;
 }
 
 
