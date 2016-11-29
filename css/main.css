@@ -86,7 +86,7 @@ body:before {
 }
 
 .navbar li {
-    border-right: 2px solid #8fb742;
+    border-right: 2px solid #3aa642;
 }
 .navbar .dropdown-menu li, .navbar li:last-child {
     border-right: 0;
@@ -1539,7 +1539,7 @@ h1, h2 {
 }
 .jub-section-vgroup {
     overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: hidden;
     position: relative;
 }
 .jub-section-vgroup > div {

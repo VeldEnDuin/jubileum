@@ -4,19 +4,10 @@
     {% for pg in site.pages %}
         {% if pg.url == site.data.linkcode[select][pgLang] %}
             {% assign linkPage = pg %}
-            {% if select_mode == 'vgroup' %}
+            {% if select_mode == 'vgroup' or select_mode == 'see_more' %}
 <a href="{{ site.baseurl }}{{linkPage.url}}" class="notd">
                 {% include linkPageStyleJubSection.html %}
   <div class="jub-more">
-    <button class="btn btn-lg btn-success center-block">{{site.data.langs[pgLang].dict.readmore}}</button>
-  </div>
-</a>
-            {% elsif select_mode == 'see_more' %}
-<a href="{{ site.baseurl }}{{linkPage.url}}" class="notd">
-  <div class="col-xs-12 col-sm-8 col-md-10">
-                {% include linkPageStyleJubSection.html %}
-  </div>
-  <div class="col-xs-12 col-sm-4 col-md-2 jub-more">
     <button class="btn btn-lg btn-success center-block">{{site.data.langs[pgLang].dict.readmore}}</button>
   </div>
 </a>

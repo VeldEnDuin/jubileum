@@ -7,9 +7,6 @@ layout: default
 <a name="top"></a>
 <div class="jub-intro text-center center-block">
   {{ content }}
-
-{% if site.data.menu.size > 1 %}{% assign next_index = 1 %}
-{% include jub-section-navlinks.html %}{% endif %}
 </div>
 
 {% for section in site.data.menu %}
@@ -22,7 +19,5 @@ layout: default
   <h2 class="text-center">{{ section_text }}</h2>
         {% include jub-section.html %}
 </div>
-        {% if forloop.last != true %}{% assign next_index = forloop.index %}
-        {% include jub-section-navlinks.html %}{% endif %}
     {% endif %}
 {% endfor %}
