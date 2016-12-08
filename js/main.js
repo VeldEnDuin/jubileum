@@ -6,7 +6,6 @@
     /*
      * handy common stuff
      * =======================================================================
-     */
     function isEmpty(a) {
         return (a === null || a === undefined || (a.hasOwnProperty("length") && a.length === 0));
     }
@@ -14,11 +13,11 @@
     function isString(s) {
         return Object.prototype.toString.call(s) === '[object String]';
     }
+    */
 
     /*
      * geo stuff
      * =======================================================================
-     */
     function parseLatLon(geom) {
         if (isEmpty(geom)) { return null; }
         var parts = geom.replace(/\s+/gi, '').split(',');
@@ -31,19 +30,21 @@
     function displacementLabelFormatter(fmt) {
         if (!isString(fmt)) {
             return;
-        } else if (fmt === "dist") {
-            return function (dist, crdn) { return dist + " km"; };
-        } else {
-            return function (dist, crdn) { return dist + " km " + crdn; };
-        }
+        } //else
+        if (fmt === "dist") {
+            return function (dist) { return dist + " km"; };
+        } // else
+        return function (dist, crdn) { return dist + " km " + crdn; };
     }
+    */
+
+
+    /* assumes
+    <script src="http://maps.google.com/maps/api/js?sensor=true&libraries=geometry"
+            type="text/javascript" charset="utf-8"></script>
 
     function calculateDisplacement(from, to, fmt) {
-    /* assumes
-        <script src="http://maps.google.com/maps/api/js?sensor=true&libraries=geometry"
-                type="text/javascript" charset="utf-8"></script>
-    */
-        if (!window.hasOwnProperty('google') || !window.google || !window.google.maps) { return null; }
+       if (!window.hasOwnProperty('google') || !window.google || !window.google.maps) { return null; }
 
         var geoFrom = new window.google.maps.LatLng(from.lat, from.lon),
             geoTo   = new window.google.maps.LatLng(to.lat, to.lon),
@@ -70,6 +71,7 @@
             "label"   : fmt(dist, crdn)
         };
     }
+    */
 
     /*
      * image rotation stuff
@@ -194,7 +196,7 @@
          */
         (function () {
             $("*[role='vctrl']").each(function () {
-                var $grp, $lst, $scroll, $items, $prev, $next, lstWidth, lstCount,
+                var $grp, $lst, $scroll, $items, $prev, $next, lstCount,
                     itemWidth, itemHeight = 0, pos = 0;
                 $grp  = $(this);
                 $lst  = $("*[role='vctrl-list']", $grp);
@@ -202,7 +204,6 @@
                 $items = $("*[role='vctrl-item']", $lst);
                 $prev = $("*[role='vctrl-prev']", $grp);
                 $next = $("*[role='vctrl-next']", $grp);
-                lstWidth  = $lst.width();
                 lstCount  = $items.length;
                 itemWidth = Math.ceil($items.eq(1).position().left);
 
@@ -232,9 +233,9 @@
          * =======================================================================
          */
         (function () {
-            var $mediaview, $btnOff, $btnPrev, $btnNext, $content, initTop,
+            var $mediaview, $btnOff, $btnPrev, $btnNext, $ctnt, initTop,
                 $medialink, $embedlink,
-                medias = [], sitebaseurl, showNdx = 0;
+                medias = [], showNdx = 0;
             function showView() {
                 $mediaview.animate({"top": 0}, 500);
             }
@@ -242,15 +243,14 @@
                 $mediaview.animate({"top": initTop}, 500);
             }
             $mediaview = $('#media-player');
-            $content = $('[role="content"]', $mediaview);
-            sitebaseurl = $mediaview.data('baseurl') || '';
+            $ctnt = $('[role="content"]', $mediaview);
             $btnOff = $('.btn[role="close"]', $mediaview);
             $btnPrev = $('.btn[role="vctrl-prev"]', $mediaview);
             $btnNext = $('.btn[role="vctrl-next"]', $mediaview);
             initTop = $mediaview.css('top');
             $btnOff.click(hideView);
             $medialink = $('a[role="medialink"]'); // has @name and @data-medialink
-            $embedlink = $('a', $('.media-content')); //todo filter out only ones that have href first char #
+            $embedlink = $('a', $('.media-content')); // filter out only ones that have href first char #
 
             function media2html(media) {
                 var $tmpl = $('#' + media.id);
@@ -277,7 +277,7 @@
 
             function showIndex(ndx) {
                 showNdx = ndx;
-                $content.html(medias[showNdx].html);
+                $ctnt.html(medias[showNdx].html);
                 showView();
                 return false;
             }
@@ -298,6 +298,68 @@
             $btnPrev.click(function () { showOffset(-1); });
             $btnNext.click(function () { showOffset(+1); });
         }());
+    });
+    /*
+     * Build up the group page 'history-timeline'
+     * =======================================================================
+     */
+    $(function () {
+        var $groupList = $('#vd-group-tijdslijn'),
+            $items = $('.vd-group-timeline-item', $groupList),
+            $grid,
+            $tl = $("<div class='timeline'>");
+
+        $tl.append($("<div class='timeline-line'>"));
+
+        function allNonSpacerItems(fn) {
+            $items.each(function () {
+                var $it = $(this);
+                if ($it.hasClass('vd-group-item-spacer')) {
+                    return;
+                } //else
+                return fn($it, $it.data('tl-dot'));
+            });
+        }
+
+
+        $groupList.prepend($tl);
+        allNonSpacerItems(function ($it) {
+            var $dot = $('<span class="timeline-dot"><span>&nbsp;</span></span>');
+            $tl.append($dot);
+            $it.data('tl-dot', $dot);
+        });
+
+        function startMasonry() {
+            $grid = $groupList.isotope({ // apply the masonry (default) layout.
+                // options
+                itemSelector: '.vd-group-timeline-item',
+                columnWidth: '.vd-group-timeline-item',
+                percentPosition: true
+            });
+
+
+            function postlayout() { // full signature is postlayout(event, items)
+                var tloff = $tl.offset();
+                allNonSpacerItems(function ($it, $dot) {
+                    var itpos = $it.position(), itoff = $it.offset(), dh = Number($dot.css("height").replace(/\D/g, "")) || 0;
+                    $it.removeClass('timeline-left').removeClass('timeline-right');
+                    // note the extra -1 is required because the timeline is
+                    // sometimes positione at fraction through 50%
+                    if (itoff.left < (tloff.left - 1)) {
+                        $it.addClass('timeline-left');
+                    } else {
+                        $it.addClass('timeline-right');
+                    }
+                    $dot.css("top", (itpos.top + dh) + "px");
+                });
+            }
+
+            $grid.on('layoutComplete', postlayout);
+            postlayout();
+        }
+        $(window).on("load", function () {
+            setTimeout(startMasonry, 0);
+        });
     });
 
 }(window.jQuery));

@@ -13,6 +13,9 @@
     de:  Spaß Fakten
     en:  Fun Facts
 
+# reminder:
+#    in februari live gaan met zonder de tentoonstelling sectie -- die pas live brengen voor paasvakantie
+#    comments in yaml zijn lijn-per-lijn
 - linkcode: exhibit
   menutekst:
     nl:  Tentoonstelling

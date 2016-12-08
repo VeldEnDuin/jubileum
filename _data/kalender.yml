@@ -21,7 +21,7 @@ items:
       en: >
 
     images:
-      - /img/kalender/2017-04-01_opening.jpg
+      - /media/img/demo/demo-01.jpg
 
 
   - date: 2017-06-25
@@ -37,4 +37,4 @@ items:
       de: >
       en: >
     images:
-      - /img/kalender/2017-06-25/jubelen.jpg
+      - /media/img/demo/demo-02.jpg

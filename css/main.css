@@ -373,16 +373,19 @@ table.table>tbody>tr>td:first-child
  *   [group :: timeline]
  */
 
+#vd-group-kalender .vd-group-content ol,
 #vd-group-tijdslijn .vd-group-content ol {
     counter-reset: foto;
     display: table;
 }
 
+#vd-group-kalender .vd-group-content ol > li,
 #vd-group-tijdslijn .vd-group-content ol > li {
     counter-increment: foto;
     display: table-row;
 }
 
+#vd-group-kalender .vd-group-content ol > li::before,
 #vd-group-tijdslijn .vd-group-content ol > li::before {
     content: "Foto\00a0" counter(foto) "."; /* the \00a0 works as nbsp */
     display: table-cell;
@@ -1448,26 +1451,26 @@ h1, h2 {
     content: "";
     display: block;
     background-color: #ede2d2;
-    background-image: url('../img/style/jub/bgsep.png');
+    background-image: url('../img/style/jub/band1.png');
+    background-position: center top;
     background-size: cover;
     margin: 0 -60px 0 -60px;
     height: 140px;
 }
 .jub-section-wrap.e.bg-k1:before {
-    /* background-image: url('../img/style/jub/bgk1.png'); */
+    background-image: url('../img/style/jub/band1.png');
 }
 .jub-section-wrap.e.bg-k2:before {
-    /* background-image: url('../img/style/jub/bgk2.png'); */
-    background-position: center top;
+    background-image: url('../img/style/jub/band2.png');
 }
 .jub-section-wrap.e.bg-k3:before {
-    /* background-image: url('../img/style/jub/bgk3.png'); */
+    background-image: url('../img/style/jub/band3.png');
 }
 .jub-section-wrap.e.bg-k4:before {
-/*    background-image: url('../img/style/jub/bgk4.png');*/
+    background-image: url('../img/style/jub/band1.png');
 }
 .jub-section-wrap.e.bg-k5:before {
-/*    background-image: url('../img/photos/bgk5.png');*/
+    background-image: url('../img/style/jub/band2.png');
 }
 
 .jub-section-wrap h2 {

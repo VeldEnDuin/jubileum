@@ -1,7 +1,7 @@
 ---
-title: Tijdslijn
+title: Kalender
 layout: group
-data: tijdslijn
-remove: 
+data: kalender
+remove:
     - banner
 ---

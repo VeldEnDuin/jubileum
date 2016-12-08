@@ -36,7 +36,7 @@ games_index:
 program:
     nl: "/nl/index.html#program"
 program_index:
-    nl: /nl/activiteiten/kalender.html
+    nl: /nl/kalender.html
 
 
 goeddoel:
@@ -68,6 +68,3 @@ exhibit_07_toonboom:
 
 exhibit_08_korentelcel:
     nl: /nl/tentoonstelling/korenveld-telefooncel.html
-
-
-
