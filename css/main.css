@@ -1227,7 +1227,7 @@ a.vd-barelink, a.vd-barelink:hover, a.vd-barelink:active, a.vd-barelink:link, a.
 }
 .vd-contact {
     font-size: 1.05em;
-    background-color: #BB3C20;
+    background-color: #3aa642;
     color: #fff;
     padding: 0.5em 0 0.5em 0;
     text-align: center;
@@ -1400,6 +1400,10 @@ span.glyphicon {
     text-decoration: none !important;
 }
 
+.media-content a  {
+    color: #3aa642;
+}
+
 .page-header {
     margin-bottom: 2px;
 }
@@ -1415,7 +1419,9 @@ h1, h2, h3, .jub-fact, .title {
 }
 
 .title {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-weight: 900;
+    padding-top: 0.5em;
 }
 
 a.notd, a notd:hover {
