@@ -1422,6 +1422,11 @@ a.notd, a notd:hover {
     color: #474b44;
 }
 
+.jub-section-wrap.e a.notd, .jub-section-wrap.e a notd:hover {
+    color: #ede2d2;
+}
+
+
 h1, h2 {
     text-transform: uppercase;
     font-weight: 700;
@@ -1443,6 +1448,7 @@ h1, h2 {
     background-image: url('../img/style/mask/mask-badges-b25.png');
     background-repeat: repeat;
     background-blend-mode: overlay;
+    color:  #EDE2D2;
 }
 .jub-section-wrap.e.bg-cb {
     background-image: url('../img/style/mask/mask-camp-b25.png');
