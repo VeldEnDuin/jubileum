@@ -5,8 +5,10 @@ layout: default
 {% include layout-prelude.html %}
 
 <a name="top"></a>
-<div class="jub-intro text-center center-block">
+<div class="jub-intro text-center center-block clearfix">
+  <div class="col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">
   {{ content }}
+  </div>
 </div>
 
 {% for section in site.data.menu %}

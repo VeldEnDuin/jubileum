@@ -6,24 +6,24 @@ preview:
     text:
         - TODO NL tekst voor de preview van de goed-doel page
         - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    list: 
-        - Curabitur sodales diam et odio mattis iaculis vel a eros. 
-        - Nam aliquam rutrum efficitur. 
+    list:
+        - Curabitur sodales diam et odio mattis iaculis vel a eros.
+        - Nam aliquam rutrum efficitur.
         - In hac habitasse platea dictumst.
     facts:
         - unit: "koffers"
           amount: "12"
           icon: "/img/svg/style/icon-koffer.svg"
         - unit: "bijdragen"
-          amount: "3.003,37 €"
+          amount: "€ 3.003,37"
           icon: "/img/svg/style/icon-euro.svg"
         - unit: "waterpompen"
           amount: "775"
           icon: "/img/svg/style/icon-zee.svg"
-        
+
 ---
 
-# Camping for Live! 
+# Camping for Live!
 
 Duis id justo non turpis eleifend condimentum et quis magna. Nulla facilisi. Maecenas ut dictum enim. Proin eget dui dui. Maecenas sodales eu magna id fringilla. Quisque id porta mi. Proin faucibus, augue ac eleifend ultricies, purus massa tristique urna, ut bibendum velit lacus vel orci. Cras sodales quis purus quis consectetur. Pellentesque malesuada nisi sed lorem ullamcorper, non pretium tellus efficitur. Suspendisse mattis urna vitae ipsum condimentum porta. Pellentesque dignissim est in metus pharetra, gravida molestie turpis dignissim. Donec pulvinar mattis dolor, a mattis urna suscipit non.
 
