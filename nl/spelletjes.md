@@ -6,9 +6,10 @@ preview:
     text:
         - TODO NL tekst voor de preview van spelletjes page
         - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    image: 
+    readmore: "Speel nu..."
+    image:
         - /img/game/memo-screen.jpg
-        
+
 ---
 
 {% include embed_scratch.html %}
