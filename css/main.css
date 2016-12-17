@@ -1486,7 +1486,8 @@ h1, h2 {
     background-image: url('../img/style/jub/band2.png');
 }
 
-.jub-section-wrap h2 {
+.jub-section-wrap h2, .jub-section-wrap.e .jub-fact, .jub-section-wrap.e .jub-section,
+.jub-section-wrap.e.bg-k1 h2, .jub-section-wrap.e.bg-k1 .jub-fact, .jub-section-wrap.e.bg-k1 .jub-section  {
     color: #474b44;
 /*    text-shadow: 1px 1px 3px #ed7f2d;*/
 }
