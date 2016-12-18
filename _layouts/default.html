@@ -44,7 +44,7 @@ tcs: [1,2,3,5,6,9]
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ site.url }}{{ pgLang }}/" target="_blank"><img id="logo" src="{{ site.baseurl }}{{ site.data.logo[0] }}" title="Veld &amp; Duin" data-imgs='{{ site.data.logo | jsonify }}' data-imgbase="{{ site.baseurl }}"></a>
+          <a class="navbar-brand" href="/{{ site.baseurl }}{{ pgLang }}/" target="_blank"><img id="logo" src="{{ site.baseurl }}{{ site.data.logo[0] }}" title="Veld &amp; Duin" data-imgs='{{ site.data.logo | jsonify }}' data-imgbase="{{ site.baseurl }}"></a>
         </div>
 
         <div id="vd-menu" class="navbar-collapse collapse">
@@ -125,39 +125,9 @@ tcs: [1,2,3,5,6,9]
 
         <!-- more footer elements? -->
         <div id="contact" class="vd-contact" itemscope itemtype="http://schema.org/Place">
-        <a href="{{ site.baseurl }}/{{ site.data.linkcode.contact[pgLang] }}" class="vd-barelink">
+        <a href="{{ site.url }}{{ pgLang }}" class="vd-barelink">
         <div class="container-fluid" >
-          <span class="vd-contact-item hidden-xs">
-            <span>&copy; 2015</span> <span class="" itemprop="name">{{ site.contact.owner }}</span>
-          </span>
-
-          <meta itemprop="description" content="{{ site:description }}" />
-<!--
-          <span id="route-link" class="item"><a itemprop="map" title="route" href="/{{ pgLang }}/route.html"><span class="glyphicon glyphicon-map-marker"></span></a></span>
--->
-          <span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-            <meta itemprop="latitude" content="{{ site.geolocation.lat }}" />
-            <meta itemprop="longitude" content="{{ site.geolocation.lon }}" />
-          </span>
-          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span class="vd-contact-item hidden-sm hidden-xs" itemprop="streetAddress">
-                {{site.contact.street}}
-            </span>
-            <span class="vd-contact-item hidden-sm hidden-xs">
-              <span itemprop="postalCode">{{site.contact.zip}}</span>&nbsp;<span itemprop="addressLocality">{{site.contact.city}}</span>
-            </span>
-            <span class="vd-contact-item hidden-md hidden-sm hidden-xs"
-                itemprop="url">{{ site.contact["site-url"] }}
-            </span>
-            <span class="vd-contact-item" itemprop="email" title="email" target="_blank" href="mailto:{{ site.links.mail }}">
-                {{ site.contact.email }}
-            </span>
-            <meta itemprop="addressCountry" content="Belgium" />
-          </span>
-
-          <span class="vd-contact-item" itemprop="telephone">
-            {{ site.contact.phone }}
-          </span>
+          <span>&copy; 2016 mini-site by </span> <img src="{{site.baseurl}}/img/style/by_veldenduin.png">
         </div>
         </a>
         </div>
