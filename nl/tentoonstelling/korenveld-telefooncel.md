@@ -1,12 +1,12 @@
 ---
 layout: exhibit
-title: Koren voor The Queen
+title: Koren voor the queen
 insert:
     - banner
 preview: 
     image: /media/img/korenveld.jpg
     text: >
-        Full Disclosure: De link tussen Veld & Duin en de britse kroon
+        Het mysterie van de delicious brittish scones nu eindelijk voor u onthuld.
 media:
     - type: image
       link: /media/img/demo/demo-04.jpg

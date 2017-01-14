@@ -1,12 +1,12 @@
 ---
 layout: exhibit
-title: Valère Onverloren
+title: verloren voorwerpen
 insert:
     - banner
 preview: 
     image: /media/img/verloren-voorwerpen-chalet.jpg
     text: >
-        Ontmoet Valère, uw rots in de branding in een zee van dolende spulletjes...
+        Bezoek het levenswerk van Valère, onze Verantwoordelijke Verloren Voorwerpen
     
 media:
     - type: image

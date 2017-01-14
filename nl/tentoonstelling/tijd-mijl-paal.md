@@ -1,12 +1,12 @@
 ---
 layout: exhibit
-title: 50 jaar in vogelvlucht
+title: tijdsmijlpalen
 insert:
     - banner
 preview: 
     image: /media/img/tijdspalen.jpg
     text: >
-        50 jaar in woord en beeld
+        Bekijk vijftig jaar wereld-en campinggeschiedenis aan de 5 tijdsmijlpalen.
 media:
     - type: video
       link: /media/video/demo/demo-01.mp4

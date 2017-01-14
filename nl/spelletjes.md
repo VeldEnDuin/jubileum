@@ -4,8 +4,8 @@ title: Spelletjes
 
 preview:
     text:
-        - TODO NL tekst voor de preview van spelletjes page
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        - Neem even de tijd voor en spelletje memory.
+        
     readmore: "Speel nu..."
     image:
         - /img/game/memo-screen.jpg

@@ -2,13 +2,13 @@
 layout: default
 preview:
     text: >
-        50 jaar, dat is...
+        50 jaar Veld & Duin in cijfers
     facts:
         - unit: "zonnecrème"
           amount: "21.783 flessen"
           icon: "/img/svg/style/icon-zoncreme.svg"
         - unit: "vakantieliefdes"
-          amount: "771"
+          amount: "1771"
           icon: "/img/svg/style/icon-amor.svg"
         - unit: "worst"
           amount: "2.232 m"
@@ -16,7 +16,5 @@ preview:
         - unit: "zandkastelen"
           amount: "1.597"
           icon: "/img/svg/style/icon-zandk.svg"
-        - unit: "ton garnalen"
-          amount: "8.586"
-          icon: "/img/svg/style/icon-zee.svg"
+       
 ---
