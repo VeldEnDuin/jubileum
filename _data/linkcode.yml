@@ -45,26 +45,26 @@ goeddoel_index:
     nl: /nl/goed-doel.html
 
 
-exhibit_01_crash:
+exhibit_crash:
     nl: /nl/tentoonstelling/crash.html
 
-exhibit_02_lostfound:
+exhibit_lostfound:
     nl: /nl/tentoonstelling/verloren-voorwerpen.html
 
-exhibit_03_cinema:
+exhibit_cinema:
     nl: /nl/tentoonstelling/cinema.html
 
-exhibit_04_archeo:
+exhibit_archeo:
     nl: /nl/tentoonstelling/archeosite.html
 
-exhibit_05_haag:
+exhibit_haag:
     nl: /nl/tentoonstelling/klaaghaag.html
 
-exhibit_06_tijdpaal:
+exhibit_tijdpaal:
     nl: /nl/tentoonstelling/tijd-mijl-paal.html
 
-exhibit_07_toonboom:
+exhibit_toonboom:
     nl: /nl/tentoonstelling/tentoonstellingsboom.html
 
-exhibit_08_korentelcel:
+exhibit_korentelcel:
     nl: /nl/tentoonstelling/korenveld-telefooncel.html
