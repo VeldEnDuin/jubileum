@@ -7,7 +7,7 @@ preview:
     image: /media/img/verloren-voorwerpen-chalet.jpg
     readmore: "Vind terug..."
     text: >
-        Bezoek het levenswerk van Valère, onze Verantwoordelijke Verloren Voorwerpen.
+        Bezoek het levenswerk van Valère, Verantwoordelijke Verloren Voorwerpen.
     
 media:
     - type: image
