@@ -5,7 +5,7 @@ insert:
     - banner
 preview: 
     image: /media/img/tentententoonstellingsboom.jpg
-    readmore: "Duik mee..."
+    readmore: "Duik mee"
     text: >
         Het ontluisterende verhaal over de rechtstreekse toegang tot de zee.
         

@@ -5,7 +5,7 @@ insert:
     - banner
 preview: 
     image: /media/img/verloren-voorwerpen-chalet.jpg
-    readmore: "Vind terug..."
+    readmore: "Vind terug"
     text: >
         Bezoek het levenswerk van Valère, Verantwoordelijke Verloren Voorwerpen.
     

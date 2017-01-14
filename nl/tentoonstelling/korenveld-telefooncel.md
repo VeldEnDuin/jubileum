@@ -5,7 +5,7 @@ insert:
     - banner
 preview: 
     image: /media/img/korenveld.jpg
-    readmore: "Proef meer..."
+    readmore: "Proef meer"
     text: >
         Het mysterie van de delicious British scones nu eindelijk voor u onthuld.
 media:

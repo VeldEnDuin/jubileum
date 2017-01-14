@@ -6,7 +6,7 @@ preview:
     text:
         - Memory
         
-    readmore: "Speel nu..."
+    readmore: "Speel nu"
     image:
         - /img/game/memo-screen.jpg
 

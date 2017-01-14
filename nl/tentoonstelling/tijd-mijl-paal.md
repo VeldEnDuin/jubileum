@@ -5,7 +5,7 @@ insert:
     - banner
 preview: 
     image: /media/img/tijdspalen.jpg
-    readmore: "Ontdek meer..."
+    readmore: "Ontdek meer"
     text: >
         Bekijk vijftig jaar wereld-en campinggeschiedenis aan de 5 tijdsmijlpalen.
 media:
