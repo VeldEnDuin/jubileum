@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: Koren voor the queen
+title: KOREN VOOR DE QUEEN
 insert:
     - banner
 preview: 

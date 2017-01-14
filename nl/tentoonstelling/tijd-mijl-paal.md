@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: tijdsmijlpalen
+title: TIJDSMIJLPAAL
 insert:
     - banner
 preview: 

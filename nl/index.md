@@ -18,6 +18,6 @@ Een feestjaar met een niet te missen avondfeest op 3 juni met foodtrucks, live b
 
 Een feestjaar waar we samen met jullie activiteiten willen organiseren waarvan de opbrengst naar het goede doel gaat....
 
-Lees alles over ons feestjaar op deze site, we kijken er al naar uit om samen met jullie te vieren!
+Lees alles over ons jubileum op deze site, we kijken er al naar uit om het samen met jullie te vieren!
 
 

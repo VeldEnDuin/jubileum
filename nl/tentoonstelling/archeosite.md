@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: Opgravingen
+title: ATLANTIS
 insert:
     - banner
 preview: 

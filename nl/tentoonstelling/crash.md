@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: de crash
+title: DE CRASH
 insert:
     - banner
 preview: 

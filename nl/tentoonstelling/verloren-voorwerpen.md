@@ -1,11 +1,11 @@
 ---
 layout: exhibit
-title: verloren voorwerpen
+title: VERLOREN VOORWERPEN
 insert:
     - banner
 preview: 
     image: /media/img/verloren-voorwerpen-chalet.jpg
-    readmore: "Vind meer..."
+    readmore: "Vind terug..."
     text: >
         Bezoek het levenswerk van Valère, onze Verantwoordelijke Verloren Voorwerpen.
     

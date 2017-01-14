@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: Tentoonstellingsboom
+title: TOEGANG TOT ZEE
 insert:
     - banner
 preview: 

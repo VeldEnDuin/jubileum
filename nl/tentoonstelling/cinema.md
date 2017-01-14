@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: campingcinema Veld & Duin
+title: CINEMA-MUSEUM 
 insert:
     - banner
 preview: 

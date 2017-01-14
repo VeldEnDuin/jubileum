@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: De Klaaghaag
+title: DE KLAAGHAAG
 insert:
     - banner
 preview: 
