@@ -7,7 +7,8 @@ preview:
     image: /media/img/crash.jpg
     readmore: "Huiver mee..."
     text: >
-        Hoe het allemaal begon...de enige, echte ontstaansgeschiedenis van Veld & Duin.
+        Hoe het allemaal begon: de echte ontstaansgeschiedenis van Veld & Duin.
+        
         
         
 media:
