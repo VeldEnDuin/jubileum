@@ -15,10 +15,14 @@ layout: default
 {% assign section_linkcode = section.linkcode %}
 {% assign section_link = site.data.linkcode[section_linkcode][pgLang] | split: '#' | last %}
 {% assign section_text = section.menutekst[pgLang] %}
+{% assign more_text = section.extratekst[pgLang] %}
     {% if forloop.index != 1 %}
 <a name="{{ section_link }}"></a>
-<div class="jub-section-wrap {% cycle 'e','o' %} {%cycle 'bg-cb','bg-cb','' %} bg-k{% cycle '1','4','2','5','3' %}">
+<div class="text-center center-block jub-section-wrap clearfix {% cycle 'e','o' %} {%cycle 'bg-cb','bg-cb','' %} bg-k{% cycle '1','4','2','5','3' %}">
   <h2 class="text-center">{{ section_text }}</h2>
+        {% if more_text %}
+  <div class="col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">{{ more_text }}</div>
+        {% endif %}
         {% include jub-section.html %}
 </div>
     {% endif %}
