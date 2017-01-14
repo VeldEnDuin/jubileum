@@ -7,7 +7,7 @@ preview:
     image: /media/img/korenveld.jpg
     readmore: "Proef meer..."
     text: >
-        Het mysterie van de delicious brittish scones nu eindelijk voor u onthuld.
+        Het mysterie van de delicious British scones nu eindelijk voor u onthuld.
 media:
     - type: image
       link: /media/img/demo/demo-04.jpg
