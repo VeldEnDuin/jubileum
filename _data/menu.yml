@@ -23,6 +23,8 @@
     fr:  Exposition
     en:  Exhibition
     de:  Ausstellung
+  extratekst:
+    nl: een en ander over openingstijden en van die dinges
   submenu:
     - linkcode: exhibit_01_crash
     - linkcode: exhibit_02_lostfound
