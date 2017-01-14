@@ -7,7 +7,7 @@ preview:
     image: /media/img/tentententoonstellingsboom.jpg
     readmore: "Duik mee..."
     text: >
-        Het nooit eerder vertelde verhaal over de rechtstreekse toegang tot de zee.
+        Het ontluisterende verhaal over de rechtstreekse toegang tot de zee.
         
         
 media:
