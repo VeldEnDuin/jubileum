@@ -5,8 +5,9 @@ insert:
     - banner
 preview: 
     image: /media/img/campingcinema.jpg
+    readmore: "Zwijmel mee..."
     text: >
-        Tijd voor wat nostalgie in onze retro campingcinema en museum.
+        Tijd voor wat nostalgie in onze retro campingcinema anex museum.
         
 media:
     - type: image

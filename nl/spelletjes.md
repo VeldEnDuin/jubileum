@@ -4,7 +4,7 @@ title: Spelletjes
 
 preview:
     text:
-        - Neem even de tijd voor en spelletje memory.
+        - Memory
         
     readmore: "Speel nu..."
     image:

@@ -5,6 +5,7 @@ insert:
     - banner
 preview: 
     image: /media/img/klaaghaag.jpg
+    readmore: "Klaag hier..."
     text: >
         Onze immer geduldige klaaghaag luistert 7/7 naar uw verzuchtingen en klachten.
 media:

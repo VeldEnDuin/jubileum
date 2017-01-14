@@ -9,7 +9,7 @@ preview:
         - unit: "goede doelen"
           amount: "3"
           icon: "/img/svg/style/icon-koffer.svg"
-        - unit: "ingezameld op 10/01/2017"
+        - unit: "ingezameld op 14/01/2017"
           amount: "€ 0"
           icon: "/img/svg/style/icon-euro.svg"
         - unit: "acties"
