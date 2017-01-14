@@ -46,7 +46,7 @@ goeddoel_index:
 
 
 exhibit_01_crash:
-    nl: /nl/tentoonstelling/start.html
+    nl: /nl/tentoonstelling/crash.html
 
 exhibit_02_lostfound:
     nl: /nl/tentoonstelling/verloren-voorwerpen.html
@@ -55,10 +55,10 @@ exhibit_03_cinema:
     nl: /nl/tentoonstelling/cinema.html
 
 exhibit_04_archeo:
-    nl: /nl/tentoonstelling/archeologische-site.html
+    nl: /nl/tentoonstelling/archeosite.html
 
 exhibit_05_haag:
-    nl: /nl/tentoonstelling/klaag-haag.html
+    nl: /nl/tentoonstelling/klaaghaag.html
 
 exhibit_06_tijdpaal:
     nl: /nl/tentoonstelling/tijd-mijl-paal.html
