@@ -5,8 +5,9 @@ insert:
     - banner
 preview: 
     image: /media/img/archeologische-site.jpg
+    readmore: "Duik mee..."
     text: >
-        De bodem geeft zijn geheimen prijs: de geschiedenis van Veld & Duin gaat een stuk verder terug dan die 50 jaar. 
+        De duikers werpen een nieuw licht op de onderwaterwereld van Veld & Duin.
         
 media:
     - type: image

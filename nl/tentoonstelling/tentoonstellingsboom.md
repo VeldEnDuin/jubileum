@@ -5,8 +5,9 @@ insert:
     - banner
 preview: 
     image: /media/img/tentententoonstellingsboom.jpg
+    readmore: "Duik mee..."
     text: >
-        De bomen op de camping hebben zo hun eigen kijk op de geschiedenis.
+        Het nooit eerder vertelde verhaal over rechtstreekse toegang tot de zee.
         
         
 media:
