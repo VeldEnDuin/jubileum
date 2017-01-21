@@ -197,7 +197,7 @@
         (function () {
             $("*[role='vctrl']").each(function () {
                 var $grp, $lst, $scroll, $items, $prev, $next, lstCount,
-                    itemWidth, itemHeight = 0, pos = 0;
+                    itemOff, itemWidth, itemHeight = 0, pos = 0;
                 $grp  = $(this);
                 $lst  = $("*[role='vctrl-list']", $grp);
                 $scroll = $lst.parent();
@@ -205,15 +205,17 @@
                 $prev = $("*[role='vctrl-prev']", $grp);
                 $next = $("*[role='vctrl-next']", $grp);
                 lstCount  = $items.length;
-                itemWidth = Math.ceil($items.eq(1).position().left);
+                itemOff = Math.ceil($items.eq(0).position().left);
+                itemWidth = Math.ceil($items.eq(1).position().left - itemOff);
 
-                //align heights
-                $items.each(function () { itemHeight = Math.max(itemHeight, $(this).height()); });
-                $items.each(function () { $(this).height(itemHeight); });
 
                 function scrollPos() {
+                    // scroll to left side of this desired position
                     $scroll.scrollLeft(pos * itemWidth);
-                    pos = Math.floor($scroll.scrollLeft() / itemWidth);
+                    // recalibrate position to actual scroll position
+                    pos = Math.floor(($scroll.scrollLeft() - itemOff) / itemWidth);
+                    // scroll to left of actual calibrated position
+                    $scroll.scrollLeft(pos * itemWidth);
                 }
                 function nav(offset) {
                     pos = Math.min(Math.max((pos + offset), 0), (lstCount - 1));
@@ -222,7 +224,22 @@
                 }
                 $prev.click(function () {nav(-1); });
                 $next.click(function () {nav(+1); });
-                scrollPos(0);
+
+                function repos() {
+                    //align heights
+                    $items.each(function () { $(this).css('height', 'auto'); });
+                    itemHeight = 0;
+                    $items.each(function () { itemHeight = Math.max(itemHeight, $(this).height()); });
+                    $items.each(function () { $(this).height(itemHeight); });
+                    //soft jump to leftmost to recalibrate
+                    $scroll.scrollLeft($items.eq(0).position().left);
+                    itemOff = Math.ceil($items.eq(0).position().left);
+                    itemWidth = Math.ceil($items.eq(1).position().left - itemOff);
+                    scrollPos();
+                }
+
+                $(window).resize(function () {repos(); });
+                repos();
             });
         }());
 
