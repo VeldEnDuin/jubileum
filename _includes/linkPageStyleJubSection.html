@@ -3,49 +3,74 @@
     {% assign previewTitle = linkPage.preview.title %}
 {% endif %}
 
+
 {% if linkPage.preview.text.size > 0 or linkPage.preview.list.size > 0 or linkPage.preview.facts.size > 0 or linkPage.preview.image %}
 <div class="jub-section-preview center-block row">
     {% assign img_cols = 12 %}
     {% assign txt_cols = 12 %}
+    {% if select_mode == 'vgroup' or select_mode == 'see_more' %}
+        {% assign see_more_label=site.data.langs[pgLang].dict.readmore %}
+        {% if pg.preview.readmore %}{% assign see_more_label=pg.preview.readmore %}{%endif %}
+  <a href="{{ site.baseurl }}{{linkPage.url}}" class="notd">
+    {% endif %}
+
     {% if linkPage.preview.image %}
         {% if select_mode != 'vgroup' %}
             {% assign img_cols = 3 %}
             {% assign txt_cols = 9 %}
         {% endif %}
-  <div class="col-xs-12 col-sm-{{img_cols}}">
-    <img class="img-responsive img-rounded" src="{{site.baseurl}}{{linkPage.preview.image}}">
+    <div class="col-xs-12 col-sm-{{img_cols}}">
+      <img class="img-responsive img-rounded" src="{{site.baseurl}}{{linkPage.preview.image}}">
     {% endif %}
 
     {% if select_mode == 'vgroup' %}
         {% if linkPage.preview.title %}
-  <p class="text-center title">{{linkPage.preview.title}}</p>
+    <p class="text-center title">{{linkPage.preview.title}}</p>
         {% elsif linkPage.title %}
-  <p class="text-center title">{{linkPage.title}}</p>
+    <p class="text-center title">{{linkPage.title}}</p>
         {% endif %}
     {% endif %}
 
     {% if linkPage.preview.image %}
-  </div>
+    </div>
     {% endif %}
 
     {% if linkPage.preview.text.size > 0 %}
-  <div class="hidden-xs col-sm-{{txt_cols}} text-center">
+    <div class="hidden-xs col-sm-{{txt_cols}} text-center">
         {% for ln in linkPage.preview.text %}
         {{ ln }}<br>
         {% endfor %}
-  </div>
+    </div>
     {% endif %}
 
     {% if linkPage.preview.list.size > 0 %}
-  <div class="hidden-xs col-sm-{{txt_cols}} text-center">
-    <ul>
+    <div class="hidden-xs col-sm-{{txt_cols}} text-center">
+      <ul>
         {% for it in linkPage.preview.list %}
-      <li>{{ it }}</li>
+        <li>{{ it }}</li>
         {% endfor %}
-    </ul>
-  </div>
+      </ul>
+    </div>
     {% endif %}
 
+
+    {% if linkPage.preview.facts %}
+    <div class="jub-section-facts row">
+        {% assign gridclass="col-md-3 col-sm-6 col-xs-12" %}
+        {% if linkPage.preview.facts.size == 3 %}{% assign gridclass="col-md-4 col-sm-6 col-xs-12" %}{% endif %}
+        {% for fact in linkPage.preview.facts %}
+      <div class="jub-fact-wrap {{gridclass}}"><div class="jub-fact">
+        <div class="jub-fact-icon-wrap"><div class="jub-fact-icon"><img
+          class="img-rounded img" src="{{ site.baseurl }}{{ fact.icon }}"></div></div>
+        <div class="jub-fact-value text-center">{{fact.amount}}</div>
+        <hr class="jub-fact-separator">
+        <div class="jub-fact-unit text-center">{{fact.unit}}</div>
+      </div></div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="atbottom">
     {% if select_mode == 'vgroup' %}
         {% if linkPage.media.size > 0 or linkPage.content.size > 0%}
             {% assign medias = linkPage.media |map: 'type' |uniq %}
@@ -53,32 +78,26 @@
                 {% assign medias = medias |push: 'text' |uniq %}
             {% endif %}
 
-  <div class="col-xs-12">
-    <span class="media center-block text-center row row-centered" role="group">
+      <div class="col-xs-12">
+        <span class="media center-block text-center row row-centered" role="group">
             {% for media in medias %}
-      <img class="col-xs-2 col-centered img img-responsive img-circle"
-        src="{{site.baseurl}}/img/svg/style/media-{{media}}.svg" >
+          <img class="col-xs-2 col-centered img img-responsive img-circle"
+            src="{{site.baseurl}}/img/svg/style/media-{{media}}.svg" >
             {% endfor %}
-    </span>
-  </div>
+        </span>
+      </div>
         {% endif %}
     {% endif %}
 
-    {% if linkPage.preview.facts %}
-  <div class="jub-section-facts row">
-        {% assign gridclass="col-md-3 col-sm-6 col-xs-12" %}
-        {% if linkPage.preview.facts.size == 3 %}{% assign gridclass="col-md-4 col-sm-6 col-xs-12" %}{% endif %}
-        {% for fact in linkPage.preview.facts %}
-    <div class="jub-fact-wrap {{gridclass}}"><div class="jub-fact">
-      <div class="jub-fact-icon-wrap"><div class="jub-fact-icon"><img
-          class="img-rounded img" src="{{ site.baseurl }}{{ fact.icon }}"></div></div>
-      <div class="jub-fact-value text-center">{{fact.amount}}</div>
-      <hr class="jub-fact-separator">
-      <div class="jub-fact-unit text-center">{{fact.unit}}</div>
-    </div></div>
-        {% endfor %}
-  </div>
-  {% endif %}
+    {% if select_mode == 'vgroup' or select_mode == 'see_more' %}
+      <div class="jub-more">
+        <button class="btn btn-lg btn-success center-block">{{see_more_label}}</button>
+      </div>
+    {% endif %}
+    </div>
 
+    {% if select_mode == 'vgroup' or select_mode == 'see_more' %}
+  </a>
+    {% endif %}
 </div>
 {% endif %}

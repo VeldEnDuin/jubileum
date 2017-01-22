@@ -1580,11 +1580,12 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
 }
 .jub-section-vgroup div[role="vctrl-item"] {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
+    padding-bottom: 6em;
 }
-.jub-section-vgroup .jub-more {
+.jub-section-vgroup .atbottom {
     position: absolute;
-    bottom: -2.5em;
+    bottom: 0em;
     width:  100%;
 }
 .jub-section {
