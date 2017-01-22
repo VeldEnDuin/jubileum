@@ -33,6 +33,7 @@ layout: default
   <div class="vd-group-item col-xs-12 col-sm-6 col-md-4 col-lg-3 media-item" data-media="{{media | jsonify}}">
     {% assign medialink = media.link %}
     {% assign typelink = '/img/svg/style/media-' |append: media.type |append: '.svg' %}
+    {% assign typealtlink = '/img/svg/style/media-' |append: media.type |append: '-alt.svg' %}
     {% assign imglink = typelink %}
     {% assign mediatitle = media.title %}
     {% if media.type == 'image' %}{% assign imglink = medialink %}{% endif %}
@@ -54,17 +55,21 @@ layout: default
       </div>
     </a>
     <template id="mx-{{forloop.index}}">
-      <div class="row row-centered">
+      <div class="row row-centered mediaview">
         <div class="col-xs-12">
-          <div class="col-xs-12 col-centered"><h3>{{mediatitle}}</h3></div>
+          <div class="col-xs-12 col-centered mediatitle">
+            <h3><img class="pull-left img img-responsive" src="{{site.baseurl }}{{typealtlink}}">{{mediatitle}}</h3>
+          </div>
           <div class="col-xs-12 col-centered">
     {% if media.type == 'image' %}
-            <img src="{{site.baseurl}}{{medialink}}" class="img img-responsive">
+            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2  col-centered">
+              <img src="{{site.baseurl}}{{medialink}}" class="img img-responsive">
+            </div>
     {% elsif media.type == 'audio' %}
-            <div class="col-xs-12 col-sm-10 col-sm-push-2 col-centered">
+            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2  col-centered">
               <img src="{{site.baseurl}}{{imglink}}" class="img img-responsive">
             </div>
-            <div class="col-xs-12 col-sm-10 col-sm-push-2 col-centered">
+            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 col-centered">
               <div align="center" >
                 <audio autoplay controls class="embed-responsive-item" >
                    <source src="{{site.baseurl}}{{medialink}}" type="audio/mp3">
@@ -76,7 +81,7 @@ layout: default
               </div>
             </div>
     {% elsif media.type == 'video' %}
-            <div class="col-xs-12 col-sm-10 col-sm-push-2 col-centered">
+            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 col-centered">
               <div align="center">
                 <video autoplay controls style="width: 100% !important; height: auto !important;" poster="{{site.baseurl}}{{imglink}}">
                   <source src="{{site.baseurl}}{{medialink}}" type="video/mp4">

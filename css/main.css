@@ -1770,3 +1770,18 @@ hr.jub-fact-separator {
     vertical-align: middle;
     align-content: center;
 }
+
+.mediaview {
+    background-color: #159499;
+    -moz-box-shadow:    0px 0px 10px 15px #159499;
+    -webkit-box-shadow: 0px 0px 10px 15px #159499;
+    box-shadow: 0px 0px 10px 15px #159499;
+}
+
+.mediaview .mediatitle {
+
+}
+
+.mediaview .mediatitle img {
+    height: 1.5em;
+}
