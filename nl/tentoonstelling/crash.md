@@ -13,13 +13,16 @@ preview:
         
 media:
     - type: image
-      link: /media/img/demo/demo-06.jpg
-      title: Schoon beeld
-    - type: audio
-      link: /media/audio/demo/demo-03.mp3
-      view: /media/img/demo/demo-04.jpg
-      title: Fragment abc
-    - type: audio
-      link: /media/audio/demo/demo-02.mp3
-      title: Fragment xyz
+      link: /media/img/crash-trouwfoto.jpg
+      title: trouwfoto
+    - type: image
+      link: /media/img/crash-trouwakte.jpg
+      title: trouwakte
+    - type: image
+      link: /media/img/crash-spijskaart.png
+      title: spijskaart
+    - type: video
+      link: /media/video/crash-nonkelpetrol.mp4
+      view: /media/img/crash-nonkelpetrol.jpg
+      title: zotte nonkel petrol
 ---
