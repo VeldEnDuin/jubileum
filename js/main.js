@@ -252,11 +252,17 @@
         (function () {
             var $mediaview, $btnOff, $btnPrev, $btnNext, $ctnt, initTop,
                 $medialink, $embedlink,
-                medias = [], showNdx = 0;
+                medias = [], showNdx = 0, player = null;
             function showView() {
                 $mediaview.animate({"top": 0}, 500);
             }
+            function pauseCurrentMedia() {
+                if (player !== null) {
+                    player.pause();
+                }
+            }
             function hideView() {
+                pauseCurrentMedia();
                 $mediaview.animate({"top": initTop}, 500);
             }
             $mediaview = $('#media-player');
@@ -266,8 +272,12 @@
             $btnNext = $('.btn[role="vctrl-next"]', $mediaview);
             initTop = $mediaview.css('top');
             $btnOff.click(hideView);
-            $medialink = $('a[role="medialink"]'); // has @name and @data-medialink
-            $embedlink = $('a', $('.media-content')); // filter out only ones that have href first char #
+
+            // links in media section at bottom
+            $medialink = $('a[role="medialink"]');
+            // links embedded in text: filter those that have href first char #
+            $embedlink = $('a', $('.media-content'))
+                .filter(function () {return ($(this).attr('href').charAt(0) === '#'); });
 
             function media2html(media) {
                 var $tmpl = $('#' + media.id);
@@ -285,16 +295,36 @@
                     hash = href.charAt(0),
                     media = $ml.data('media');
                 media.id = anchor;
+                media.icon = $ml.data('icon');
                 if (hash === '#') {
                     media.html = media2html(media);
                     medias[index] = media;
                 }
             });
 
+            // decorate with svg icon
+            $embedlink.each(function () {
+                var $el = $(this),
+                    href = $el.attr('href'),
+                    anchor = href.slice(1),
+                    index = Number(anchor.split('-')[1]),
+                    iconlink = medias[index].icon;
+
+                $(this).append("<img class='img-font' src='" + iconlink + "'>");
+            });
 
             function showIndex(ndx) {
+                var mediaToShow;
                 showNdx = ndx;
-                $ctnt.html(medias[showNdx].html);
+                mediaToShow = medias[showNdx];
+                $ctnt.html(mediaToShow.html);
+                if (mediaToShow.type === 'video') {
+                    player = $("video", $ctnt).get(0);
+                } else if (mediaToShow.type === 'audio') {
+                    player = $("audio", $ctnt).get(0);
+                } else {
+                    player = null;
+                }
                 showView();
                 return false;
             }
@@ -305,15 +335,18 @@
                     index = Number(anchor.split('-')[1]);
                 return showIndex(index);
             }
+
             $medialink.click(function () { return showMedia($(this)); });
             $embedlink.click(function () { return showMedia($(this)); });
 
             //make the ctrl buttons work
             function showOffset(offset) {
+                pauseCurrentMedia();
                 showIndex(Math.max(Math.min(showNdx + offset, medias.length), 1));
             }
             $btnPrev.click(function () { showOffset(-1); });
             $btnNext.click(function () { showOffset(+1); });
+
         }());
     });
     /*

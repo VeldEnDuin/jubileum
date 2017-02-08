@@ -23,7 +23,7 @@
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs51" /><sodipodi:namedview
-     pagecolor="#ffffff"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -36,8 +36,8 @@
      id="namedview49"
      showgrid="false"
      inkscape:zoom="8.6139913"
-     inkscape:cx="-0.20901288"
-     inkscape:cy="46.044171"
+     inkscape:cx="-18.086904"
+     inkscape:cy="44.941314"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"

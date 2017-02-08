@@ -10,5 +10,7 @@ preview:
         Onze immer geduldige klaaghaag luistert 7/7 naar uw verzuchtingen.
 media:
     - type: audio
-      link: /media/audio/demo/demo-02.mp3
+      link: /media/audio/complaint-song.mp3
+      view: /media/audio/saddleforsale.png
+      title: The Complaint Song
 ---

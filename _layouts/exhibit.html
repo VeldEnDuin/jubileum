@@ -40,7 +40,7 @@ layout: default
     {% if media.view %}{% assign imglink = media.view %}{% endif %}
     {% unless media.title %}{% assign mediatitle = medialink |split: '/'|last%}{% endunless %}
     <a class="vd-location" name="mx-{{forloop.index}}" href="#mx-{{forloop.index}}"
-       role="medialink" data-media='{{media | jsonify}}'>
+       role="medialink" data-media='{{media | jsonify}}' data-icon='{{typelink}}'>
       <div
           class="vd-group-item-inner"
           style="background-image: url('{{site.baseurl}}{{imglink}}'); background-repeat: no-repeat; background-size: cover;">
@@ -62,38 +62,37 @@ layout: default
           </div>
           <div class="col-xs-12 col-centered">
     {% if media.type == 'image' %}
-            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2  col-centered">
+            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3 col-centered">
               <img src="{{site.baseurl}}{{medialink}}" class="img img-responsive">
             </div>
     {% elsif media.type == 'audio' %}
-            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2  col-centered">
+            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3 col-centered ">
               <img src="{{site.baseurl}}{{imglink}}" class="img img-responsive">
-            </div>
-            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 col-centered">
-              <div align="center" >
+              <br >
+              <div align="center">
                 <audio autoplay controls class="embed-responsive-item" >
-                   <source src="{{site.baseurl}}{{medialink}}" type="audio/mp3">
+                  <source src="{{site.baseurl}}{{medialink}}" type="audio/mp3">
                   <div class="alert alert-warning">
-                  {{site.data.langs[pgLang].dict.noaudio}}
-                  <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
+                    {{site.data.langs[pgLang].dict.noaudio}}
+                    <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
                   </div>
                 </audio>
               </div>
             </div>
     {% elsif media.type == 'video' %}
-            <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 col-centered">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 col-centered">
               <div align="center">
                 <video autoplay controls style="width: 100% !important; height: auto !important;" poster="{{site.baseurl}}{{imglink}}">
                   <source src="{{site.baseurl}}{{medialink}}" type="video/mp4">
                   <div class="alert alert-warning">
-                  {{site.data.langs[pgLang].dict.novideo}}
-                  <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
+                    {{site.data.langs[pgLang].dict.novideo}}
+                    <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
                   </div>
                 </video>
               </div>
             </div>
     {% else %}
-            <div class="col-xs-12 col-sm-10 col-sm-push-2 col-centered">
+            <div class="col-xs-12 col-centered">
               <p><a href="{{medialink}}" target="_blank">{{mediatitle}}</a></p>
             </div>
     {% endif %}

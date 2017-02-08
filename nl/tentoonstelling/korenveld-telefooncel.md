@@ -10,9 +10,14 @@ preview:
         Het mysterie van de delicious British scones nu eindelijk voor u onthuld.
 media:
     - type: image
-      link: /media/img/demo/demo-04.jpg
+      link: /media/img/demo/demo-01.jpg
+      title: sisal gekleurd
     - type: audio
-      link: /media/img/demo/demo-02.mp3
+      link: /media/audio/demo/demo-01.mp3
+      view: /media/img/demo/demo-07.jpg
+      title: maanlanding
     - type: video
-      link: /media/img/demo/demo-03.mp4
+      link: /media/video/demo/demo-01.mp4
+      view: /media/video/demo/demo-01.png
+      title: konijnehol
 ---
