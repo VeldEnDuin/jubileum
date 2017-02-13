@@ -9,8 +9,8 @@ preview:
     text: >
         Bekijk vijftig jaar wereld-en campinggeschiedenis aan de 5 tijdsmijlpalen.
 media:
-    - type: video
-      link: /media/video/jubi-mijlpaal-6777.mov
+    - type: youtube
+      code: Qlc7iLLSQZE
       view: /media/video/jubi-mijlpaal-6777.jpg
       title: van 1967 tot 1977
     - type: audio
