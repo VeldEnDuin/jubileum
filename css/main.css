@@ -1708,6 +1708,9 @@ hr.jub-fact-separator {
     /* inline-block space fix */
     margin-right:-4px;
 }
+.text-center img {
+    padding: 0 auto 0 auto;
+}
 .text-center ul {
     list-style-position: inside;
 }

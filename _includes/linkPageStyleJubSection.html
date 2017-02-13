@@ -6,8 +6,6 @@
 
 {% if linkPage.preview.text.size > 0 or linkPage.preview.list.size > 0 or linkPage.preview.facts.size > 0 or linkPage.preview.image %}
 <div class="jub-section-preview center-block row">
-    {% assign img_cols = 12 %}
-    {% assign txt_cols = 12 %}
     {% if select_mode == 'vgroup' or select_mode == 'see_more' %}
         {% assign see_more_label=site.data.langs[pgLang].dict.readmore %}
         {% if pg.preview.readmore %}{% assign see_more_label=pg.preview.readmore %}{%endif %}
@@ -15,12 +13,14 @@
     {% endif %}
 
     {% if linkPage.preview.image %}
+    <div class="col-xs-12 col-sm-12 text-center col-centered">
         {% if select_mode != 'vgroup' %}
-            {% assign img_cols = 3 %}
-            {% assign txt_cols = 9 %}
-        {% endif %}
-    <div class="col-xs-12 col-sm-{{img_cols}}">
+      <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 col-lg-4 col-lg-push-4 text-center col-centered">
+        <img class="img-responsive img-rounded" src="{{site.baseurl}}{{linkPage.preview.image}}">
+      </div>
+        {% else %}
       <img class="img-responsive img-rounded" src="{{site.baseurl}}{{linkPage.preview.image}}">
+        {% endif %}
     {% endif %}
 
     {% if select_mode == 'vgroup' %}
@@ -36,7 +36,7 @@
     {% endif %}
 
     {% if linkPage.preview.text.size > 0 %}
-    <div class="hidden-xs col-sm-{{txt_cols}} text-center">
+    <div class="hidden-xs col-sm-12 text-center">
         {% for ln in linkPage.preview.text %}
         {{ ln }}<br>
         {% endfor %}

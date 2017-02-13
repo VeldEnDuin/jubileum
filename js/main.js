@@ -239,6 +239,7 @@
                 }
 
                 $(window).resize(function () {repos(); });
+                $(window).on('load', function () {repos(); });
                 repos();
             });
         }());
