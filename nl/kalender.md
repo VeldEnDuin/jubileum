@@ -4,4 +4,9 @@ layout: group
 data: kalender
 remove:
     - banner
+    
+preview:
+    text:
+    readmore: "Naar de kalender"
+
 ---

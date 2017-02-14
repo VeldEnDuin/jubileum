@@ -1,4 +1,5 @@
 /*jslint browser: true */
+/*global moment */
 (function ($) {
     "use strict";
     var TRANSL = {};
@@ -349,19 +350,69 @@
             $btnNext.click(function () { showOffset(+1); });
 
         }());
+
+
+
+        /*
+         * adjust the jub-calendar display - focus on next - calculate days
+         * =======================================================================
+         */
+        (function () {
+            var $jubcal, $calitems, firstOn = false, now = moment();
+            $jubcal = $("#jub-cal");
+
+            if ($jubcal.length < 1) { return; }
+            //else
+            $calitems = $('[role="item"]', $jubcal);
+            $calitems.hide();
+            $calitems.each(function () {
+                var $this = $(this),
+                    it = $this.data("item"),
+                    date = moment(it.date),
+                    diff = date.diff(now, 'days'),
+                    difftext,
+                    $cnt = $('[role="countdown"]', $this);
+                if (diff === 0) {
+                    difftext = TRANSL.dict.today;
+                } else if (diff < 0) {
+                    difftext = TRANSL.dict.ago.replace("%", diff);
+                } else {
+                    difftext = TRANSL.dict.still.replace("%", diff);
+                }
+                $cnt.html(difftext);
+                if (!firstOn && diff > 0) {
+                    $this.show();
+                    firstOn = true;
+                }
+            });
+        }());
     });
+    
     /*
      * Build up the group page 'history-timeline'
      * =======================================================================
      */
     $(function () {
-        var $groupList = $('#vd-group-tijdslijn'),
-            $items = $('.vd-group-timeline-item', $groupList),
+        var $groupList = $('#vd-group-kalender'),
+            $items = $('.vd-group-kalender-item', $groupList),
             $grid,
+            now = moment(),
             $tl = $("<div class='timeline'>");
 
         $tl.append($("<div class='timeline-line'>"));
 
+        // hide items that have passed
+        $items.each(function () {
+            var $this = $(this),
+                it = $this.data('item'),
+                date = moment(it.date),
+                diff = date.diff(now, "days");
+            if (diff < 0) {
+                $this.remove();
+            }
+        });
+        $items = $('.vd-group-kalender-item', $groupList);
+        
         function allNonSpacerItems(fn) {
             $items.each(function () {
                 var $it = $(this);
@@ -411,6 +462,7 @@
         $(window).on("load", function () {
             setTimeout(startMasonry, 0);
         });
+        
     });
 
 }(window.jQuery));

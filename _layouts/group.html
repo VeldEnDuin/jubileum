@@ -47,6 +47,7 @@ layout: default
     {% comment %}- sign removes zero padding --> still text though, |modulo: 12 makes it numeral - useable as arrayindex {% endcomment %}
     {% assign m_text      = site.data.langs[pgLang].months[m_date_ndx] %}
     {% assign y_date      = it.date | date: "%Y" %}
+    {% assign d_date      = it.date | date: "%d" %}
     {% assign description = it.description[pgLang] %}
     {% assign link        = it.link[pgLang] %}
     {% assign caption     = it.caption[pgLang] %}
@@ -62,6 +63,7 @@ layout: default
          data-location   = "{{ it.location }}"
          data-subgroups  = '{{ it.subgroups | jsonify }}'
          data-ranking    = "{{ it.ranking }}"
+         data-item       = '{{ it | jsonify }}'
     >
       <div class="vd-group-item-inner"
         {% if imgbg %}
@@ -74,7 +76,7 @@ layout: default
             <div class="vd-group-date"><span class="year">{{ label }}</span></div>
         {% else %}
             {% if my_date %}
-                <div class="vd-group-date"><span class="month">{{ m_text }}</span>&nbsp;<span class="year">{{ y_date }}</span></div>
+                <div class="vd-group-date"><span class="day">{{ d_date }}</span>&nbsp;<span class="month">{{ m_text }}</span>&nbsp;<span class="year">{{ y_date }}</span></div>
             {% endif %}
         {% endif %}
             <div class="vd-group-title">

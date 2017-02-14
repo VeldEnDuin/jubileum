@@ -18,6 +18,9 @@ nl:
         mediatitle: Media-Bijlagen
         noaudio: Je browser ondersteunt geen ingebakken audio tags. Volg de link naar het audio-bestand.
         novideo: Je browser ondersteunt geen ingebakken video tags. Volg de link naar het video-bestand.
+        ago: "% dagen geleden."
+        still: "Nog % dagen tot"
+        today: "Vandaag"
 
 
     gcse:

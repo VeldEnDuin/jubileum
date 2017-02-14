@@ -13,6 +13,16 @@
  */
 
 
+/*
+#EDE2D2	achtergrond
+#fed120	K1 (hue 48)
+#3aa642	K2 (hue 124)
+#159499	K3 (hue 182)
+#ed7f2c	K4 (hue 26)
+#bc3c20	K5 (hue 11)
+#474B44	tekst
+sepia #714214 (hue 30)
+*/
 
 a,
 a div,
@@ -402,13 +412,22 @@ table.table>tbody>tr>td:first-child
     height: 100% !important;
     width: 34px;
 }
-
+/*
+#EDE2D2	achtergrond
+#fed120	K1 (hue 48)
+#3aa642	K2 (hue 124)
+#159499	K3 (hue 182)
+#ed7f2c	K4 (hue 26)
+#bc3c20	K5 (hue 11)
+#474B44	tekst
+sepia #714214 (hue 30)
+*/
 .timeline .timeline-line {
     margin: 0 auto;
     height: 100% !important;
     width: 7px;
-    border: 1px solid rgba(79, 81, 55, 1);
-    background-color: rgba(79, 81, 55, 1);
+    border: 1px solid #ed7f2c;
+    background-color: #ed7f2c;
     border-radius: 15px;
 }
 
@@ -425,7 +444,7 @@ table.table>tbody>tr>td:first-child
 }
 
 .timeline .timeline-dot > span{
-    background-color: rgb(143, 183, 66);
+    background-color: #3aa642;
     position: absolute;
     display: block;
     width: 18px !important;
@@ -466,15 +485,19 @@ table.table>tbody>tr>td:first-child
     padding-top: 0.5em;
     padding-bottom: 0.1em;
     margin-bottom: 0.4em;
-    border-bottom: 1px solid #8fb742;
+    border-bottom: 1px solid #159499;
 }
 
 .vd-group-timeline-item .vd-group-date .month {
-    color: #4f5137;
+    color: #159499;
 }
 
 .vd-group-date .year {
-    color: #8fb742;
+    color: #3aa642;
+}
+
+.vd-group-date .day {
+    color: #ed7f2c;
 }
 
 .vd-group-pics-item:hover {
@@ -484,14 +507,14 @@ table.table>tbody>tr>td:first-child
 
 .vd-group-timeline-item .vd-group-item-inner {
     padding: 2em;
-    background-color: rgba(143, 183, 66, 0.08);
+    background-color: rgba(21, 148, 153, 0.08);
     border-radius: 5px;
     display: block;
     position: relative;
 }
 
 .vd-group-timeline-item .vd-group-item-inner .vd-group-title {
-    color: rgb(79, 81, 55);
+    color: #474B44;
 }
 
 .vd-group-timeline-item .vd-group-item-inner .vd-group-title {
@@ -627,40 +650,35 @@ svg.tagcloud {
 }
 
 .vd-select-item-inner {}
-.vd-select-submenu .vd-button {
-    position: absolute;
-    top: -110px;
-}
 .vd-button {
-    width: 100%
+    position: absolute;
+    top: -2em;
+    left: -2em;
+    width: 100%;4
+    font-size: 1.1em;
 }
 .vd-button .vd-button-tag {
     border: 1px dashed rgba(0,0,0,0.3);
     background-color: #fff;
-    padding: 1em;
+    padding: 10px;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: table;
+    width: 133px;
+    height: 133px;
 }
 .vd-button .vd-button-inner {
-    background-color: #8FB742;
+    background-color: #159499;
     color: #fff;
     padding: 1em;
     border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    display: table-cell;
+    vertical-align: middle;
 }
 .vd-button .vd-button-tag-invert .vd-button-inner {
     background-color: #4F5137;
 
-}
-
-.vd-select-submenu .vd-button .vd-button-tag {
-    width: 153px;
-    height: 153px;
-}
-.vd-select-submenu .vd-button .vd-button-inner {
-    height: 120px;
-    width: 120px;
 }
 .vd-button span {
     display: block;
@@ -675,11 +693,11 @@ svg.tagcloud {
 
 a:hover .vd-button .vd-button-inner,
 .vd-button a:hover .vd-button-inner {
-    background-color: #8B9448;
+    background-color: #ed7f2c;
 }
 a:hover .vd-button .vd-button-tag-invert .vd-button-inner,
 .vd-button a:hover .vd-button-tag-invert .vd-button-inner {
-    background-color: #B8BA8A;
+    background-color: #ed7f2c;
 }
 .vd-button a:hover {
     text-decoration: none;
@@ -1548,7 +1566,6 @@ h1, h2 {
 }
 
 
-
 .jub-section-wrap.e .jub-section {
     /* background-color: rgba(71, 75, 68, 0.05); */
     padding: 5px;
@@ -1733,6 +1750,27 @@ hr.jub-fact-separator {
     overflow: hidden;
     white-space: nowrap;
 }
+
+.jub-cal-item {
+    position: relative;
+}
+
+.jub-cal-item .sticker-wrap {
+    position: absolute;
+    top: -1em;
+    left: -1em;
+    width: 150px !important;
+    height: 150px !important;
+    padding: 10px;
+    background-color: #159499;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.jub-cal-item .sticker-wrap .sitcker {
+    
+}
+
 .vd-group-grid .vd-group-item.media-item {
     height: 10em !important;
 }
