@@ -380,7 +380,7 @@
                     difftext = TRANSL.dict.still.replace("%", diff);
                 }
                 $cnt.html(difftext);
-                if (!firstOn && diff > 0) {
+                if (!firstOn && diff >= 0) {
                     $this.show();
                     firstOn = true;
                 }
