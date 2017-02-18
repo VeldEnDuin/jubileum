@@ -2,7 +2,6 @@
 layout: home
 
 insert:
-    - banner
 remove:
     - callout
 
