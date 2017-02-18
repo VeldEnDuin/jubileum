@@ -11,8 +11,12 @@ preview:
 media:
     - type: youtube
       code: Qlc7iLLSQZE
-      view: /media/video/jubi-mijlpaal-6777.jpg
+      view: /media/video/jubi-mijlpaal-6776.jpg
       title: van 1967 tot 1977
+    - type: youtube
+      code: BfHJaqUjoeE
+      view: /media/video/jubi-mijlpaal-7786.jpg
+      title: van 1977 tot 1987
     - type: audio
       link: /media/audio/smallstep.mp3
       view: /media/audio/moonlanding.jpg
