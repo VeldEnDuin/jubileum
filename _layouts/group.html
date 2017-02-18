@@ -67,7 +67,7 @@ layout: default
     >
       <div class="vd-group-item-inner"
         {% if imgbg %}
-           style="background-image: url('{{it.images[0]}}');"
+           style="background-image: url('{{site.baseurl}}{{it.images[0]}}');"
         {% endif %}
       >
         <div class="vd-group-content">
@@ -104,7 +104,7 @@ layout: default
         {% unless imgbg %}
             {% if it.images.size > 0 %}
                 {% if it.images.size == 1 %}
-                <div class="vd-group-img"><img src="{{it.images[0]}}" class="img img-rounded img-responsive"></div>
+                <div class="vd-group-img"><img src="{{site.baseurl}}{{it.images[0]}}" class="img img-rounded img-responsive"></div>
                 {% else %}
                     {% assign imgs = it.images %}
                     {% include imgs_as_strip.html %}
