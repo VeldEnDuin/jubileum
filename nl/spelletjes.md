@@ -8,7 +8,7 @@ preview:
         
     readmore: "Speel nu"
     image:
-        - /img/game/memo-screen.jpg
+        - /img/game/memo-screen.png
 
 ---
 
