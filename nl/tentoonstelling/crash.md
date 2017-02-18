@@ -19,10 +19,10 @@ media:
       link: /media/img/crash-trouwakte.jpg
       title: trouwakte
     - type: image
-      link: /media/img/crash-spijskaart.png
-      title: spijskaart
+      link: /media/img/crash-menukaart.png
+      title: menukaart
     - type: video
-      link: /media/video/crash-nonkelpetrol.mp4
-      view: /media/img/crash-nonkelpetrol.jpg
-      title: zotte nonkel petrol
+      link: /media/video/crash-trouwfeest.mp4
+      view: /media/img/crash-trouwfeest.jpg
+      title: trouwfeest
 ---

@@ -22,15 +22,17 @@ items:
     images:
       - /media/img/demo/demo-03.jpg
 
-  - date: 2017-02-14
+  - date: 2017-04-01
     title:
-      nl: "Opening Jubileumjaar"
+      nl: "Start tentoonstelling 'De camping, een wereld'"
       fr: "todo"
       de: "todo"
       en: "todo"
     description:
       nl: >
-          Openen, lintjes, gesteld lichamen...
+          Een ludieke ontdekkingsreis naar hoe het (n)ooit is geweest.
+
+          Bezoek de 8 locaties van de tentoonstelling die loopt van 1 april tot 12 november.
       fr: >
       de: >
       en: >
@@ -38,15 +40,185 @@ items:
     images:
       - /media/img/demo/demo-01.jpg
       
-  - date: 2017-06-25
+  - date: 2017-04-04
     title:
-      nl: "Jubelweekend"
+      nl: "Kinderfilm"
       fr: "todo"
       de: "todo"
       en: "todo"
     description:
       nl: >
-            Jubelen dat het een frang geeft
+          Kom om 17 uur naar ons cinemamuseum en geniet van een leuke film.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-04.jpg
+
+  - date: 2017-04-11
+    title:
+      nl: "Kinderfilm"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          In ons cinemamuseum spelen we opnieuw een leuke kinderfilm om 17 u. Kom jij ook?
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-03.jpg
+
+  - date: 2017-04-16
+    title:
+      nl: "Paaseierenraap"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Probeer met je team zoveel mogelijk verstopte paaseieren te vinden. Via allerhande opdrachten kun je nog extra eieren winnen.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-02.jpg
+
+  - date: 2017-06-03
+    title:
+      nl: "Jubileumweekend"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          - hele dag: Belgian Oldtimer Caravan Club op onze trekkersweide.
+          - 10u - 14u - 16u: rondleiding met gids (vooraf inschrijven)
+          - 19u - 02u: feest met foodtrucks, live bands en ambiance
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-01.jpg
+
+  - date: 2017-06-04
+    title:
+      nl: "Opendeurdag Belgian Oldtimer Caravan Club"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Keer terug in de tijd en neem een  kijkje binnenin deze prachtige oldtimer caravans.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-07.jpg
+
+  - date: 2017-07-08
+    title:
+      nl: "Reuzepicknick"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Vandaag is het exact 50 jaar geleden dat Veld & Duin zijn eerste vergunning ontving. We vieren dit samen aan een superlange picknicktafel. Iedereen brengt eten en drank mee en we proeven van elkaars lekkernijen. Veld & Duin zorgt voor muziek, tafelanimatie en een dessertje. Vooraf inschrijven aan de receptie.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-06.jpg
+
+  - date: 2017-07-13
+    title:
+      nl: "Knutselen"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Een grote bol en veel klei...meer is er niet nodig om met klein en groot een droomwereld te boetseren. Kom je mee knutselen van 10 tot 12 uur?
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-05.jpg
+
+  - date: 2017-07-20
+    title:
+      nl: "Sneukelfietstocht"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Neem deel aan onze sneukelfietstocht: een fietstocht van 37 km met onderweg een aantal stops met versnaperingen.
+          Vooraf inschrijven - individuele fietstocht - € 5 : persoon - vertrek tussen 13u30 en 14u30.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-02.jpg
+
+  - date: 2017-07-28
+    title:
+      nl: "Duo Berlingo - No way back"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Een komische circusvoorstelling over speelsheid, kameraadschap, verdeeldheid en ook een beetje over het leven.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-02.jpg
+
+  - date: 2017-08-03
+    title:
+      nl: "Kinderkoken feesteditie"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Een jubileumjaar vraagt om een stijlvolle receptie met lekkere hapjes. Deze hapjes maken we samen met de kinderen en de (groot)ouders zijn na afloop welkom om te komen proeven.
+          Vooraf inschrijven - € 3 / kind - max 30 deelnemers
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-04.jpg
+
+  - date: 2017-08-10
+    title:
+      nl: "Waterglijbaan"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          De waterglijbaan is een klassieker die zeker ook in een jubileumjaar niet mag ontbreken. De waterlijbaan is er van 10 tot 20 u.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-03.jpg
+
+  - date: 2017-08-18
+    title:
+      nl: "Grote Veld & Duinquiz"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Maak ploegjes van 4-5 personen en schrijf je in voor deze unieke campingquiz (max 10 ploegen). Met een mix van camping-kust-jubileum en andere vragen is de quiz geschikt voor iedereen. Supporters welkom.
+          19 u - vooraf inschrijven aan de receptie
       fr: >
       de: >
       en: >
@@ -54,5 +226,19 @@ items:
       - /media/img/demo/demo-02.jpg
 
 
-
+  - date: 2017-08-25
+    title:
+      nl: "Gidseurt natuurgebied d'Heye"
+      fr: "todo"
+      de: "todo"
+      en: "todo"
+    description:
+      nl: >
+          Natuurgebied d'Heye behoort tot de oudste duinformaties van onze kust. Ontdek alle weetjes over dit unieke gebied met een gids.
+          Vooraf inschrijven aan de receptie - max 25 deelnemers.
+      fr: >
+      de: >
+      en: >
+    images:
+      - /media/img/demo/demo-02.jpg
 

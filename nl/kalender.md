@@ -7,6 +7,6 @@ remove:
     
 preview:
     text:
-    readmore: "Naar de kalender"
+    readmore: "Kalender"
 
 ---

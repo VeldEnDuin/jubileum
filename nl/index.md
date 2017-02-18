@@ -9,14 +9,9 @@ remove:
 
 # Jubileum
 
-50 jaar camping Veld & Duin, dit bijzonder jubileum verdient uiteraard ook een bijzonder feestjaar!
+Veld & Duin mag dit jaar 50 kaarsjes uitblazen en dat gaan we samen met onze kampeerders uitgebreid vieren!
 
-Een feestjaar met een unieke tentoonstelling die loopt van april tot oktober...
+Lees op deze jubileumsite alles over onze plannen en kom dan samen met ons meevieren, ontdekken,  
 
-Een feestjaar met een avondfeest op 3 juni met foodtrucks, live bands en ambiance. Tijdens dit pinksterweekend staat een delegatie van de Belgian Oldtimer Caravan Club op onze trekkersweide en  zetten ze op zondag de deuren van hun retro caravans voor u open...
-
-Een feestjaar waar we samen met jullie activiteiten willen organiseren ten voordele van het goede doel...
-
-Lees alles over ons jubileum op deze site, we kijken er naar uit om het samen met jullie te vieren!
 
 
