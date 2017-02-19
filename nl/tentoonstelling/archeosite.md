@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: ATLANTIS
+embargo: true
 insert:
     - banner
 preview: 
@@ -21,4 +22,5 @@ media:
       link: /media/video/demo/demo-01.mp4
       view: /media/video/demo/demo-01.png
       title: konijnehol
+      
 ---

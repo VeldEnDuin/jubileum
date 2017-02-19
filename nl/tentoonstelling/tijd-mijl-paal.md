@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: TIJDSMIJLPAAL
+embargo: true
 insert:
     - banner
 preview: 

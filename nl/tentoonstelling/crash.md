@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: DE CRASH
+embargo: true
 insert:
     - banner
 preview: 
@@ -8,8 +9,6 @@ preview:
     readmore: "Huiver mee"
     text: >
         Hoe het allemaal begon: de ontstaansgeschiedenis van Veld & Duin.
-        
-        
         
 media:
     - type: image
@@ -25,4 +24,5 @@ media:
       link: /media/video/crash-trouwfeest.mp4
       view: /media/img/crash-trouwfeest.jpg
       title: trouwfeest
+      
 ---

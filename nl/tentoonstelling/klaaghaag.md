@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: DE KLAAGHAAG
+embargo: true
 insert:
     - banner
 preview: 

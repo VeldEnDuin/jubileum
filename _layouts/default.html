@@ -31,10 +31,9 @@ tcs: [1,2,3,5,6,9]
     <meta name="theme-color" content="#ffffff">
 
   </head>
-  <body data-translations='{{ site.data.langs[pgLang] | jsonify }}'>
+  <body data-translations='{{ site.data.langs[pgLang] | jsonify }}' data-embargo='{{ site.embargo | jsonify }}' data-baseurl="{{ site.baseurl }}">
 
-
-    <header {%unless page.insert contains 'banner'%}class="spaced"{%endunless%}>
+    <header {% unless page.insert contains 'banner' %}class="spaced"{%endunless%}>
       <nav class="navbar navbar-default navbar-inverse">
         <div class="vd-menu"><div class="container-fluid">
         <div class="navbar-header">
@@ -63,7 +62,7 @@ tcs: [1,2,3,5,6,9]
          {% assign bannerimg = '/img/style/banner.jpg' %}
          {%if page.preview.image %}{% assign bannerimg = page.preview.image %}{%endif%}
          {%if page.bannerimg %}{% assign bannerimg = page.bannerimg %}{%endif%}
-      <div class="vd-banner hidden-sm hidden-xs"
+      <div class="vd-banner hidden-sm hidden-xs {% if page.embargo %}embargo-hidden{% endif %}"
           style="background-image: url('{{site.baseurl}}{{bannerimg}}'); background-position: center center; background-size: cover;"
       ></div>
     {% endif %}
@@ -93,7 +92,7 @@ tcs: [1,2,3,5,6,9]
 
     <article>
       <div class="container-fluid">
-        <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+        <div id="content" class="{% if page.embargo %} embargo-locked {% endif %} col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 
     {% if lvl2nav %}
           <div class="col-md-4 col-md-push-8 col-sm-4 col-sm-push-8 col-xs-4 col-xs-push-8 ">
@@ -160,6 +159,7 @@ tcs: [1,2,3,5,6,9]
     <!-- using version 2.2.2 retrieved from cdn -->
     <script type="text/javascript" src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
 
+    <script type="text/javascript" src="{{ site.baseurl }}/js/rusha.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
 
     {% for jscript in page.extrajs %}

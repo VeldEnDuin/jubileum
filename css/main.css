@@ -1725,8 +1725,11 @@ hr.jub-fact-separator {
     /* inline-block space fix */
     margin-right:-4px;
 }
+p.text-center {
+    text-align: center;
+}
 .text-center img {
-    padding: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 .text-center ul {
     list-style-position: inside;
@@ -1832,4 +1835,9 @@ img.img-font {
     height: 1.5em;
     padding-right: 0.2em;
     padding-left: 0.2em;
+}
+
+.embargo-locked {
+    padding-top: 3em;
+    padding-bottom: 1em;
 }

@@ -36,3 +36,9 @@ links:
 #  tw: https://twitter.com/....
 #  in: https://www.linkedin.com/in/....
 
+embargo:
+    shakey: 87667582519baa1803f1b555d70345e52aa6577e
+    date: 2017-03-27
+    image: /img/tentoonstelling-grondplan-800.jpg
+    text:
+        nl: "Nu nog efkes nie! Maar kom terug voor meer vanaf {date}."

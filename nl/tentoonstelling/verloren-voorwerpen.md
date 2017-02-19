@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: VERLOREN VOORWERPEN
+embargo: true
 insert:
     - banner
 preview: 

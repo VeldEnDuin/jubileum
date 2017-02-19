@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: TOEGANG TOT ZEE
+embargo: true
 insert:
     - banner
 preview: 
