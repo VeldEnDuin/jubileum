@@ -367,8 +367,7 @@
             $calitems.hide();
             $calitems.each(function () {
                 var $this = $(this),
-                    it = $this.data("item"),
-                    date = moment(it.date),
+                    date = moment($this.data("itemdate")),
                     diff = date.diff(now, 'days'),
                     difftext,
                     $cnt = $('[role="countdown"]', $this);
@@ -404,8 +403,7 @@
         // hide items that have passed
         $items.each(function () {
             var $this = $(this),
-                it = $this.data('item'),
-                date = moment(it.date),
+                date = moment($this.data('itemdate')),
                 diff = date.diff(now, "days");
             if (diff < 0) {
                 $this.remove();
