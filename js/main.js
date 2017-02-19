@@ -504,6 +504,12 @@
             // else
             window.localStorage.setItem(STOREKEY, key);
         }
+        function checkEmbargoClear() {
+            if (moment().isAfter(moment(embargo.date))) {
+                return true;
+            } //else
+            return checkStoredEmbargoKey();
+        }
 
         function statusMessage(clz, msg) {
             $statusUnlock.html("<p class='alert " + clz + "'>" + msg + "</p>");
@@ -524,7 +530,7 @@
             $statusUnlock = $('div[role="status"]', $divUnlock);
 
             // todo first check current status (date and key/cookie)
-            if (checkStoredEmbargoKey()) {
+            if (checkEmbargoClear()) {
                 unlockMessage();
             }
 
@@ -544,7 +550,7 @@
         }
 
         // handle actual embargo --> hide/unhide
-        if (!checkStoredEmbargoKey()) {
+        if (!checkEmbargoClear()) {
             embargoHtml += '<div class="col-xs-12 col-centered">';
             embargoHtml += '<p class="text-center">';
             embargoHtml += embargo.text[lang].replace("{date}", moment(embargo.date).format("LL"));
