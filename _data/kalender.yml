@@ -53,7 +53,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-04.jpg
+      - /img/programma/kinderfilm1.jpg
 
   - date: 2017-04-11
     title:
@@ -68,7 +68,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-03.jpg
+      - /img/programma/kinderfilm2.jpg
 
   - date: 2017-04-16
     title:
@@ -83,7 +83,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-02.jpg
+      - /img/programma/paaseierenraap.jpg
 
   - date: 2017-06-03
     title:
@@ -115,7 +115,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-07.jpg
+      - /img/programma/BOCC.jpg
 
   - date: 2017-07-08
     title:
@@ -130,7 +130,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-06.jpg
+      - /img/programma/reuzepicknick.jpg
 
   - date: 2017-07-13
     title:
@@ -145,7 +145,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-05.jpg
+      - /img/programma/knutselen2.jpg
 
   - date: 2017-07-20
     title:
@@ -161,7 +161,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-02.jpg
+      - /img/programma/sneukelfietstocht.jpg
 
   - date: 2017-07-28
     title:
@@ -176,7 +176,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-02.jpg
+      - /img/programma/duoberlingo.jpg
 
   - date: 2017-08-03
     title:
@@ -192,7 +192,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-04.jpg
+      - /img/programma/kinderkoken.jpg
 
   - date: 2017-08-10
     title:
@@ -207,7 +207,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-03.jpg
+      - /img/programma/waterglijbaan.jpg
 
   - date: 2017-08-18
     title:
@@ -223,7 +223,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-02.jpg
+      - /img/programma/quiz.jpg
 
 
   - date: 2017-08-25
@@ -240,5 +240,5 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-02.jpg
+      - /img/programma/dheye.jpg
 
