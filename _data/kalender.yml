@@ -38,7 +38,7 @@ items:
       en: >
 
     images:
-      - /media/img/demo/demo-01.jpg
+      - /img/programma/tentoonstelling.jpg
       
   - date: 2017-04-04
     title:
@@ -100,7 +100,7 @@ items:
       de: >
       en: >
     images:
-      - /media/img/demo/demo-01.jpg
+      - /img/programma/jubileumweekend.jpg
 
   - date: 2017-06-04
     title:
@@ -145,7 +145,7 @@ items:
       de: >
       en: >
     images:
-      - /img/programma/knutselen2.jpg
+      - /img/programma/knutselen.jpg
 
   - date: 2017-07-20
     title:
