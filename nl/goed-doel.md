@@ -42,21 +42,21 @@ Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vri
 
 
 ## Huis aan Zee
-Niet alle kinderen hebben het geluk om op te groeien in een stabiele thuisomgeving. Het Huis aan Zee in De Haan vangt 105 kinderen op die voor tijdelijk of langdurig geplaatst werden door de jeugdrechtbank.
+Niet alle kinderen hebben het geluk om op te groeien in een stabiele thuisomgeving. Het Huis aan Zee in De Haan vangt 105 kinderen op die tijdelijk of langdurig geplaatst werden door de jeugdrechtbank.
 
 - [Website Huis aan Zee](www.devloedlijn.be/huisaanzee)
 - [Facebook Huis aan Zee](www.facebook.com/mpiHuisAanZee)
 
 
 ## Bijdrage Veld & Duin
-- Per reservatie in een verhuurchalet of appartement schenken we € 5 aan het Goede Doel. Per kwartaal wordt het verzamelde bedrag overgeschreven op de rekening.
-- Per verkochte Veld & Duin pin gaat ... € naar het Goede Doel.
+- Per reservatie in een verhuurchalet of appartement schenken we € 5 aan het goede doel. Per kwartaal wordt het verzamelde bedrag overgeschreven op de rekening.
+- Per verkochte Veld & Duin pin gaat € ... naar het goede doel.
 
 ## Warme oproep
-Het zou nog fijner zijn mochten onze kampeerders ook acties op touw zetten!
-Heb je een idee? Kom dan zeker eens overleggen, misschien kunnen we een handje helpen met wat logistieke steun in de vorm van het uitlenen van tafels en stoelen,...
+Het zou fijn zijn mochten onze kampeerders ook acties op touw zetten!
+Heb je een idee? Kom dan zeker eens overleggen, misschien kunnen we een handje helpen met wat logistieke steun in de vorm van het uitlenen van tafels en stoelen, ...
 
-We zetten je actie dan op onze site zodat iederaan kan deelnemen.
+We zetten je actie dan op onze site zodat iedereen kan deelnemen.
 
 
 
