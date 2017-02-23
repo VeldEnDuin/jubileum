@@ -32,7 +32,7 @@ insert:
 ## Zorghuis Oostende
 
 
-![de prente](/img/goeddoel/imagestripgdtest.png) 
+![de prente](../img/goeddoel/imagestripgdtest.png) 
 
 
 Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vrijwilligers zet zich dag en nacht in om hun gasten alle tijd en aandacht te geven die ze nodig hebben tijdens de zwaarste dagen van hun behandeling. Het zorghuis is begin dit jaar verhuisd. De bijdragen zullen gebruikt worden om het huis verder zo comfortabel mogelijk in te richten.
@@ -43,7 +43,7 @@ Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vri
 
 ## Huis aan Zee
 
-![de prente](/img/goeddoel/imagestripgdtest.png) 
+![de prente](../img/goeddoel/imagestripgdtest.png) 
 
 
 Niet alle kinderen hebben het geluk om op te groeien in een stabiele thuisomgeving. Het Huis aan Zee in De Haan vangt 105 kinderen op die tijdelijk of langdurig geplaatst werden door de jeugdrechtbank.
