@@ -35,7 +35,8 @@ insert:
 ![de prente](../img/goeddoel/imagestripgdtest.png) 
 
 
-Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vrijwilligers zet zich dag en nacht in om hun gasten alle tijd en aandacht te geven die ze nodig hebben tijdens de zwaarste dagen van hun behandeling. Het zorghuis is begin dit jaar verhuisd. De bijdragen zullen gebruikt worden om het huis verder zo comfortabel mogelijk in te richten.
+Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vrijwilligers zet zich dag en nacht in om hun gasten alle tijd en aandacht te geven die ze nodig hebben tijdens de zwaarste dagen van hun behandeling.<br>
+Het zorghuis is begin dit jaar verhuisd. De bijdragen zullen gebruikt worden om het huis verder zo comfortabel mogelijk in te richten.
 
 - [Website Zorghuis](www.zorghuisoostende.be)
 - [Facebook Zorghuis](www.facebook.com/ZorghuisO)
@@ -45,8 +46,9 @@ Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vri
 
 ![de prente](../img/goeddoel/imagestripgdtest.png) 
 
-
-Niet alle kinderen hebben het geluk om op te groeien in een stabiele thuisomgeving. Het Huis aan Zee in De Haan vangt 105 kinderen op die tijdelijk of langdurig geplaatst werden door de jeugdrechtbank.
+Niet alle kinderen hebben het geluk om op te groeien in een stabiele thuisomgeving.<br> 
+Huis aan Zee is een internaat dat het hele jaar door tijdelijke en permanente opvang biedt aan meer dan 100 kinderen tussen 2,5 en 21 jaar. Deze kinderen worden daar (meestal door de jeugdrechter) geplaatst omdat ze om diverse redenen thuis niet terecht kunnen.<br>
+Het ingezamelde geld zal gebruikt worden om zomerkampen te organiseren. Zo’n vakantie is een leuk extraatje waarover ze daarna kunnen over vertellen tegen hun vrienden op school. 
 
 - [Website Huis aan Zee](www.devloedlijn.be/huisaanzee)
 - [Facebook Huis aan Zee](www.facebook.com/mpiHuisAanZee)
