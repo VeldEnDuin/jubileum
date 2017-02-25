@@ -1,0 +1,42 @@
+---
+exh_linkcode: exhibit
+---
+{% for m1 in site.data.menu %}
+    {% if m1.linkcode == page.exh_linkcode %}
+        {% assign exh_submenu = m1.submenu %}
+    {% endif %}
+{% endfor %}
+
+<html>
+    <head>
+        <!-- atom feed -->
+        <link rel="alternate" type="application/atom+xml" href="/atomfeed.xml">
+        <!-- redirect default language -->
+        <script type="text/javascript">
+            var hl, hash, ndx,
+                EXHLINKS = {"nl": [], "fr": [], "de": []};
+
+            EXHLINKS.nl[0] = "{{site.data.linkcode[page.exh_linkcode].nl}}";
+            EXHLINKS.fr[0] = "{{site.data.linkcode[page.exh_linkcode].fr}}";
+            EXHLINKS.de[0] = "{{site.data.linkcode[page.exh_linkcode].de}}";
+{% for m2 in exh_submenu %}
+            EXHLINKS.nl[{{forloop.index}}] = "{{site.data.linkcode[m2.linkcode].nl}}";
+            EXHLINKS.fr[{{forloop.index}}] = "{{site.data.linkcode[m2.linkcode].fr}}";
+            EXHLINKS.de[{{forloop.index}}] = "{{site.data.linkcode[m2.linkcode].de}}";
+{% endfor %}
+
+            hl = navigator.language || navigator.userLanguage;
+            hl = hl.slice(0, 2);
+            if (["de", "fr", "nl"].indexOf(hl) === -1) {
+                hl = "nl";
+            }
+
+            hash = window.location.hash;
+            ndx = 0;
+            if (hash) { ndx = Number(hash.slice(1)); }
+            if (isNaN(ndx) || ndx > EXHLINKS.nl.length) { ndx = 0; }
+
+            window.location= "{{ site.baseurl }}" + EXHLINKS[hl][ndx];
+        </script>
+    </head>
+</html>
