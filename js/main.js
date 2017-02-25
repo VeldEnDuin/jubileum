@@ -17,7 +17,109 @@
     function isString(s) {
         return Object.prototype.toString.call(s) === '[object String]';
     }
+    
+    
+    /*
+     * Embargo Implementation
+     * =======================================================================
+     */
+    $(function () {
+        var $divUnlock, $frmUnlock, $statusUnlock,
+            STOREKEY = "veldenduin.jubileum.embargo.shakey",
+            $body = $('body'),
+            embargo = $body.data('embargo'),
+            baseUrl = $('body').data('baseurl'),
+            embargoHtml = "";
+        //function to check status (date and key/cookie)
+        /** Helper function to decide which kind of cache we can use */
+        function hasLocalStorage() {
+            try {
+                return window.hasOwnProperty('localStorage') && window.localStorage !== null;
+            } catch (e) {
+                return false;
+            }
+        }
+        function shaKey(key) {
+            if (isEmpty(key)) { return; }
+            var rusha = new Rusha();
+            return rusha.digest(key);
+        }
+        function isKeyCorrect(key) {
+            return (shaKey(key) === embargo.shakey);
+        }
+        function checkStoredEmbargoKey() {
+            if (!hasLocalStorage()) { return false; }
+            // else
+            var storedKey = window.localStorage.getItem(STOREKEY);
+            return isKeyCorrect(storedKey);
+        }
+        function storeEmbargoKey(key) {
+            if (!hasLocalStorage()) { return false; }
+            // else
+            window.localStorage.setItem(STOREKEY, key);
+        }
+        function checkEmbargoClear() {
+            if (moment().isAfter(moment(embargo.date))) {
+                return true;
+            } //else
+            return checkStoredEmbargoKey();
+        }
 
+        function statusMessage(clz, msg) {
+            $statusUnlock.html("<p class='alert " + clz + "'>" + msg + "</p>");
+        }
+        function unlockMessage() {
+            statusMessage("alert-success", "Embargo is succesvol opgehoffen !");
+            $frmUnlock.hide();
+        }
+        function errorMessage() {
+            statusMessage("alert-danger", "Helaas, foute code !");
+        }
+
+        // handle form
+        $divUnlock = $("#embargo_unlock");
+        if ($divUnlock.length > 0) {
+
+            $frmUnlock = $('form[role="unlock"]', $divUnlock);
+            $statusUnlock = $('div[role="status"]', $divUnlock);
+
+            // todo first check current status (date and key/cookie)
+            if (checkEmbargoClear()) {
+                unlockMessage();
+            }
+
+            // if embargo is on:
+            $frmUnlock.submit(function () {
+                var $code = $('#code', $frmUnlock),
+                    code = $code.val();
+                if (isKeyCorrect(code)) {
+                    unlockMessage();
+                    storeEmbargoKey(code);
+                } else {
+                    errorMessage();
+                }
+                return false;
+            });
+
+        }
+
+        // handle actual embargo --> hide/unhide
+        if (!checkEmbargoClear()) {
+            embargoHtml += '<div class="col-xs-12 col-centered">';
+            embargoHtml += '<div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-6 col-md-push-3">';
+            embargoHtml += '<p class="text-center">';
+            embargoHtml += embargo.text[lang].replace("{date}", moment(embargo.date).format("LL"));
+            embargoHtml += '<a class="notd" href="' + baseUrl + '/embargo.html">&nbsp;</a></p>';
+            embargoHtml += '<img class="img img-rounded img-responsive" src="' + baseUrl + embargo.image + '" >';
+            embargoHtml += '</div>';
+            embargoHtml += '</div>';
+
+            $(".embargo-locked").html(embargoHtml);
+            $(".embargo-hidden").hide();
+        }
+    });
+    
+    
     /*
      * geo stuff
      * =======================================================================
@@ -464,105 +566,33 @@
         });
         
     });
-
+    
     /*
-     * Embargo Implmentation
+     * Game Zone Control
      * =======================================================================
      */
     $(function () {
-        var $divUnlock, $frmUnlock, $statusUnlock,
-            STOREKEY = "veldenduin.jubileum.embargo.shakey",
-            $body = $('body'),
-            embargo = $body.data('embargo'),
-            baseUrl = $('body').data('baseurl'),
-            embargoHtml = "";
-        //function to check status (date and key/cookie)
-        /** Helper function to decide which kind of cache we can use */
-        function hasLocalStorage() {
-            try {
-                return window.hasOwnProperty('localStorage') && window.localStorage !== null;
-            } catch (e) {
-                return false;
-            }
+        var $gamezone = $('[role="game-zone"]'), $gamelinks, template;
+        if ($gamezone.length < 1) {
+            return; // nothing to do here.
         }
-        function shaKey(key) {
-            if (isEmpty(key)) { return; }
-            var rusha = new Rusha();
-            return rusha.digest(key);
+        
+        template = $('template', $gamezone).html();
+        
+        function showGame(id) {
+            window.location.hash = "#" + id;
+            $gamezone.html(template.replace("{gameid}", id));
+            $gamezone.show(3000);
+            return false;
         }
-        function isKeyCorrect(key) {
-            return (shaKey(key) === embargo.shakey);
-        }
-        function checkStoredEmbargoKey() {
-            if (!hasLocalStorage()) { return false; }
-            // else
-            var storedKey = window.localStorage.getItem(STOREKEY);
-            return isKeyCorrect(storedKey);
-        }
-        function storeEmbargoKey(key) {
-            if (!hasLocalStorage()) { return false; }
-            // else
-            window.localStorage.setItem(STOREKEY, key);
-        }
-        function checkEmbargoClear() {
-            if (moment().isAfter(moment(embargo.date))) {
-                return true;
-            } //else
-            return checkStoredEmbargoKey();
-        }
-
-        function statusMessage(clz, msg) {
-            $statusUnlock.html("<p class='alert " + clz + "'>" + msg + "</p>");
-        }
-        function unlockMessage() {
-            statusMessage("alert-success", "Embargo is succesvol opgehoffen !");
-            $frmUnlock.hide();
-        }
-        function errorMessage() {
-            statusMessage("alert-danger", "Helaas, foute code !");
-        }
-
-        // handle form
-        $divUnlock = $("#embargo_unlock");
-        if ($divUnlock.length > 0) {
-
-            $frmUnlock = $('form[role="unlock"]', $divUnlock);
-            $statusUnlock = $('div[role="status"]', $divUnlock);
-
-            // todo first check current status (date and key/cookie)
-            if (checkEmbargoClear()) {
-                unlockMessage();
-            }
-
-            // if embargo is on:
-            $frmUnlock.submit(function () {
-                var $code = $('#code', $frmUnlock),
-                    code = $code.val();
-                if (isKeyCorrect(code)) {
-                    unlockMessage();
-                    storeEmbargoKey(code);
-                } else {
-                    errorMessage();
-                }
-                return false;
-            });
-
-        }
-
-        // handle actual embargo --> hide/unhide
-        if (!checkEmbargoClear()) {
-            embargoHtml += '<div class="col-xs-12 col-centered">';
-            embargoHtml += '<p class="text-center">';
-            embargoHtml += embargo.text[lang].replace("{date}", moment(embargo.date).format("LL"));
-            embargoHtml += '<a class="notd" href="' + baseUrl + '/embargo.html">&nbsp;</a></p>';
-            embargoHtml += '<div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-6 col-md-push-3">';
-            embargoHtml += '<img class="img img-rounded img-responsive" src="' + baseUrl + embargo.image + '" >';
-            embargoHtml += '</div>';
-            embargoHtml += '</div>';
-
-            $(".embargo-locked").html(embargoHtml);
-            $(".embargo-hidden").hide();
-        }
+        
+        $gamelinks = $('[role="game-link"]');
+        $gamelinks.click(function () {
+            var $this = $(this),
+                gameid = $this.data('gameid');
+            showGame(gameid);
+            return false;
+        });
     });
 
 }(window.jQuery));

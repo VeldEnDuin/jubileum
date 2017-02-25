@@ -1,16 +1,23 @@
 {% include layout-prelude.html %}
-{% for gm in site.data.games %}
-<div class="col-xs-6">
 
-<h2>{{gm.name[pgLang]}}</h2>
-<a class="notd"  target="_blank" href="//scratch.mit.edu/projects/{{gm.id}}#fullscreen">
-  <img class="img img-responsive img-rounded" src="{{site.baseurl}}{{gm.img}}">
-  {% comment %}
-  <iframe allowtransparency="true"
-      width="600" height="500"
-      src="//scratch.mit.edu/projects/embed/{{gm.id}}/?autostart=false"
-      frameborder="0" allowfullscreen></iframe>
-  {% endcomment %}
-</a>
+<div role="game-zone" class="col-xs-9" style="display: none;">
+  <template>
+    <div class="embed-container" style="display: hidden;">
+      <iframe allowtransparency="true" width="100%" height="100%" src="//scratch.mit.edu/projects/embed/{gameid}/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </template>
+</div>
+    
+{% for gm in site.data.games %}
+<div class="col-xs-3">
+  <h2 class="text-centered">{{gm.name[pgLang]}}</h2>
+  <a class="notd" role="game-link" href="#{{gm.id}}" data-gameid="{{gm.id}}">
+    <img class="img img-responsive img-rounded" src="{{site.baseurl}}{{gm.img}}">
+  </a>
 </div>
 {% endfor %}
+
+
+<div class="col-xs-12">
+  <p>&nbsp;</p>
+</div>
