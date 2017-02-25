@@ -1341,6 +1341,7 @@ a.vd-barelink, a.vd-barelink:hover, a.vd-barelink:active, a.vd-barelink:link, a.
     top: 10px;
     right: 10px;
     z-index:  11;
+    background-image: url('../img/style/btn_k4_background.svg');
 }
 
 
