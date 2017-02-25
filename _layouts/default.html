@@ -65,6 +65,8 @@ tcs: [1,2,3,5,6,9]
       <div class="vd-banner hidden-sm hidden-xs {% if page.embargo %}embargo-hidden{% endif %}"
           style="background-image: url('{{site.baseurl}}{{bannerimg}}'); background-position: center center; background-size: cover;"
       ></div>
+    {% else %}
+      <div class="vd-no-banner">&nbsp;</div>
     {% endif %}
 
     {% if page.media.size > 0%}

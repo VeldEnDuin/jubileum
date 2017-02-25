@@ -103,6 +103,9 @@ body:before {
     height: 450px;
     margin-bottom:  1em;
 }
+.vd-no-banner {
+    width: 100%
+}
 .vd-banner:after {
     content: "";
     width: 100%;
@@ -112,6 +115,13 @@ body:before {
        -moz-box-shadow: 0px 0px 12px 2px #4f5137;
             box-shadow: 0px 0px 12px 2px #4f5137;
 }
+.vd-no-banner:after {
+    content: "";
+    width: 100%;
+    display: block;
+    margin-bottom: 2em;    
+}
+
 .vd-callout {
     background-image: url('/img/style/callout-background.svg');
     background-repeat: no-repeat;
@@ -1840,9 +1850,6 @@ img.img-font {
     padding-bottom: 1em;
 }
 
-.form-container {
-    margin-top: 2em;
-}
 /* making responsive contained iframes and embedded stuiff */
 .embed-container {
     position: relative;
