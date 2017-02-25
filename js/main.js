@@ -307,6 +307,9 @@
                 $lst  = $("*[role='vctrl-list']", $grp);
                 $scroll = $lst.parent();
                 $items = $("*[role='vctrl-item']", $lst);
+                if ($items.length <= 1) {
+                    return; // when in embargo all items got removed, we can skip here...
+                }
                 $prev = $("*[role='vctrl-prev']", $grp);
                 $next = $("*[role='vctrl-next']", $grp);
                 lstCount  = $items.length;
