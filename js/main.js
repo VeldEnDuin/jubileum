@@ -361,6 +361,7 @@
         (function () {
             var $mediaview, $btnOff, $btnPrev, $btnNext, $ctnt, initTop,
                 $medialink, $embedlink,
+                baseUrl = $('body').data('baseurl'),
                 medias = [], showNdx = 0, player = null, ytvideo = null;
             function showView() {
                 $mediaview.animate({"top": 0}, 500);
@@ -420,7 +421,7 @@
                     href = $el.attr('href'),
                     anchor = href.slice(1),
                     index = Number(anchor.split('-')[1]),
-                    iconlink = medias[index].icon;
+                    iconlink = baseUrl + medias[index].icon;
 
                 $(this).append("<img class='img-font' src='" + iconlink + "'>");
             });
