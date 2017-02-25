@@ -21,7 +21,7 @@ nl:
         ago: "% dagen geleden."
         still: "Nog % dagen tot"
         today: "Vandaag"
-
+        formwait: Inschrijvings-formulier wordt geladen... (even geduld)
 
     gcse:
         use: Geef een zoekterm in!

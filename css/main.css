@@ -64,8 +64,6 @@ body:before {
     font-size: 1.15em;
 }
 
-
-
 /* ===================================================================================
  * styling menu and header
  *   -------------------------------------------------------------------------------
@@ -1840,4 +1838,23 @@ img.img-font {
 .embargo-locked {
     padding-top: 3em;
     padding-bottom: 1em;
+}
+
+.form-container {
+    margin-top: 2em;
+}
+/* making responsive contained iframes and embedded stuiff */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
