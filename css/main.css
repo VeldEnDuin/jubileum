@@ -154,6 +154,22 @@ header.spaced {
     background-image: url('/img/style/btn_dark_background.svg');
 }
 
+.bg-k1 .btn-lg.btn-success {
+    background-image: url('../img/style/btn_k5_background.svg');
+}
+.bg-k2 .btn-lg.btn-success {
+    background-image: url('../img/style/btn_k4_background.svg');
+}
+.bg-k3 .btn-lg.btn-success {
+    background-image: url('../img/style/btn_k1_background.svg');
+}
+.bg-k4 .btn-lg.btn-success {
+    background-image: url('../img/style/btn_k3_background.svg');
+}
+.bg-k5 .btn-lg.btn-success {
+    background-image: url('../img/style/btn_k2_background.svg');
+}
+
 /*
  *     ~~~~~~~~~  responsive navbar ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
