@@ -361,13 +361,16 @@
         (function () {
             var $mediaview, $btnOff, $btnPrev, $btnNext, $ctnt, initTop,
                 $medialink, $embedlink,
-                medias = [], showNdx = 0, player = null;
+                medias = [], showNdx = 0, player = null, ytvideo = null;
             function showView() {
                 $mediaview.animate({"top": 0}, 500);
             }
             function pauseCurrentMedia() {
                 if (player !== null) {
                     player.pause();
+                }
+                if (ytvideo !== null) {
+                    ytvideo.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
                 }
             }
             function hideView() {
@@ -431,6 +434,8 @@
                     player = $("video", $ctnt).get(0);
                 } else if (mediaToShow.type === 'audio') {
                     player = $("audio", $ctnt).get(0);
+                } else if (mediaToShow.type === 'youtube') {
+                    ytvideo = $("iframe.ytvideo", $ctnt).get(0).contentWindow;
                 } else {
                     player = null;
                 }

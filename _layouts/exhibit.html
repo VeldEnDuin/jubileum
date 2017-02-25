@@ -95,7 +95,7 @@ layout: default
             </div>
     {% elsif media.type == 'youtube' %}
             <div class='embed-container'>
-              <iframe src='http://www.youtube.com/embed/{{media.code}}' frameborder='0' allowfullscreen></iframe>
+              <iframe class="ytvideo" src='http://www.youtube.com/embed/{{media.code}}?enablejsapi=1' frameborder='0' allowfullscreen></iframe>
             </div>
     {% else %}
             <div class="col-xs-12 col-centered">
