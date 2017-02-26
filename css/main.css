@@ -1865,3 +1865,34 @@ img.img-font {
     width: 100%;
     height: 100%;
 }
+
+
+/* sticky footer code */
+html, body {
+    height: 100%;
+}
+
+#sfc-wrap {
+    min-height: 100%;
+}
+
+#sfc-main {
+    overflow:auto;
+	padding-bottom: 50px; /* must be same height as the footer */
+}  
+
+#sfc-footer {
+    position: relative;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
+	clear:both;
+} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
