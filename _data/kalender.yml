@@ -92,9 +92,12 @@ items:
       en: "todo"
     description:
       nl: >
-          - hele dag: Belgian Oldtimer Caravan Club op onze trekkersweide </br>
-          - 10 u. - 14 u. - 16 u.: rondleiding met gids (vooraf inschrijven) </br>
-          - 19 u. - 02 u.: feest met foodtrucks, live bands en ambiance </br>
+          Programma:
+          <ul>
+            <li>hele dag: Belgian Oldtimer Caravan Club op onze trekkersweide    </li>
+            <li>10 u. - 14 u. - 16 u.: rondleiding met gids (vooraf inschrijven) </li>
+            <li>19 u. - 02 u.: feest met foodtrucks, live bands en ambiance      </li>
+          </ul>
       fr: >
       de: >
       en: >

@@ -436,16 +436,7 @@ table.table>tbody>tr>td:first-child
     height: 100% !important;
     width: 34px;
 }
-/*
-#EDE2D2	achtergrond
-#fed120	K1 (hue 48)
-#3aa642	K2 (hue 124)
-#159499	K3 (hue 182)
-#ed7f2c	K4 (hue 26)
-#bc3c20	K5 (hue 11)
-#474B44	tekst
-sepia #714214 (hue 30)
-*/
+ 
 .timeline .timeline-line {
     margin: 0 auto;
     height: 100% !important;
@@ -599,15 +590,7 @@ svg.tagcloud {
 .vd-group-content ul
 , .vd-select-content ul
 {
-    list-style: none;
-    font: glyphicon;
-}
-
-.vd-group-content ul li:before
-, .vd-select-content ul li:before {
-    font-family: 'Glyphicons Halflings';
-    content: '\e013  ';
-    color: rgb(10, 88, 10);
+    margin-left: -1em;
 }
 
 .vd-select-item-img  {
