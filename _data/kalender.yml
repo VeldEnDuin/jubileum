@@ -77,7 +77,10 @@ items:
       en: "todo"
     description:
       nl: >
-          Probeer met je team zoveel mogelijk verstopte paaseieren te vinden. Via allerhande opdrachten kun je nog extra eieren winnen. </br> - Start: 10.30 u.
+          Probeer met je team zoveel mogelijk verstopte paaseieren te vinden. Via allerhande opdrachten kun je nog extra eieren winnen. </br>
+          <ul>
+          <li>Start: 10.30 u.  </li>
+          </ul>
       fr: >
       de: >
       en: >
@@ -128,8 +131,10 @@ items:
     description:
       nl: >
           Vandaag is het exact 50 jaar geleden dat Veld & Duin zijn eerste vergunning ontving. We vieren dit samen aan een superlange picknicktafel. Iedereen brengt eten en drank mee en we proeven van elkaars lekkernijen. Veld & Duin zorgt voor muziek, tafelanimatie en een dessertje. </br>
-          - start: 12 u. </br>
-          - vooraf inschrijven aan de receptie
+          <ul>
+            <li>start: 12 u.                       </li>
+            <li>vooraf inschrijven aan de receptie </li>
+          </ul>
       fr: >
       de: >
       en: >
@@ -160,9 +165,11 @@ items:
     description:
       nl: >
           We gaan de sportieve toer op met een een fietstocht van 37 km met onderweg een aantal stops met versnaperingen. </br>
-          - vertrek tussen 13.30 en 14.30 u. </br>
-          - vooraf inschrijven (individuele fietstocht) </br>
-          - € 5 / persoon
+          <ul>
+            <li>vertrek tussen 13.30 en 14.30 u.              </li>
+            <li>vooraf inschrijven - individuele fietstocht   </li>
+            <li>€ 5 / persoon                                 </li>
+          </ul>
       fr: >
       de: >
       en: >
@@ -178,7 +185,9 @@ items:
     description:
       nl: >
           Een komische circusvoorstelling over speelsheid, kameraadschap, verdeeldheid en ook een beetje over het leven. </br>
-          - start: 19 u.
+          <ul>
+            <li>start: 19 u.   </li>
+          </ul>
       fr: >
       de: >
       en: >
@@ -194,10 +203,12 @@ items:
     description:
       nl: >
           Een jubileumjaar vraagt om een stijlvolle receptie met lekkere hapjes. Kooksessie samen met de kinderen. Na afloop  zijn de (groot)ouders welkom om te komen proeven. </br>
-          - van 10 tot 12 u. </br>
-          - vooraf inschrijven </br>
-          - € 3 / kind </br>
-          - max 30 deelnemers
+          <ul>
+            <li>van 10 tot 12 u.   </li>
+            <li>vooraf inschrijven </li>
+            <li>€ 3 / kind         </li>
+            <li>max 30 deelnemers  </li>
+          </ul>
       fr: >
       de: >
       en: >
@@ -228,8 +239,10 @@ items:
     description:
       nl: >
           Maak ploegjes van 4-5 personen en schrijf je in voor deze unieke campingquiz (max 10 ploegen). Met een mix van camping-kust-jubileum en andere vragen en opdrachten is de quiz geschikt voor iedereen. Supporters welkom. </br>
-          - start: 19 u. </br>
-          - vooraf inschrijven aan de receptie
+          <ul>
+            <li>start: 19 u.                       </li>
+            <li>vooraf inschrijven aan de receptie </li>
+          </ul>
       fr: >
       de: >
       en: >
@@ -246,9 +259,11 @@ items:
     description:
       nl: >
           Natuurgebied d'Heye behoort tot de oudste duinformaties van onze kust. Ontdek alle weetjes over dit unieke gebied met een gids. </br>
-          - van 10 - 12 u. </br>
-          - vooraf inschrijven aan de receptie </br>
-          - max 25 deelnemers
+          <ul>
+            <li>van 10 - 12 u.                     </li>
+            <li>vooraf inschrijven aan de receptie </li>
+            <li>max 25 deelnemers                  </li>
+          <ul>
       fr: >
       de: >
       en: >
