@@ -48,7 +48,7 @@ Het zorghuis is begin dit jaar verhuisd. De bijdragen zullen gebruikt worden om 
 
 Niet alle kinderen hebben het geluk om op te groeien in een stabiele thuisomgeving.<br> 
 Huis aan Zee is een internaat dat het hele jaar door tijdelijke en permanente opvang biedt aan meer dan 100 kinderen tussen 2,5 en 21 jaar. Deze kinderen worden daar (meestal door de jeugdrechter) geplaatst omdat ze om diverse redenen thuis niet terecht kunnen.<br>
-Het ingezamelde geld zal gebruikt worden om zomerkampen te organiseren. Zo’n vakantie is een leuk extraatje waarover ze daarna kunnen over vertellen tegen hun vrienden op school. 
+Het ingezamelde geld zal gebruikt worden om zomerkampen te organiseren. Zo’n vakantie is een leuk extraatje waarover ze nadien kunnen vertellen tegen hun vrienden op school. 
 
 - [Website Huis aan Zee](www.devloedlijn.be/huisaanzee)
 - [Facebook Huis aan Zee](www.facebook.com/mpiHuisAanZee)
