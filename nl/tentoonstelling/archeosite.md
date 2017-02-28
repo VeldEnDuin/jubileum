@@ -13,10 +13,6 @@ preview:
 media:
     - type: youtube
       code: adg9FS5ZsOs
-      view: /media/video/duikers-pop.jpg
-      title: The Making of...
-    - type: youtube
-      code: adg9FS5ZsOs
       view: /media/video/duikers-sylvie.jpg
       title: The Making of...
 
