@@ -474,6 +474,12 @@
             var $jubcal, $calitems, firstOn = false, now = moment();
             $jubcal = $("#jub-cal");
 
+            //what if the translations are not there?
+            if (!TRANSL.dict) {TRANSL.dict             = {}; }
+            if (!TRANSL.dict.ago) {TRANSL.dict.ago     = "% days ago"; }
+            if (!TRANSL.dict.today) {TRANSL.dict.today = "Today!"; }
+            if (!TRANSL.dict.still) {TRANSL.dict.still = "Only % days"; }
+            
             if ($jubcal.length < 1) { return; }
             //else
             $calitems = $('[role="item"]', $jubcal);
@@ -482,7 +488,7 @@
                 var $this = $(this),
                     date = moment($this.data("itemdate")),
                     diff = date.diff(now, 'days'),
-                    difftext,
+                    difftext = diff,
                     $cnt = $('[role="countdown"]', $this);
                 if (diff === 0) {
                     difftext = TRANSL.dict.today;
