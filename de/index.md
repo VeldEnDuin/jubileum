@@ -7,11 +7,11 @@ remove:
 
 ---
 
-# Jubileum
+# Jubiläum
 
-Veld & Duin mag dit jaar 50 kaarsjes uitblazen en dat gaan we samen met onze kampeerders uitgebreid vieren!
+Veld & Duin darf dieses Jahr 50 Kerzen ausblasen und das wollen wir gemeinsam mit unseren Campern ausführlich feiern!
 
-Lees op deze jubileumsite alles over ons feestprogramma, de unieke tentoonstelling die we organiseren en de goede doelen die we steunen.
+Lesen Sie auf dieser Jubiläums-Website alles über unser Festprogramm, unsere einzigartige Ausstellung und die guten Zwecke, die wir unterstützen.
 
 
 

@@ -20,11 +20,11 @@ jubileum:
 facts:
     nl: "/nl/index.html#feitjes"
     fr: "/fr/index.html#facts"
-    de: "/de/index.html#facts"
+    de: "/de/index.html#fakten"
 facts_include:
     nl: /nl/feitjes.html
     fr: /fr/feitjes.html
-    de: /de/tatsachen.html
+    de: /de/fakten.html
 
 exhibit:
     nl: "/nl/index.html#tentoonstelling"

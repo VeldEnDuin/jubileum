@@ -2,7 +2,11 @@
   img: /img/game/memo-screen.png
   name:
     nl: Memory
+    fr:
+    de: Memory
 - id: 145500842
   img: /img/game/shuffle-screen.png
   name:
     nl: Schuifpuzzel
+    fr:
+    de: Schiebepuzzle

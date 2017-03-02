@@ -3,7 +3,7 @@
   menutekst:
     nl: Jubileum
     fr: Anniversaire
-    de: Jahrestag
+    de: Jubiläum
     en: Anniversary
 
 - linkcode: facts
@@ -11,7 +11,7 @@
   menutekst:
     nl:  Fun Facts
     fr:  Faits Amusants
-    de:  Spaß Fakten
+    de:  Fakten
     en:  Fun Facts
 
 # reminder:
@@ -57,5 +57,5 @@
   menutekst:
     nl: Goede Doel
     fr: Charité
-    de: Nächstenliebe
+    de: Guter Zweck
     en: Charity

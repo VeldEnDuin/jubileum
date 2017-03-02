@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Goed Doel
+title: Guter Zweck
 
 preview:
     text:
-        - "In ons jubileumjaar steunen we 2 goede doelen: Zorghuis Oostende en Huis aan Zee."
-        - "Stort uw bijdrage op rekening 'Zorghuis - Huis aan Zee'"
+        - "In unserem Jubiläumsjahr unterstützen wir 2 gute Zwecke: Zorghuis Oostende und Huis aan Zee."
+        - "Überweisen Sie Ihren Beitrag auf das Konto 'Zorghuis - Huis aan Zee'"
         - "IBAN: BE79 7340 4345 8433 - BIC: KREDBEBB"
     facts:
-        - unit: "goede doelen"
+        - unit: "gute Zwecke"
           amount: "2"
           icon: "/img/svg/style/icon-amor.svg"
-        - unit: "ingezameld op 14/01/2017"
+        - unit: "Gesammelt am 14.01.2017"
           amount: "€ 0"
           icon: "/img/svg/style/icon-euro.svg"
-        - unit: "acties"
+        - unit: "Aktionen"
           amount: "2"
           icon: "/img/svg/style/icon-zandk.svg"
 
@@ -27,7 +27,7 @@ insert:
     
 ---
 
-# Goede doelen
+# Gute Zwecke
 
 ## Zorghuis Oostende
 
@@ -35,8 +35,8 @@ insert:
 ![de prente](../img/goeddoel/imagestripgdtest.png) 
 
 
-Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vrijwilligers zet zich dag en nacht in om hun gasten alle tijd en aandacht te geven die ze nodig hebben tijdens de zwaarste dagen van hun behandeling.<br>
-Het zorghuis is begin dit jaar verhuisd. De bijdragen zullen gebruikt worden om het huis verder zo comfortabel mogelijk in te richten.
+Das Pflegeheim „Zorghuis Oostende“ ist ein Fast-wie-Zuhause-Heim für Krebspatienten. Ein Team ehrenamtlicher Mitarbeiter setzt sich Tag und Nacht dafür ein, den Gästen alle Zeit und Aufmerksamkeit zu widmen, die sie an den schwersten Tagen ihrer Behandlung brauchen.<br>
+Das Pflegeheim ist Anfang dieses Jahres umgezogen. Die Beiträge werden verwendet, um das Heim so komfortabel wie möglich weiter einzurichten.
 
 - [Website Zorghuis](www.zorghuisoostende.be)
 - [Facebook Zorghuis](www.facebook.com/ZorghuisO)
@@ -46,23 +46,23 @@ Het zorghuis is begin dit jaar verhuisd. De bijdragen zullen gebruikt worden om 
 
 ![de prente](../img/goeddoel/imagestripgdtest.png) 
 
-Niet alle kinderen hebben het geluk om op te groeien in een stabiele thuisomgeving.<br> 
-Huis aan Zee is een internaat dat het hele jaar door tijdelijke en permanente opvang biedt aan meer dan 100 kinderen tussen 2,5 en 21 jaar. Deze kinderen worden daar (meestal door de jeugdrechter) geplaatst omdat ze om diverse redenen thuis niet terecht kunnen.<br>
-Het ingezamelde geld zal gebruikt worden om zomerkampen te organiseren. Zo’n vakantie is een leuk extraatje waarover ze nadien kunnen vertellen tegen hun vrienden op school. 
+Nicht alle Kinder haben das Glück, in einer stabilen häuslichen Umgebung aufzuwachsen.<br> 
+Huis aan Zee ist ein Internat, in dem mehr als 100 Kinder zwischen 2,5 und 21 Jahren vorübergehend oder dauerhaft untergebracht werden können. Diese Kinder werden dorthin verwiesen (meistens vom Jugendrichter), weil sie aus verschiedenen Gründen nicht zu Hause wohnen können.<br>
+Das eingesammelte Geld wird verwendet, um Sommerlager zu organisieren. Diese Ferien sind ein schönes Extra, worüber die Internatskinder anschließend ihren Schulkameraden berichten können. 
 
 - [Website Huis aan Zee](www.devloedlijn.be/huisaanzee)
 - [Facebook Huis aan Zee](www.facebook.com/mpiHuisAanZee)
 
 
-## Bijdrage Veld & Duin
-- Per reservatie in een verhuurchalet of appartement schenken we € 5 aan het goede doel. Per kwartaal wordt het verzamelde bedrag overgeschreven op de rekening.
-- Per verkochte Veld & Duin pin gaat € ... naar het goede doel.
+## Beitrag Veld & Duin
+- Für jede Buchung in einem Mietchalet oder Appartement spenden wir € 5 für den guten Zweck. Pro Quartal wird der gesammelte Betrag auf das Konto überwiesen.
+- Pro verkauften Anstecker von Veld & Duin gehen € ... an den guten Zweck.
 
-## Warme oproep
-Het zou fijn zijn mochten onze kampeerders ook acties op touw zetten!
-Heb je een idee? Kom dan zeker eens overleggen, misschien kunnen we een handje helpen met wat logistieke steun in de vorm van het uitlenen van tafels en stoelen, ...
+## Eindringlicher Appell
+Es wäre schön, wenn auch unsere Camper Aktionen organisieren könnten!
+Haben Sie eine Idee? Dann erwarten wir Sie gern, um Ihren Vorschlag zu besprechen. Vielleicht können wir Ihnen etwas helfen und Sie logistisch unterstützen, indem wir Ihnen beispielsweise Tische, Stühle usw. ausleihen.
 
-We zetten je actie dan op onze site zodat iedereen kan deelnemen.
+Wir stellen Ihre Aktion dann auf unsere Website, damit jeder teilnehmen kann.
 
 
 
