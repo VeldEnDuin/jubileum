@@ -37,6 +37,14 @@ fr:
         imgloading: images en cours de chargement...
         readmore: Lire plus...
         close: fermer
+        top: haut
+        next: Suivant
+        outloud: Écoutez
+        mediatitle: Médias
+        ago: "il y a % jours."
+        still: "encore % jours"
+        today: "Aujourd'hui"
+        formwait: Formulaire d'inscription en cours de chargement... (veuillez patienter)
 
     gcse:
         use: Veuillez introduire un mot clé!
@@ -52,6 +60,14 @@ de:
         imgloading: Bilder werden geladen...
         readmore: Lesen Sie mehr...
         close: Schließen
+        top: oben
+        next: folgende
+        outloud: Hören
+        mediatitle: Media
+        ago: "% Tage her."
+        still: "noch % Tage"
+        today: "heute"
+        formwait: Anmeldungsformular wird geladen... (bitte warten)
 
     gcse:
         use: Geben Sie einen Suchbegriff ein!
