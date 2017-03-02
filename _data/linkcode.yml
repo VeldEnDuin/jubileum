@@ -18,53 +18,85 @@ jubileum:
     en: /en/index.html
 
 facts:
-    nl: "/nl/index.html#facts"
+    nl: "/nl/index.html#feitjes"
+    fr: "/fr/index.html#facts"
+    de: "/de/index.html#facts"
 facts_include:
     nl: /nl/feitjes.html
+    fr: /fr/feitjes.html
+    de: /de/tatsachen.html
 
 exhibit:
     nl: "/nl/index.html#tentoonstelling"
     fr: "/fr/index.html#exposition"
-    de: "/de/index.html#Ausstellung"
+    de: "/de/index.html#ausstellung"
     en: "/en/index.html#exhibition"
 
 games:
     nl: "/nl/index.html#spelletjes"
+    fr: "/fr/index.html#jeux"
+    de: "/de/index.html#spiele"
 games_index:
     nl: /nl/spelletjes.html
+    fr: /fr/jeux.html
+    de: /de/spiele.html
 
 program:
-    nl: "/nl/index.html#program"
+    nl: "/nl/index.html#kalender"
+    fr: "/fr/index.html#calendrier"
+    de: "/de/index.html#kalender"
 program_index:
     nl: /nl/kalender.html
+    fr: /fr/calendrier.html
+    de: /de/kalender.html
 
 
 goeddoel:
     nl: "/nl/index.html#goeddoel"
+    fr: "/fr/index.html#charite"
+    de: "/de/index.html#guterzweck"
 goeddoel_index:
     nl: /nl/goed-doel.html
+    fr: /fr/charite.html
+    de: /de/guter-zweck.html
 
 
 exhibit_crash:
     nl: /nl/tentoonstelling/crash.html
+    fr: /fr/exposition/crash.html
+    de: /de/ausstellung/crash.html
 
 exhibit_lostfound:
     nl: /nl/tentoonstelling/verloren-voorwerpen.html
+    fr: /fr/exposition/verloren-voorwerpen.html
+    de: /de/ausstellung/verloren-voorwerpen.html
 
 exhibit_cinema:
     nl: /nl/tentoonstelling/cinema.html
+    fr: /fr/exposition/cinema.html
+    de: /de/ausstellung/cinema.html
 
 exhibit_archeo:
     nl: /nl/tentoonstelling/archeosite.html
+    fr: /fr/exposition/archeosite.html
+    de: /de/ausstellung/archeosite.html
 
 exhibit_haag:
     nl: /nl/tentoonstelling/klaaghaag.html
+    fr: /fr/exposition/klaaghaag.html
+    de: /de/ausstellung/klaaghaag.html
 
 exhibit_tijdpaal:
     nl: /nl/tentoonstelling/tijd-mijl-paal.html
+    fr: /fr/exposition/tijd-mijl-paal.html
+    de: /de/ausstellung/tijd-mijl-paal.html
 
 exhibit_toonboom:
     nl: /nl/tentoonstelling/tentoonstellingsboom.html
+    fr: /fr/exposition/tentoonstellingsboom.html
+    de: /de/ausstellung/tentoonstellingsboom.html
 
 exhibit_korentelcel:
     nl: /nl/tentoonstelling/korenveld-telefooncel.html
+    fr: /fr/exposition/korenveld-telefooncel.html
+    de: /de/ausstellung/korenveld-telefooncel.html
