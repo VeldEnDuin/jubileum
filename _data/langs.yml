@@ -74,17 +74,3 @@ de:
         wait: Suchauftrag läuft...
         empty: Leider kein Ergebnis für diesen Suchbegriff gefunden.
 
-en:
-    label: EN
-    directions: ["N", "NO", "O", "ZO", "Z", "ZW", "W", "NW"]
-    months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-    dict:
-        all: all
-        imgloading: Images are being loaded...
-        readmore: Read more
-        close: close
-
-    gcse:
-        use: Keyword!
-        wait: Search request...
-        empty: Unfortunately, no results found...
