@@ -26,7 +26,7 @@ items:
     title:
       nl: "Start tentoonstelling 'De wereld als camping'"
       fr: "todo"
-      de: "todo"
+      de: "Anfang Ausstellung 'Die Welt als Campingplatz'"
       en: "todo"
     description:
       nl: >
@@ -34,6 +34,8 @@ items:
           naar hoe het (n)ooit is geweest
       fr: >
       de: >
+          Eine spielerische Entdeckungs-Weltreise zu 50 Jahren Campingplatz, </br>
+          wo das Unvorstellbare möglich wird
       en: >
 
     images:
@@ -43,13 +45,14 @@ items:
     title:
       nl: "Kinderfilm"
       fr: "todo"
-      de: "todo"
+      de: "Kinderfilm"
       en: "todo"
     description:
       nl: >
           Kom om 17 u. naar ons cinemamuseum en geniet van een leuke film.
       fr: >
       de: >
+          Komm um 17 Uhr zu unserem Kinomuseum und genieß einen tollen Film.
       en: >
     images:
       - /img/programma/kinderfilm1.jpg
@@ -58,13 +61,14 @@ items:
     title:
       nl: "Kinderfilm"
       fr: "todo"
-      de: "todo"
+      de: "Kinderfilm"
       en: "todo"
     description:
       nl: >
           In ons cinemamuseum spelen we opnieuw een leuke kinderfilm om 17 u. Kom jij ook?
       fr: >
       de: >
+          In unserem Kinomuseum spielen wir aufs Neue einen tollen Kinderfilm um 17 Uhr. Kommst du auch?
       en: >
     images:
       - /img/programma/kinderfilm2.jpg
@@ -73,7 +77,7 @@ items:
     title:
       nl: "Paaseierenraap"
       fr: "todo"
-      de: "todo"
+      de: "Ostereiersuche"
       en: "todo"
     description:
       nl: >
@@ -83,6 +87,11 @@ items:
           </ul>
       fr: >
       de: >
+          Versuche, mit deinem Team so viele versteckte Eier wie möglich zu sammeln! </br>
+          <ul>
+          <li>Start: 10.30 Uhr  </li>
+          </ul>
+
       en: >
     images:
       - /img/programma/paaseierenraap.jpg
@@ -91,7 +100,7 @@ items:
     title:
       nl: "Jubileumweekend"
       fr: "todo"
-      de: "todo"
+      de: "Jubiläumwochenende"
       en: "todo"
     description:
       nl: >
@@ -99,10 +108,18 @@ items:
           <ul>
             <li>hele dag: Belgian Oldtimer Caravan Club op onze trekkersweide    </li>
             <li>10 u., 14 u. & 16 u.: rondleiding met gids (vooraf inschrijven) </li>
+            <li>18 u. - 19 u.: receptie aangeboden door Veld & Duin </li>
             <li>19 u. - 02 u.: feest met foodtrucks, live bands en ambiance      </li>
           </ul>
       fr: >
       de: >
+          Programm:
+          <ul>
+            <li>den ganzen Tag: Belgian Oldtimer Caravan Club auf der Campingwiese    </li>
+            <li>10 Uhr, 14 Uhr & 16 Uhr: Führung durch Ausstellung (Ndl) - vorher anmelden </li>
+            <li>18 u. - 19 u.: Empfang, angeboten von Veld & Duin </li>
+            <li>19 u. - 02 u.: Fest mit Foodtrucks, Live-Bands und Tanz     </li>
+          </ul>
       en: >
     images:
       - /img/programma/jubileumweekend.jpg
@@ -111,13 +128,14 @@ items:
     title:
       nl: "Opendeurdag Belgian Oldtimer Caravan Club"
       fr: "todo"
-      de: "todo"
+      de: "Tag der offenen Tür Belgian Oldtimer Caravan Club"
       en: "todo"
     description:
       nl: >
-          Keer terug in de tijd en neem een  kijkje binnenin deze prachtige oldtimer caravans tussen 14 en 18 u.
+          Keer terug in de tijd en neem een kijkje binnenin deze prachtige oldtimer caravans tussen 14 en 18 u.
       fr: >
       de: >
+          Geh zurück in die Zeit in diesen wunderschönen oldtimer Caravans zwischen 14 und 18 Uhr.
       en: >
     images:
       - /img/programma/BOCC.jpg
@@ -126,7 +144,7 @@ items:
     title:
       nl: "Reuzepicknick"
       fr: "todo"
-      de: "todo"
+      de: "Riesen-Picknick"
       en: "todo"
     description:
       nl: >
@@ -137,6 +155,11 @@ items:
           </ul>
       fr: >
       de: >
+          Heute ist es genau 50 Jahre her, dass Veld & Duin seine erste Lizenz erhielt. Das feiern wir gemeinsam an einem superlangen Picknicktisch. Jeder bringt Essen und Getränke mit und wir probieren gegenseitig von unseren Leckereien. Veld & Duin sorgt für Musik, Tischanimation und ein kleines Dessert. </br>
+          <ul>
+            <li>start: 12 Uhr                       </li>
+            <li>vorher anmelden an der Rezeption </li>
+          </ul>
       en: >
     images:
       - /img/programma/reuzepicknick.jpg
@@ -145,13 +168,14 @@ items:
     title:
       nl: "Knutselen"
       fr: "todo"
-      de: "todo"
+      de: "Basteln"
       en: "todo"
     description:
       nl: >
           Een grote bol en veel klei, meer is er niet nodig om met klein en groot een droomwereld te boetseren. Kom je mee knutselen van 10 tot 13 u.?
       fr: >
       de: >
+          Eine große Kugel und viel Ton ... mehr braucht man nicht, um mit Jung und Alt eine Traumwelt zu modellieren. Bastelst du mit uns mit von 10 bis 13 Uhr?
       en: >
     images:
       - /img/programma/knutselen.jpg
@@ -160,7 +184,7 @@ items:
     title:
       nl: "Sneukelfietstocht"
       fr: "todo"
-      de: "todo"
+      de: "Schnabuliereradtour"
       en: "todo"
     description:
       nl: >
@@ -172,6 +196,12 @@ items:
           </ul>
       fr: >
       de: >
+          An diesem Tag steht Sport auf dem Programm: Wir unternehmen eine Fahrradtour (37 km) und legen unterwegs einige Pausen für einen Imbiss ein. </br>
+          <ul>
+            <li>Abfahrt zwischen 13.30 Uhr und 14.30 Uhr              </li>
+            <li>Vorab anmelden - Individuelle Fahrradtour   </li>
+            <li>€ 5 / Person                         </li>
+          </ul>
       en: >
     images:
       - /img/programma/sneukelfietstocht.jpg
@@ -180,7 +210,7 @@ items:
     title:
       nl: "Duo Berlingo - No way back"
       fr: "todo"
-      de: "todo"
+      de: "Duo Berlingo - No way back"
       en: "todo"
     description:
       nl: >
@@ -190,6 +220,10 @@ items:
           </ul>
       fr: >
       de: >
+          Eine komische Zirkusvorstellung über Verspieltheit, Kameradschaft, Uneinigkeit und auch ein Bisschen über das Leben.</br>
+          <ul>
+            <li>Start: 19 Uhr   </li>
+          </ul>
       en: >
     images:
       - /img/programma/duoberlingo.jpg
@@ -198,7 +232,7 @@ items:
     title:
       nl: "Kinderkoken feesteditie"
       fr: "todo"
-      de: "todo"
+      de: "Kinderkochen Festausgabe"
       en: "todo"
     description:
       nl: >
@@ -211,6 +245,13 @@ items:
           </ul>
       fr: >
       de: >
+          Ein Jubiläumsjahr erfordert einen stilvollen Empfang mit leckeren Häppchen. Kochveranstaltung mit den Kindern. Anschließend sind alle (Groß)Eltern zum Probieren eingeladen. </br>
+          <ul>
+            <li>von 10 bis 12 Uhr   </li>
+            <li>vorab anmelden </li>
+            <li>€ 3 / Kind         </li>
+            <li>max. 30 Teilnehmer  </li>
+          </ul>
       en: >
     images:
       - /img/programma/kinderkoken.jpg
@@ -219,13 +260,14 @@ items:
     title:
       nl: "Waterglijbaan"
       fr: "todo"
-      de: "todo"
+      de: "Wasserrutsche"
       en: "todo"
     description:
       nl: >
           De waterglijbaan is een klassieker die zeker  in een jubileumjaar niet mag ontbreken. De waterlijbaan is er van 10 tot 19 u.
       fr: >
       de: >
+          Die Wasserrutsche ist ein Klassiker, der in einem Jubiläumsjahr keineswegs fehlen darf. Die Wasserrutsche ist da von 10 bis 19 Uhr.
       en: >
     images:
       - /img/programma/waterglijbaan.jpg
@@ -234,7 +276,7 @@ items:
     title:
       nl: "Grote Veld & Duin-quiz"
       fr: "todo"
-      de: "todo"
+      de: "Das große Veld & Duin-Quiz"
       en: "todo"
     description:
       nl: >
@@ -245,6 +287,11 @@ items:
           </ul>
       fr: >
       de: >
+          Bilden Sie kleine Teams von 4 bis 5 Personen und melden Sie sich für dieses einzigartige Camping-Quiz an (max. 10 Teams). Das Quiz ist eine Mischung von Camping-Küste-Jubiläum und anderen Fragen und Aufträgen, sodass jeder teilnehmen kann. Jeder ist willkommen, um sein Team anzuspornen und zum Sieg zu verhelfen! </br>
+          <ul>
+            <li>Start: 19 Uhr                       </li>
+            <li>vorab anmelden an der Rezeption </li>
+          </ul>
       en: >
     images:
       - /img/programma/quiz.jpg
@@ -254,7 +301,7 @@ items:
     title:
       nl: "Gidseurt natuurgebied d'Heye"
       fr: "todo"
-      de: "todo"
+      de: "Führung Naturschutzgebiet d'Heye"
       en: "todo"
     description:
       nl: >
@@ -266,6 +313,12 @@ items:
           <ul>
       fr: >
       de: >
+          Naturschutzgebiet d’Heye gehört zu den ältesten Dünenformationen unserer Küste. Erfahren Sie bei einer Führung alles über dieses einzigartige Gebiet. </br>
+          <ul>
+            <li>van 10 - 12 Uhr                 </li>
+            <li>vorab anmelden an der Rezeption </li>
+            <li>max 25 Teilnehmer                  </li>
+          <ul>
       en: >
     images:
       - /img/programma/dheye.jpg
