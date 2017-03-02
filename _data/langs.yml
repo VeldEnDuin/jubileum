@@ -43,8 +43,8 @@ fr:
         mediatitle: Médias
         ago: "il y a % jours."
         still: "encore % jours"
-        today: "Aujourd'hui"
-        formwait: Formulaire d'inscription en cours de chargement... (veuillez patienter)
+        today: "Aujourd’hui"
+        formwait: "Formulaire d’inscription en cours de chargement... (veuillez patienter)"
 
     gcse:
         use: Veuillez introduire un mot clé!
