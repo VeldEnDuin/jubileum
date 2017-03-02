@@ -19,11 +19,11 @@ jubileum:
 
 facts:
     nl: "/nl/index.html#feitjes"
-    fr: "/fr/index.html#facts"
+    fr: "/fr/index.html#chiffres"
     de: "/de/index.html#fakten"
 facts_include:
     nl: /nl/feitjes.html
-    fr: /fr/feitjes.html
+    fr: /fr/chiffres.html
     de: /de/fakten.html
 
 exhibit:
@@ -57,7 +57,7 @@ goeddoel:
     de: "/de/index.html#guterzweck"
 goeddoel_index:
     nl: /nl/goed-doel.html
-    fr: /fr/charite.html
+    fr: /fr/bonnes-causes.html
     de: /de/guter-zweck.html
 
 

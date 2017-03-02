@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Spelletjes
+title: Jeux
 
 preview:
-    readmore: "Speel nu"
+    readmore: "À vous de jouer!"
     image:
         - /img/game/memo-screen.png
 

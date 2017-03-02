@@ -7,11 +7,11 @@ remove:
 
 ---
 
-# Jubileum
+# Jubilé
 
-Veld & Duin mag dit jaar 50 kaarsjes uitblazen en dat gaan we samen met onze kampeerders uitgebreid vieren!
+Cette année, Veld & Duin fête ses 50 ans… Un événement que nous allons fêter en grande pompe avec nos campeurs ! 
 
-Lees op deze jubileumsite alles over ons feestprogramma, de unieke tentoonstelling die we organiseren en de goede doelen die we steunen.
+Sur ce site « spécial jubilé », nous vous présentons les nombreux événements festifs et l’exposition unique que nous organisons ainsi que les bonnes causes que nous soutenons.
 
 
 

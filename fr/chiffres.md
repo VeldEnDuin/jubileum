@@ -2,18 +2,18 @@
 layout: default
 preview:
     text: >
-        50 jaar Veld & Duin in cijfers
+        Les 50 ans de Veld & Duin en chiffres…
     facts:
-        - unit: "zonnecrème"
-          amount: "21.783 flessen"
+        - unit: "de crème solaire"
+          amount: "21.783 flacons"
           icon: "/img/svg/style/icon-zoncreme.svg"
-        - unit: "vakantieliefdes"
+        - unit: "amours de vacances"
           amount: "1771"
           icon: "/img/svg/style/icon-amor.svg"
-        - unit: "worst"
+        - unit: "de saucisson"
           amount: "2.232 m"
           icon: "/img/svg/style/icon-bbq.svg"
-        - unit: "zandkastelen"
+        - unit: "châteaux de sable"
           amount: "1.597"
           icon: "/img/svg/style/icon-zandk.svg"
        

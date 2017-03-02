@@ -1,5 +1,5 @@
 ---
-title: Kalender
+title: Calendrier
 layout: group
 data: kalender
 remove:
@@ -7,6 +7,6 @@ remove:
     
 preview:
     text:
-    readmore: "Kalender"
+    readmore: "Calendrier"
 
 ---

@@ -4,8 +4,8 @@ preview:
     text: >
         50 Jahre Veld & Duin in Zahlen
     facts:
-        - unit: "Sonnencremeflaschen"
-          amount: "21.783 flessen"
+        - unit: "Sonnencreme"
+          amount: "21.783 Flaschen"
           icon: "/img/svg/style/icon-zoncreme.svg"
         - unit: "Urlaubslieben"
           amount: "1771"
