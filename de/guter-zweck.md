@@ -38,8 +38,8 @@ insert:
 Das Pflegeheim „Zorghuis Oostende“ ist ein Fast-wie-Zuhause-Heim für Krebspatienten. Ein Team ehrenamtlicher Mitarbeiter setzt sich Tag und Nacht dafür ein, den Gästen alle Zeit und Aufmerksamkeit zu widmen, die sie an den schwersten Tagen ihrer Behandlung brauchen.<br>
 Das Pflegeheim ist Anfang dieses Jahres umgezogen. Die Beiträge werden verwendet, um das Heim so komfortabel wie möglich weiter einzurichten.
 
-- [Website Zorghuis](www.zorghuisoostende.be)
-- [Facebook Zorghuis](www.facebook.com/ZorghuisO)
+- [Website Zorghuis](http://www.zorghuisoostende.be)
+- [Facebook Zorghuis](http://www.facebook.com/ZorghuisO)
 
 
 ## Huis aan Zee
@@ -50,8 +50,8 @@ Nicht alle Kinder haben das Glück, in einer stabilen häuslichen Umgebung aufzu
 Huis aan Zee ist ein Internat, in dem mehr als 100 Kinder zwischen 2,5 und 21 Jahren vorübergehend oder dauerhaft untergebracht werden können. Diese Kinder werden dorthin verwiesen (meistens vom Jugendrichter), weil sie aus verschiedenen Gründen nicht zu Hause wohnen können.<br>
 Das eingesammelte Geld wird verwendet, um Sommerlager zu organisieren. Diese Ferien sind ein schönes Extra, worüber die Internatskinder anschließend ihren Schulkameraden berichten können. 
 
-- [Website Huis aan Zee](www.devloedlijn.be/huisaanzee)
-- [Facebook Huis aan Zee](www.facebook.com/mpiHuisAanZee)
+- [Website Huis aan Zee](http://www.devloedlijn.be/huisaanzee)
+- [Facebook Huis aan Zee](http://www.facebook.com/mpiHuisAanZee)
 
 
 ## Beitrag Veld & Duin

@@ -38,8 +38,8 @@ insert:
 Zorghuis est une maison qui accueille 'presque comme à la maison' les patients atteints d’un cancer.  Des bénévoles se relaient jour et nuit pour offrir à leurs hôtes le temps et l’attention dont ils ont besoin pendant la période la plus pénible de leur traitement.<br>
 La maison d’accueil a déménagé au début de cette année.  Vos dons seront utilisés pour continuer à rendre la maison la plus confortable possible. 
 
-- [Site Web Zorghuis](www.zorghuisoostende.be)
-- [Facebook Zorghuis](www.facebook.com/ZorghuisO)
+- [Site Web Zorghuis](http://www.zorghuisoostende.be)
+- [Facebook Zorghuis](http://www.facebook.com/ZorghuisO)
 
 
 ## Huis aan Zee
@@ -50,8 +50,8 @@ Tous les enfants n’ont pas la chance de grandir dans un cadre familial stable.
 Huis aan Zee est un internat qui offre tout au long de l’année un accueil temporaire ou permanent à plus d’une centaine d’enfants âgés de deux ans et demi à 21 ans.  Ces enfants sont placés (le plus souvent par le juge de la jeunesse) à l’internat parce qu’ils ne peuvent pas rester chez eux pour diverses raisons.<br>
 Les fonds récoltés seront utilisés pour organiser des camps d’été.  Ces vacances d’été sont une belle occasion pour les enfants qui peuvent ensuite raconter leurs aventures à leurs camarades d’école.   
 
-- [Site Web Huis aan Zee](www.devloedlijn.be/huisaanzee)
-- [Facebook Huis aan Zee](www.facebook.com/mpiHuisAanZee)
+- [Site Web Huis aan Zee](http://www.devloedlijn.be/huisaanzee)
+- [Facebook Huis aan Zee](http://www.facebook.com/mpiHuisAanZee)
 
 
 ## Notre contribution Veld & Duin
