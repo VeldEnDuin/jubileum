@@ -13,11 +13,11 @@
 {% for lang in site.data.langs %}
 {% assign ln = lang[0] %}
         <li {% if ln == pgLang %}class="active"{% endif %}>
-    {% capture langVariantRef %}{{site.baseurl}}/{{ ln }}{% endcapture %}
+    {% capture langVariantRef %}/{{ ln }}{% endcapture %}
     {% if ln != pgLang and hrefLangVariants[ln] %}
         {% assign langVariantRef = hrefLangVariants[ln] %}
     {% endif %}
-            <a href="{{ langVariantRef }}">{{ lang[1].label }}</a>
+            <a href="{{site.baseurl}}{{ langVariantRef }}">{{ lang[1].label }}</a>
         </li>
 {% endfor %}
     </ul>
