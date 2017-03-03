@@ -32,7 +32,7 @@ insert:
 ## Zorghuis Oostende
 
 
-![de prente](../img/goeddoel/imagestripgdtest.png) 
+![de prente](../img/goeddoel/zorghuis.png) 
 
 
 Het zorghuis is een bijna-als-thuis-huis voor kankerpatiënten. Een team van vrijwilligers zet zich dag en nacht in om hun gasten alle tijd en aandacht te geven die ze nodig hebben tijdens de zwaarste dagen van hun behandeling.<br>
