@@ -55,7 +55,7 @@ Les fonds récoltés seront utilisés pour organiser des camps d’été.  Ces v
 
 
 ## Notre contribution Veld & Duin
-- Nous faisons don de 5 € à la bonne cause pour chaque réservation d’un chalet ou d’un appartement.  Les montants récoltés sont transférés sur le compte chaque trimestre. 
+- Nous faisons don de € 5 à la bonne cause pour chaque réservation d’un chalet ou d’un appartement.  Les montants récoltés sont transférés sur le compte chaque trimestre. 
 - Une somme de € ... est versée à la bonne cause pour chaque pin’s Veld & Duin vendu.
 
 ## Invitation cordiale
