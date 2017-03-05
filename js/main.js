@@ -125,8 +125,19 @@
      * =======================================================================
      */
     $(function () {
-        var set = $('body').data('replace');
-        set.now = moment().format("L");
+        var set = $('body').data('replace') || {};
+        set.now = moment().format("l");
+        
+        function replaceVars(txt) {
+            return Object.keys(set).reduce(function (txt, key) {
+                return txt.replace('{' + key + '}', set[key]);
+            }, txt);
+        }
+        
+        $('[role="replace"]').each(function () {
+            var $this = $(this);
+            $this.html(replaceVars($this.html()));
+        });
     });
     /*
      * geo stuff
