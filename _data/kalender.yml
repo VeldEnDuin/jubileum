@@ -41,7 +41,15 @@ items:
       en: >
 
     images:
-      - /img/programma/tentoonstelling.jpg
+      - /img/programma/tentoonstelling-nl.jpg
+      
+    imagestransl:
+      nl: 
+        - /img/programma/tentoonstelling-nl.jpg
+      fr: 
+        - /img/programma/tentoonstelling-fr.jpg
+      de: 
+        - /img/programma/tentoonstelling-de.jpg
       
   - date: 2017-04-04
     title:

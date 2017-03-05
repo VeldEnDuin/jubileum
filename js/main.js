@@ -1,5 +1,5 @@
 /*jslint browser: true */
-/*global moment, Rusha */
+/*global moment, Rusha, swfobject */
 (function ($) {
     "use strict";
     var TRANSL = {},
@@ -110,7 +110,7 @@
             embargoHtml += '<p class="text-center">';
             embargoHtml += embargo.text[lang].replace("{date}", moment(embargo.date).format("LL"));
             embargoHtml += '<a class="notd" href="' + baseUrl + '/embargo.html">&nbsp;</a></p>';
-            embargoHtml += '<img class="img img-rounded img-responsive" src="' + baseUrl + embargo.image + '" >';
+            embargoHtml += '<img class="img img-rounded img-responsive" src="' + baseUrl + embargo.image.replace("{hl}", lang) + '" >';
             embargoHtml += '</div>';
             embargoHtml += '</div>';
 
@@ -120,6 +120,33 @@
     });
     
     
+    /*
+     * Flash Detection
+     * =======================================================================
+     */
+    $(function () {
+        $('html').addClass(typeof swfobject !== 'undefined' && swfobject.getFlashPlayerVersion().major !== 0 ? 'flash' : 'no-flash');
+    });
+    
+    /*
+     * Replace dynamic text
+     * =======================================================================
+     */
+    $(function () {
+        var set = $('body').data('replace') || {};
+        set.now = moment().format("l");
+        
+        function replaceVars(txt) {
+            return Object.keys(set).reduce(function (txt, key) {
+                return txt.replace('{' + key + '}', set[key]);
+            }, txt);
+        }
+        
+        $('[role="replace"]').each(function () {
+            var $this = $(this);
+            $this.html(replaceVars($this.html()));
+        });
+    });
     /*
      * geo stuff
      * =======================================================================

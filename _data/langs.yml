@@ -22,6 +22,7 @@ nl:
         still: "Nog % dagen tot"
         today: "Vandaag"
         formwait: Inschrijvings-formulier wordt geladen... (even geduld)
+        warn-no-flash: Helaas, je toestel ondersteunt geen Flash.
 
     gcse:
         use: Geef een zoekterm in!
@@ -45,6 +46,7 @@ fr:
         still: "encore % jours"
         today: "Aujourd’hui"
         formwait: "Formulaire d’inscription en cours de chargement... (veuillez patienter)"
+        warn-no-flash: Désolé, votre appareil ne supporte pas Flash.
 
     gcse:
         use: Veuillez introduire un mot clé!
@@ -68,6 +70,7 @@ de:
         still: "noch % Tage"
         today: "heute"
         formwait: Anmeldungsformular wird geladen... (bitte warten)
+        warn-no-flash: Leider wird FlashPlayer nicht unterstützt.
 
     gcse:
         use: Geben Sie einen Suchbegriff ein!
