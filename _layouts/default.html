@@ -31,7 +31,12 @@ tcs: [1,2,3,5,6,9]
     <meta name="theme-color" content="#ffffff">
 
   </head>
-  <body data-translations='{{ site.data.langs[pgLang] | jsonify }}' data-embargo='{{ site.embargo | jsonify }}' data-baseurl="{{ site.baseurl }}">
+  <body 
+      data-translations='{{ site.data.langs[pgLang] | jsonify }}' 
+      data-embargo='{{ site.embargo | jsonify }}' 
+      data-replace='{{ site.replace | jsonify }}' 
+      data-baseurl="{{ site.baseurl }}"
+  >
   
   <div id="sfc-wrap">
 

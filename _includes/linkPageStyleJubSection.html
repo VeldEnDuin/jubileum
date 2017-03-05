@@ -78,9 +78,9 @@
       <div class="jub-fact-wrap {{gridclass}}"><div class="jub-fact">
         <div class="jub-fact-icon-wrap"><div class="jub-fact-icon"><img
           class="img-rounded img" src="{{ site.baseurl }}{{ fact.icon }}"></div></div>
-        <div class="jub-fact-value text-center">{{fact.amount}}</div>
+        <div class="jub-fact-value text-center" role="replace">{{ fact.amount }}</div>
         <hr class="jub-fact-separator">
-        <div class="jub-fact-unit text-center">{{fact.unit}}</div>
+        <div class="jub-fact-unit text-center" role="replace">{{ fact.unit }}</div>
       </div></div>
         {% endfor %}
     </div>

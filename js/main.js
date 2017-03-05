@@ -121,6 +121,14 @@
     
     
     /*
+     * Replace dynamic text
+     * =======================================================================
+     */
+    $(function () {
+        var set = $('body').data('replace');
+        set.now = moment().format("L");
+    });
+    /*
      * geo stuff
      * =======================================================================
     function parseLatLon(geom) {
