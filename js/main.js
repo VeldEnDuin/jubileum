@@ -110,7 +110,7 @@
             embargoHtml += '<p class="text-center">';
             embargoHtml += embargo.text[lang].replace("{date}", moment(embargo.date).format("LL"));
             embargoHtml += '<a class="notd" href="' + baseUrl + '/embargo.html">&nbsp;</a></p>';
-            embargoHtml += '<img class="img img-rounded img-responsive" src="' + baseUrl + embargo.image + '" >';
+            embargoHtml += '<img class="img img-rounded img-responsive" src="' + baseUrl + embargo.image.replace("{hl}", lang) + '" >';
             embargoHtml += '</div>';
             embargoHtml += '</div>';
 
