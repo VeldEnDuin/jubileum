@@ -8,7 +8,7 @@
         <script type="text/javascript">
             var hl = navigator.language || navigator.userLanguage;
             hl = hl.slice(0, 2);
-            if (["de", "en", "fr", "nl"].indexOf(hl) === -1) {
+            if (["de", "fr", "nl"].indexOf(hl) === -1) {
                 hl = "nl";
             }
             window.location= "{{ site.baseurl }}" + "/" + hl + "/";
