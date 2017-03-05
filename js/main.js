@@ -1,5 +1,5 @@
 /*jslint browser: true */
-/*global moment, Rusha */
+/*global moment, Rusha, swfobject */
 (function ($) {
     "use strict";
     var TRANSL = {},
@@ -119,6 +119,14 @@
         }
     });
     
+    
+    /*
+     * Flash Detection
+     * =======================================================================
+     */
+    $(function () {
+        $('html').addClass(typeof swfobject !== 'undefined' && swfobject.getFlashPlayerVersion().major !== 0 ? 'flash' : 'no-flash');
+    });
     
     /*
      * Replace dynamic text
