@@ -56,7 +56,7 @@ Het ingezamelde geld zal gebruikt worden om zomerkampen te organiseren. Zo’n v
 
 ## Bijdrage Veld & Duin
 - Per reservatie in een verhuurchalet of appartement schenken we € 5 aan het goede doel. Per kwartaal wordt het verzamelde bedrag overgeschreven op de rekening.
-- Per verkochte Veld & Duin pin gaat € ... naar het goede doel.
+- Per verkochte Veld & Duin pin gaat € 0,40 naar het goede doel.
 
 ## Warme oproep
 Het zou fijn zijn mochten onze kampeerders ook acties op touw zetten!

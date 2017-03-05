@@ -32,7 +32,7 @@ insert:
 ## Zorghuis Oostende
 
 
-![de prente](../img/goeddoel/imagestripgdtest.png) 
+![de prente](../img/goeddoel/zorghuis.png)  
 
 
 Zorghuis est une maison qui accueille 'presque comme à la maison' les patients atteints d’un cancer.  Des bénévoles se relaient jour et nuit pour offrir à leurs hôtes le temps et l’attention dont ils ont besoin pendant la période la plus pénible de leur traitement.<br>
@@ -56,11 +56,11 @@ Les fonds récoltés seront utilisés pour organiser des camps d’été.  Ces v
 
 ## Notre contribution Veld & Duin
 - Nous faisons don de € 5 à la bonne cause pour chaque réservation d’un chalet ou d’un appartement.  Les montants récoltés sont transférés sur le compte chaque trimestre. 
-- Une somme de € ... est versée à la bonne cause pour chaque pin’s Veld & Duin vendu.
+- Une somme de € 0,40 est versée à la bonne cause pour chaque pin’s Veld & Duin vendu.
 
 ## Invitation cordiale
 Ce serait formidable si nos campeurs pouvaient eux aussi mettre sur pied l’une ou l’autre action!
-Vous avez une idée ?  Alors, venez nous en parler! Peut-être pourrons-nous vous aider en vous proposant un soutien logistique (prêt de tables et de chaises, etc.). 
+Vous avez une idée?  Alors, venez nous en parler! Peut-être pourrons-nous vous aider en vous proposant un soutien logistique (prêt de tables et de chaises, etc.). 
 
 Nous posterons votre action sur notre site pour que tout le monde puisse participer. 
 

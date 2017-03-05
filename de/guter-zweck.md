@@ -32,7 +32,7 @@ insert:
 ## Zorghuis Oostende
 
 
-![de prente](../img/goeddoel/imagestripgdtest.png) 
+![de prente](../img/goeddoel/zorghuis.png)  
 
 
 Das Pflegeheim „Zorghuis Oostende“ ist ein Fast-wie-Zuhause-Heim für Krebspatienten. Ein Team ehrenamtlicher Mitarbeiter setzt sich Tag und Nacht dafür ein, den Gästen alle Zeit und Aufmerksamkeit zu widmen, die sie an den schwersten Tagen ihrer Behandlung brauchen.<br>
@@ -56,7 +56,7 @@ Das eingesammelte Geld wird verwendet, um Sommerlager zu organisieren. Diese Fer
 
 ## Beitrag Veld & Duin
 - Für jede Buchung in einem Mietchalet oder Appartement spenden wir € 5 für den guten Zweck. Pro Quartal wird der gesammelte Betrag auf das Konto überwiesen.
-- Pro verkauften Anstecker von Veld & Duin gehen € ... an den guten Zweck.
+- Pro verkauften Anstecker von Veld & Duin gehen € 0,40 an den guten Zweck.
 
 ## Eindringlicher Appell
 Es wäre schön, wenn auch unsere Camper Aktionen organisieren könnten!
