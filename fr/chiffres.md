@@ -2,7 +2,7 @@
 layout: default
 preview:
     text: >
-        Les 50 ans de Veld & Duin en chiffres…
+        les 50 ans de Veld & Duin en chiffres
     facts:
         - unit: "de crème solaire"
           amount: "21.783 flacons"

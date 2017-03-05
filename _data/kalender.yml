@@ -34,7 +34,7 @@ items:
           naar hoe het (n)ooit is geweest
       fr: >
           Un parcours de découvertes ludique à travers l’histoire du camping, </br>
-          le monde et autres absurdités.
+          le monde et autres absurdités
       de: >
           Eine spielerische Entdeckungs-Weltreise zu 50 Jahren Campingplatz, </br>
           wo das Unvorstellbare möglich wird
@@ -61,7 +61,7 @@ items:
       nl: >
           Kom om 17 u. naar ons cinemamuseum en geniet van een leuke film.
       fr: >
-          Venez à 17 h 00 à notre cinéma-musée pour voir un film amusant.
+          Venez à 17 h à notre cinéma-musée pour voir un film amusant.
       de: >
           Komm um 17 Uhr zu unserem Kinomuseum und genieß einen tollen Film.
       en: >
@@ -78,7 +78,7 @@ items:
       nl: >
           In ons cinemamuseum spelen we opnieuw een leuke kinderfilm om 17 u. Kom jij ook?
       fr: >
-          Dans notre cinéma-musée nous montrons de nouveau un film pour enfants à 17 h 00. Tu viens aussi?
+          Dans notre cinéma-musée nous montrons de nouveau un film pour enfants à 17 h. Tu viens aussi?
       de: >
           In unserem Kinomuseum spielen wir aufs Neue einen tollen Kinderfilm um 17 Uhr. Kommst du auch?
       en: >
@@ -100,7 +100,7 @@ items:
       fr: >
           Avec votre équipe, essayez de retrouver un maximum d'oeufs! </br>
           <ul>
-          <li>début: 10 h 30  </li>
+          <li>début: 10h30  </li>
           </ul>
       de: >
           Versuche, mit deinem Team so viele versteckte Eier wie möglich zu sammeln! </br>
@@ -123,25 +123,22 @@ items:
           Programma:
           <ul>
             <li>hele dag: Belgian Oldtimer Caravan Club op onze trekkersweide    </li>
-            <li>10 u., 14 u. & 16 u.: rondleiding met gids (vooraf inschrijven) </li>
-            <li>18 u. - 19 u.: receptie aangeboden door Veld & Duin </li>
-            <li>19 u. - 02 u.: feest met foodtrucks, live bands en ambiance      </li>
+            <li>10 - 14 - 16 u.: rondleiding met gids (vooraf inschrijven) </li>
+            <li>19 - 02 u.: feest met foodtrucks, live bands en ambiance      </li>
           </ul>
       fr: >
           Programme:
           <ul>
             <li>toute la journée: Belgian Oldtimer Caravan Club sur le terrain de camping </li>
-            <li>10 h 00 - 14 h 00 - 16 h 00: visite de l’exposition avec un guide (nl) - inscription préalable requise </li>
-            <li>18 h 00 - 19 h 00: réception offerte par Veld & Duin </li>
-            <li>18 h 00 - 02 h 00: soirée avec foodtrucks, concerts et danse      </li>
+            <li>10 h - 14 h - 16 h: visite de l’exposition avec un guide (nl) - inscription préalable requise </li>
+            <li>19 - 02 h: soirée avec foodtrucks, concerts et danse      </li>
           </ul>
       de: >
           Programm:
           <ul>
             <li>den ganzen Tag: Belgian Oldtimer Caravan Club auf der Campingwiese    </li>
-            <li>10 Uhr, 14 Uhr & 16 Uhr: Führung durch Ausstellung (Ndl) - vorher anmelden </li>
-            <li>18 u. - 19 u.: Empfang, angeboten von Veld & Duin </li>
-            <li>19 u. - 02 u.: Fest mit Foodtrucks, Live-Bands und Tanz     </li>
+            <li>10 Uhr - 14 Uhr - 16 Uhr: Führung durch Ausstellung (Ndl) - vorher anmelden </li>
+            <li>19 - 02 Uhr: Fest mit Foodtrucks, Live-Bands und Tanz     </li>
           </ul>
       en: >
     images:
@@ -157,7 +154,7 @@ items:
       nl: >
           Keer terug in de tijd en neem een kijkje binnenin deze prachtige oldtimer caravans tussen 14 en 18 u.
       fr: >
-          Remontez dans le temps dans les oldtimer caravanes du BOCC entre 14 h 00 et 18 h 00.
+          Remontez dans le temps dans les oldtimer caravanes du BOCC entre 14 et 18 h.
       de: >
           Geh zurück in die Zeit in diesen wunderschönen oldtimer Caravans zwischen 14 und 18 Uhr.
       en: >
@@ -176,18 +173,21 @@ items:
           <ul>
             <li>start: 12 u.                       </li>
             <li>vooraf inschrijven aan de receptie </li>
+            <li>kan enkel doorgaan bij mooi weer</li>
           </ul>
       fr: >
           Il y a aujourd’hui cinquante ans exactement que Veld & Duin recevait sa première autorisation. Nous  voulons fêter cet anniversaire autour d’une table de pique-nique géante. Chacun apporte à manger et à boire et tout est mis en commun. Veld & Duin se charge de la musique, de l’animation pendant le repas et du dessert. </br>
           <ul>
-            <li>début: 12 h 00                       </li>
+            <li>début: 12 h                       </li>
             <li>inscription préalable à la réception </li>
+            <li>uniquement si le temps est de la partie </li>
           </ul>
       de: >
           Heute ist es genau 50 Jahre her, dass Veld & Duin seine erste Lizenz erhielt. Das feiern wir gemeinsam an einem superlangen Picknicktisch. Jeder bringt Essen und Getränke mit und wir probieren gegenseitig von unseren Leckereien. Veld & Duin sorgt für Musik, Tischanimation und ein kleines Dessert. </br>
           <ul>
             <li>start: 12 Uhr                       </li>
             <li>vorher anmelden an der Rezeption </li>
+            <li>kann nur bei schönem Wetter stattfinden </li>
           </ul>
       en: >
     images:
@@ -203,7 +203,7 @@ items:
       nl: >
           Een grote bol en veel klei, meer is er niet nodig om met klein en groot een droomwereld te boetseren. Kom je mee knutselen van 10 tot 13 u.?
       fr: >
-          Une grande boule et de la terre glaise est tout ce qu’il faut aux petits et grands pour donner libre cours à leur imagination. Venez bricoler avec nous de 10 h 00 à 13 h 00.
+          Une grande boule et de la terre glaise est tout ce qu’il faut aux petits et grands pour donner libre cours à leur imagination. Venez bricoler avec nous de 10 h à 13 h.
       de: >
           Eine große Kugel und viel Ton ... mehr braucht man nicht, um mit Jung und Alt eine Traumwelt zu modellieren. Bastelst du mit uns mit von 10 bis 13 Uhr?
       en: >
@@ -227,14 +227,14 @@ items:
       fr: >
           Nous invitons tous les sportifs à une randonnée cycliste de 37 kilomètres, avec quelques pauses pour se ravitailler. </br>
           <ul>
-            <li>départ entre 13 h 30 et 14 h 30              </li>
+            <li>départ entre 13h30 et 14h30              </li>
             <li>inscription préalable - randonnée cycliste individuelle   </li>
             <li>€ 5 / personne                                </li>
           </ul>
       de: >
           An diesem Tag steht Sport auf dem Programm: Wir unternehmen eine Fahrradtour (37 km) und legen unterwegs einige Pausen für einen Imbiss ein. </br>
           <ul>
-            <li>Abfahrt zwischen 13.30 Uhr und 14.30 Uhr              </li>
+            <li>Abfahrt zwischen 13.30 und 14.30 Uhr              </li>
             <li>Vorab anmelden - Individuelle Fahrradtour   </li>
             <li>€ 5 / Person                         </li>
           </ul>
@@ -257,7 +257,7 @@ items:
       fr: >
           Un spectacle de cirque comique sous le signe de la légèreté, de la camaraderie, de la zizanie et de la vie en général. </br>
           <ul>
-            <li>début: 19 h 00   </li>
+            <li>début: 19 h   </li>
           </ul>
       de: >
           Eine komische Zirkusvorstellung über Verspieltheit, Kameradschaft, Uneinigkeit und auch ein Bisschen über das Leben.</br>
@@ -286,7 +286,7 @@ items:
       fr: >
           Qui dit jubilé dit réception chic avec délices en tout genre à déguster. Atelier cuisine avec les enfants. Les (grands-)parents sont ensuite invités à déguster les préparations des participants. </br>
           <ul>
-            <li>de 10 h 00 à 12 h 00   </li>
+            <li>de 10 à 12 h   </li>
             <li>inscription préalable  </li>
             <li>€ 3 / enfant         </li>
             <li>max 30 participants  </li>
@@ -313,7 +313,7 @@ items:
       nl: >
           De waterglijbaan is een klassieker die zeker  in een jubileumjaar niet mag ontbreken. De waterlijbaan is er van 10 tot 19 u.
       fr: >
-          Le toboggan aquatique est un incontournable lors de toute fête de jubilé digne de ce nom. Le toboggan est là de 10 h 00 à 19 h 00.
+          Le toboggan aquatique est un incontournable lors de toute fête de jubilé digne de ce nom. Le toboggan est là de 10 à 19 h.
       de: >
           Die Wasserrutsche ist ein Klassiker, der in einem Jubiläumsjahr keineswegs fehlen darf. Die Wasserrutsche ist da von 10 bis 19 Uhr.
       en: >
@@ -336,7 +336,7 @@ items:
       fr: >
           Formez des équipes de 4 ou 5 personnes et inscrivez-vous à notre super quiz de camping (maximum 10 équipes). Ce quiz, qui combine les thèmes du camping, du littoral et du jubilé avec d’autres questions et missions, est à la portée de tous. Les supporters sont les bienvenus! </br>
           <ul>
-            <li>début: 19 h 00                       </li>
+            <li>début: 19 h                        </li>
             <li>inscription préalable à la réception </li>
           </ul>
       de: >
@@ -367,7 +367,7 @@ items:
       fr: >
           La réserve naturelle D’Heye est l’une des plus anciennes zones de dunes de notre littoral. Découvrez tous les trésors de cette région unique grâce aux explications d’un guide. </br>
           <ul>
-            <li>de 10 h 00 à 12 h 00                     </li>
+            <li>de 10 à 12 h                     </li>
             <li>inscription préalable à la réception </li>
             <li>max 25 participants                  </li>
           <ul>
