@@ -8,7 +8,7 @@ preview:
     image: /media/img/tentententoonstellingsboom.jpg
     readmore: "Duik mee"
     text: >
-        Het ontluisterende verhaal over de rechtstreekse toegang tot de zee.
+        Omdat iedereen wel eens de plank misslaat.
         
         
 media:
