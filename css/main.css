@@ -180,6 +180,11 @@ header.spaced {
   .navbar li {
     border-right: 0;
   }
+    
+  .navbar-brand img {
+    max-width: 70px;
+    margin-top: -25px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {    /*  'sm' -- small       */
   .navbar {

@@ -3,7 +3,7 @@
 
 <div class="warn-no-flash alert alert-danger">{{ site.data.langs[pgLang].dict.warn-no-flash }}</div>
 <div class="requires-flash">
-<div role="game-zone" class="col-xs-9" style="display: none;">
+<div role="game-zone" class="col-xs-12 col-lg-9" style="display: none;">
   <template>
     <div class="embed-container" style="display: hidden;">
       <iframe allowtransparency="true" width="100%" height="100%" src="//scratch.mit.edu/projects/embed/{gameid}/?autostart=false" frameborder="0" allowfullscreen></iframe>
@@ -13,7 +13,7 @@
 </div>
     
 {% for gm in site.data.games %}
-<div class="col-xs-3">
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
   <h2 class="text-centered">{{gm.name[pgLang]}}</h2>
   <a class="notd" role="game-link" href="#{{gm.id}}" data-gameid="{{gm.id}}">
     <img class="img img-responsive img-rounded" src="{{site.baseurl}}{{gm.img}}">
