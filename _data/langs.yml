@@ -10,7 +10,7 @@ nl:
     dict:
         all: alle
         imgloading: Beelden worden geladen...
-        readmore: Lees Meer...
+        readmore: Lees Meer
         close: sluiten
         top: Top
         next: Volgende
@@ -36,7 +36,7 @@ fr:
     dict:
         all: tout
         imgloading: images en cours de chargement...
-        readmore: Lire plus...
+        readmore: Lire plus
         close: fermer
         top: haut
         next: Suivant
@@ -60,7 +60,7 @@ de:
     dict:
         all: alle
         imgloading: Bilder werden geladen...
-        readmore: Lesen Sie mehr...
+        readmore: Lesen Sie mehr
         close: Schließen
         top: oben
         next: folgende
