@@ -31,13 +31,13 @@
         naar hoe het (n)ooit is geweest
   submenu:
     - linkcode: exhibit_crash
-    - linkcode: exhibit_haag
-    - linkcode: exhibit_archeo
-    - linkcode: exhibit_lostfound
-    - linkcode: exhibit_cinema
+    - linkcode: exhibit_duikdrift
+    - linkcode: exhibit_badmeester
     - linkcode: exhibit_tijdpaal
-    - linkcode: exhibit_toonboom
     - linkcode: exhibit_korentelcel
+    - linkcode: exhibit_cinema
+    - linkcode: exhibit_lostfound
+    - linkcode: exhibit_haag
 
 - linkcode: program
   menutekst:

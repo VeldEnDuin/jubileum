@@ -1,11 +1,11 @@
 ---
 layout: exhibit
-title: ATLANTIS
+title: Duikers op Drift
 embargo: true
 insert:
     - banner
 preview: 
-    image: /media/img/archeologische-site.jpg
+    image: /media/img/duikers-op-drift.jpg
     readmore: "Duik mee"
     text: >
       Duikers werpen een nieuw licht op de campingonderwaterwereld.
