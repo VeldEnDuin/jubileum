@@ -7,21 +7,6 @@ sort:
     key: date
     reverse: false
 items:
-  - date: 2017-02-13
-    title:
-      nl: "Start website"
-      fr: "todo"
-      de: "todo"
-      en: "todo"
-    description:
-      nl: >
-            Maar geestig dat dat is
-      fr: >
-      de: >
-      en: >
-    images:
-      - /media/img/demo/demo-03.jpg
-
   - date: 2017-04-01
     title:
       nl: "Start tentoonstelling 'De wereld als camping'"

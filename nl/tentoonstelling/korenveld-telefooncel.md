@@ -11,9 +11,11 @@ preview:
     text: >
         Het mysterie van de delicious British scones nu eindelijk onthuld.
 media:
-    - type: image
-      link: /media/img/demo/demo-01.jpg
-      title: sisal gekleurd
+    - media:
+      type: youtube
+      code: GqntA0XsWg8
+      view: /media/video/koren.jpg
+      title: Koren in de wind...
     - type: audio
       link: /media/audio/demo/demo-01.mp3
       view: /media/img/demo/demo-07.jpg

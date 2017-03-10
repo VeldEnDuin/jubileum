@@ -76,8 +76,8 @@ exhibit_cinema:
     fr: /fr/exposition/cinema.html
     de: /de/ausstellung/cinema.html
 
-exhibit_archeo:
-    nl: /nl/tentoonstelling/archeosite.html
+exhibit_duikdrift:
+    nl: /nl/tentoonstelling/duikers-op-drift.html
     fr: /fr/exposition/archeosite.html
     de: /de/ausstellung/archeosite.html
 
@@ -91,8 +91,8 @@ exhibit_tijdpaal:
     fr: /fr/exposition/tijd-mijl-paal.html
     de: /de/ausstellung/tijd-mijl-paal.html
 
-exhibit_toonboom:
-    nl: /nl/tentoonstelling/tentoonstellingsboom.html
+exhibit_badmeester:
+    nl: /nl/tentoonstelling/badmeester.html
     fr: /fr/exposition/tentoonstellingsboom.html
     de: /de/ausstellung/tentoonstellingsboom.html
 

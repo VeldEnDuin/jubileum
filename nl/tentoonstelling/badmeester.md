@@ -1,12 +1,12 @@
 ---
 layout: exhibit
-title: TOEGANG TOT ZEE
+title: Badmeester
 embargo: true
 insert:
     - banner
 preview: 
-    image: /media/img/tentententoonstellingsboom.jpg
-    readmore: "Duik mee"
+    image: /media/img/badmeester.jpg
+    readmore: "Red ons"
     text: >
         Omdat iedereen wel eens de plank misslaat.
         
