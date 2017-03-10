@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: KOREN VOOR DE QUEEN
+title: HER MAJESTY'S BEST KEPT SECRET
 embargo: true
 
 insert:
@@ -9,7 +9,7 @@ preview:
     image: /media/img/korenveld.jpg
     readmore: "Proef meer"
     text: >
-        Het mysterie van de delicious British scones nu eindelijk voor u onthuld.
+        Het mysterie van de delicious British scones nu eindelijk onthuld.
 media:
     - type: image
       link: /media/img/demo/demo-01.jpg

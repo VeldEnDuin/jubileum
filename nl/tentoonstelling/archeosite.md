@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: ATLANTIS
+title: DUIKERS OP DRIFT
 embargo: true
 insert:
     - banner
