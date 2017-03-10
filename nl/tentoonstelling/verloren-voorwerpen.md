@@ -10,19 +10,8 @@ preview:
     text: >
         Bezoek het levenswerk van Valère, Verantwoordelijke Verloren Voorwerpen.
     
-media:
-    - type: image
-      link: /media/img/demo/demo-01.jpg
-    - type: image
-      link: /media/img/demo/demo-02.jpg
-    - type: image
-      link: /media/img/demo/demo-03.jpg
-    - type: image
-      link: /media/img/demo/demo-04.jpg
-    - type: image
-      link: /media/img/demo/demo-05.jpg
-    - type: image
-      link: /media/img/demo/demo-06.jpg
-    - type: image
-      link: /media/img/demo/demo-07.jpg
 ---
+
+Je kunt het zo gek niet bedenken of het is wel eens kwijtgeraakt op de camping. In de loop van de jaren werden op die manier dan ook ontzettend veel voorwerpen verzameld. Kijk door het raam of loop even binnen, misschien herken je nog iets?
+
+De zelfverklaarde Verantwoordelijke Verloren Voorwerpen is Valère. Hij heeft er zijn levenswerk van gemaakt om de spullen allemaal te verzamelen, te labelen en te proberen de rechtmatige eigenaar terug te vinden. Hij heeft beloofd om tijdens de gidsbeurten live aanwezig te zijn om jullie vragen te beantwoorden.

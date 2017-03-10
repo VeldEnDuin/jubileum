@@ -32,10 +32,6 @@ media:
       title: van 2007 tot 2016
 ---
 
-# van 1967 tot 1977
+De camping is de voorbije 50 jaar voortdurend in beweging geweest. Dat blijkt echter voor Bredene en de wereld niet zoveel anders te zijn. 
 
-De oprichting van Camping Veld & Duin was meteen het startschot voor een waarlijk fabuleus decenium/ Zoals je kunt zien in ons [eerste beknopt tien-jaren-verslag](#mx-1) bevatte dit onder andere:
-
-* en vele andere vermeldenswaarde wetenswardigheden en memorabele gebeurtenisfeiten.
-
-Voorwaar.
+Bekijk hier de 5 wereldcampingfilmpjes. 
