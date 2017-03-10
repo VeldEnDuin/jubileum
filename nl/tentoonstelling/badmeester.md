@@ -8,7 +8,7 @@ preview:
     image: /media/img/badmeester.jpg
     readmore: "Red ons"
     text: >
-        Omdat iedereen wel eens de plank misslaat.
+        Wie wordt daar zo nauwlettend in de gaten gehouden?
         
         
 media:
