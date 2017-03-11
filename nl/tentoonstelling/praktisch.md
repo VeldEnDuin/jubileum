@@ -12,6 +12,8 @@ preview:
         naar hoe het (n)ooit is geweest
 ---
 
+{% include links.md %}
+
 Acht verschillende locaties op de camping blikken met een knipoog terug op vijftig jaar Veld & Duin. Hou u klaar voor nieuwe herinneringen.
 
 Kom voor een totaalbeleving zeker ter plaatse kijken.  Voor de kinderen is er een uitdagende zoektocht, en voor iedereen ook een extra tentoonstellingsgids.  Met uw smartphone erbij kun je het bezoek trouwens optimaal combineren met het bonusmateriaal op deze website.
