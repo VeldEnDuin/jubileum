@@ -1,11 +1,11 @@
 ---
 layout: exhibit
-title: TOEGANG TOT ZEE
+title: Badmeester
 embargo: true
 insert:
     - banner
 preview: 
-    image: /media/img/tentententoonstellingsboom.jpg
+    image: /media/img/badmeester.jpg
     readmore: "Duik mee"
     text: >
         Het ontluisterende verhaal over de rechtstreekse toegang tot de zee.

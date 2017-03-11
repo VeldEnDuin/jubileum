@@ -30,7 +30,10 @@ exhibit:
     nl: "/nl/index.html#tentoonstelling"
     fr: "/fr/index.html#exposition"
     de: "/de/index.html#ausstellung"
-    en: "/en/index.html#exhibition"
+exhibit_index:
+    nl: /nl/tentoonstelling/praktisch.html
+    fr: /fr/exposition/pratique.html
+    de: /de/ausstellung/praktisch.html
 
 games:
     nl: "/nl/index.html#spelletjes"
@@ -68,35 +71,45 @@ exhibit_crash:
 
 exhibit_lostfound:
     nl: /nl/tentoonstelling/verloren-voorwerpen.html
-    fr: /fr/exposition/verloren-voorwerpen.html
-    de: /de/ausstellung/verloren-voorwerpen.html
+    fr: /fr/exposition/perdus-et-trouves.html
+    de: /de/ausstellung/verloren-und-gefunden.html
 
 exhibit_cinema:
     nl: /nl/tentoonstelling/cinema.html
     fr: /fr/exposition/cinema.html
-    de: /de/ausstellung/cinema.html
+    de: /de/ausstellung/kino.html
 
 exhibit_duikdrift:
     nl: /nl/tentoonstelling/duikers-op-drift.html
-    fr: /fr/exposition/archeosite.html
-    de: /de/ausstellung/archeosite.html
+    fr: /fr/exposition/plongeurs-derive.html
+    de: /de/ausstellung/taucher-geratewohl.html
 
 exhibit_haag:
     nl: /nl/tentoonstelling/klaaghaag.html
-    fr: /fr/exposition/klaaghaag.html
-    de: /de/ausstellung/klaaghaag.html
+    fr: /fr/exposition/haie-des-lamentations.html
+    de: /de/ausstellung/klagehecke.html
 
 exhibit_tijdpaal:
     nl: /nl/tentoonstelling/tijd-mijl-paal.html
-    fr: /fr/exposition/tijd-mijl-paal.html
-    de: /de/ausstellung/tijd-mijl-paal.html
+    fr: /fr/exposition/jalons-de-temps.html
+    de: /de/ausstellung/zeit-meilenstein.html
 
 exhibit_badmeester:
     nl: /nl/tentoonstelling/badmeester.html
-    fr: /fr/exposition/tentoonstellingsboom.html
-    de: /de/ausstellung/tentoonstellingsboom.html
+    fr: /fr/exposition/surveillant.html
+    de: /de/ausstellung/supervisor.html
 
 exhibit_korentelcel:
     nl: /nl/tentoonstelling/korenveld-telefooncel.html
-    fr: /fr/exposition/korenveld-telefooncel.html
-    de: /de/ausstellung/korenveld-telefooncel.html
+    fr: /fr/exposition/champ-de-ble-telephone.html
+    de: /de/ausstellung/cornfield-telefon.html
+    
+openingsuren:
+    nl: http://www.veldenduin.be/nl/goed-om-weten/praktisch.html
+    fr: http://www.veldenduin.be/fr/bon-a-savoir/pratique.html
+    de: http://www.veldenduin.be/de/gut-zu-wissen/praktisch.html
+    
+wifi:
+    nl: http://www.veldenduin.be/nl/voorzieningen/internet.html
+    fr: http://www.veldenduin.be/fr/equipements/internet.html
+    de: http://www.veldenduin.be/de/annehmlichkeiten/internet.html
