@@ -3,23 +3,21 @@ layout: default
 ---
 {% include layout-prelude.html %}
 
+<h2 class="pull-left">{{page.title}}</h2>
+
+{% if page.media.size > 0%}
 <a href="#media">
-  <button class="btn btn-default pull-right">
+  <button class="btn btn-default pull-right hidden-lg hidden-md">
     <span class="glyphicon glyphicon-paperclip"></span>
     {{site.data.langs[pgLang].dict.mediatitle}}
   </button>
 </a>
-<!--
-<a href="{{site.baseurl}}todo-link-audiopage-js?">
-  <button class="btn btn-default pull-right">
-    <i class="fa fa-microphone" aria-hidden="true"></i>
-    {{site.data.langs[pgLang].dict.outloud}}
-  </button>
-</a>
--->
-<h2>{{page.title}}</h2>
+{% endif %}
 
-<div class="media-content">
+
+<div class="clearfix"></div>
+
+<div class="row clearfix media-content">
 {{content}}
 </div>
 

@@ -13,14 +13,17 @@ preview:
         
 media:
     - type: image
-      link: /media/img/demo/demo-01.jpg
-      title: sisal gekleurd
-    - type: audio
-      link: /media/audio/demo/demo-01.mp3
-      view: /media/img/demo/demo-07.jpg
-      title: maanlanding
-    - type: video
-      link: /media/video/demo/demo-01.mp4
-      view: /media/video/demo/demo-01.png
-      title: konijnehol
+      link: /media/img/badmeester-schets.jpg
+    - type: image
+      link: /media/img/badmeester-atelier-1.jpg
+    - type: image
+      link: /media/img/badmeester-atelier-2.jpg
+    - type: image
+      link: /media/img/badmeester-atelier-3.jpg
+      
+
 ---
+
+Heeft de immer attente badmeester de duikers opgemerkt? Of kijkt hij enkel richting zee, waar hij z’n hart verloren heeft? Verliest hij daarbij de essentie niet uit het oog?
+
+Dit kunstwerk is - net zoals Duikers op Drift - een werk van het befaamde kunstenaarsduo De Blieck & Crutelle. Het gerenomeerde kunstmagazine ‘Kunstraaf’ besteedde onlangs een uitgebreide reportage aan hun werk.

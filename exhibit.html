@@ -13,22 +13,25 @@ exh_linkcode: exhibit
         <link rel="alternate" type="application/atom+xml" href="/atomfeed.xml">
         <!-- redirect default language -->
         <script type="text/javascript">
-            var hl, hash, ndx,
+            var loc, hl, hash, ndx,
                 EXHLINKS = {"nl": [], "fr": [], "de": []};
 
-            EXHLINKS.nl[0] = "{{site.data.linkcode[page.exh_linkcode].nl}}";
-            EXHLINKS.fr[0] = "{{site.data.linkcode[page.exh_linkcode].fr}}";
-            EXHLINKS.de[0] = "{{site.data.linkcode[page.exh_linkcode].de}}";
 {% for m2 in exh_submenu %}
-            EXHLINKS.nl[{{forloop.index}}] = "{{site.data.linkcode[m2.linkcode].nl}}";
-            EXHLINKS.fr[{{forloop.index}}] = "{{site.data.linkcode[m2.linkcode].fr}}";
-            EXHLINKS.de[{{forloop.index}}] = "{{site.data.linkcode[m2.linkcode].de}}";
+            EXHLINKS.nl[{{forloop.index0}}] = "{{site.data.linkcode[m2.linkcode].nl}}";
+            EXHLINKS.fr[{{forloop.index0}}] = "{{site.data.linkcode[m2.linkcode].fr}}";
+            EXHLINKS.de[{{forloop.index0}}] = "{{site.data.linkcode[m2.linkcode].de}}";
 {% endfor %}
 
-            hl = navigator.language || navigator.userLanguage;
-            hl = hl.slice(0, 2);
-            if (["de", "fr", "nl"].indexOf(hl) === -1) {
-                hl = "nl";
+            loc = "" + window.location;
+            if (loc.match(/tentoonstelling/)) {    hl = "nl";
+            } else if (loc.match(/exposition/)) {  hl = "fr";
+            } else if (loc.match(/ausstellung/)) { hl = "de";
+            } else {
+                hl = navigator.language || navigator.userLanguage;
+                hl = hl.slice(0, 2);
+                if (["de", "fr", "nl"].indexOf(hl) === -1) {
+                    hl = "nl";
+                }
             }
 
             hash = window.location.hash;

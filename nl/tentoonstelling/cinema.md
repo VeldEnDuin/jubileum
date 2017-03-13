@@ -12,22 +12,41 @@ preview:
         
 media:
     - type: image
-      link: /media/img/demo/demo-01.jpg
-      title: sisal gekleurd
-    - type: audio
-      link: /media/audio/demo/demo-01.mp3
-      view: /media/img/demo/demo-07.jpg
-      title: maanlanding
-    - type: video
-      link: /media/video/demo/demo-01.mp4
-      view: /media/video/demo/demo-01.png
-      title: konijnehol
+      link: /media/img/cinema-scan-contract-nl-1979.jpg
+    - type: image
+      link: /media/img/cinema-scan-contract-fr-1976.jpg
+    - type: image
+      link: /media/img/cinema-scan-jubi40-2007.jpg
+    - type: image
+      link: /media/img/cinema-scan-brandattest-zz-1970-02-27.jpg
+    - type: image
+      link: /media/img/cinema-scan-campinglijst-zz-1968.jpg
+    - type: image
+      link: /media/img/cinema-scan-apen-kust-2015.jpg
+    - type: image
+      link: /media/img/cinema-scan-jubi40-2-2007.jpg
+    - type: image
+      link: /media/img/cinema-scan-lawaai-1990.jpg
+    - type: image
+      link: /media/img/cinema-scan-contract-de-1976.jpg
+    - type: image
+      link: /media/img/cinema-scan-vernieuws-2007.jpg
+    - type: image
+      link: /media/img/cinema-scan-vergunning-zz-1966-03-04.jpg
+    - type: image
+      link: /media/img/cinema-scan-hrg-ost-1969.jpg
+    - type: image
+      link: /media/img/cinema-scan-contract-nl-1976.jpg
+    - type: image
+      link: /media/img/cinema-scan-hln-2007-08-24.jpg
+    - type: image
+      link: /media/img/cinema-scan-vergunning-zz-1967-06-29.jpg
+    - type: image
+      link: /media/img/cinema-scan-distributie-1979.jpg
+
        
 ---
 
-### Komt dat zien!
+Welkom in ons zoek-het-zelf-museum! Geef de voyeur in jezelf een kans, open de deurtjes, lades en gordijnen en krijg inzage in de geschiedenis van de camping.
 
-Vivamus viverra, nisi vel vestibulum lobortis, augue neque lobortis justo, quis suscipit tellus mauris quis lacus. Fusce sollicitudin erat vel auctor tincidunt. Proin dictum, nibh sit amet bibendum ullamcorper, lorem augue [tincidunt lacus](#mx-1), a molestie orci diam a ligula. 
-
-Mauris et aliquam tortor, eget vulputate nisl. Pellentesque sem elit, finibus in aliquet vel, gravida quis nulla. Nulla aliquet placerat nisl id volutpat. Morbi [elementum nec](#mx-2) purus non tempor. Vivamus a dictum nibh. Fusce sagittis egestas massa et consequat. [Suspendisse in](#mx-3) mollis ligula. Duis pulvinar id tellus in volutpat.
-
+Nestel je daarna in de zetel om te genieten van onze Veld & Duin kortfilm.

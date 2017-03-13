@@ -23,13 +23,9 @@
     fr:  Exposition
     en:  Exhibition
     de:  Ausstellung
-  extratekst:
-    nl: >
-        <strong>De wereld als camping</strong><br>
-        1/4 - 12/11<br>
-        een ludieke ontdekkingsreis<br>
-        naar hoe het (n)ooit is geweest
   submenu:
+    - linkcode: exhibit_index
+      hide:     true
     - linkcode: exhibit_crash
     - linkcode: exhibit_duikdrift
     - linkcode: exhibit_badmeester

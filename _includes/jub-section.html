@@ -7,28 +7,35 @@
 
 <div class="jub-section col-xs-12" {{role_attr}} >
   <div class="clearfix">
+
+{% assign select = section.linkcode | append: '_index' %}
+{% if site.data.linkcode[select] %}
+    {% assign select_mode = 'see_more' %}
+{% else %}
+    {% assign select = section_linkcode | append: '_include' %}
+{% endif  %}
+{% include jub-section-select.html %}
+
 {% if section.submenu %}
+    {% assign select_mode = 'vgroup' %}
+    {% assign role_attr = 'role="vctrl"' %}
+    
     <div class="vgroup-ctrl left"><button class="btn btn-default" role="vctrl-prev"><span class="glyphicon glyphicon-chevron-left"></span></button></div>
     <div class="jub-section-vgroup embargo-locked">
       <div class="row" role="vctrl-list">
     {% for sub in section.submenu %}
+        {% unless sub.hide %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 clearfix" role="vctrl-item">
           <a name="{{sub.linkcode}}"></a>
-        {% assign select = sub.linkcode %}
-        {% include jub-section-select.html %}
+            {% assign select = sub.linkcode %}
+            {% include jub-section-select.html %}
         </div>
+        {% endunless %}
     {% endfor %}
       </div>
     </div>
     <div class="vgroup-ctrl right"><button class="btn btn-default" role="vctrl-next"><span class="glyphicon glyphicon-chevron-right"></span></button></div>
-{% else %}
-    {% assign select = section.linkcode | append: '_index' %}
-    {% if site.data.linkcode[select] %}
-        {% assign select_mode = 'see_more' %}
-    {% else %}
-        {% assign select = section_linkcode | append: '_include' %}
-    {% endif  %}
-    {% include jub-section-select.html %}
 {% endif %}
+
   </div>
 </div>

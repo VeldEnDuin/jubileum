@@ -49,7 +49,7 @@
           </div></div>
         </div>        
         <div class="col-xs-12 text-center">{{it.title[pgLang]}}</div>
-        <div class="hidden-xs col-sm-12 text-center">{{it.description[pgLang]}}</div>
+        <div class="hidden-xs col-sm-12 text-center" style="padding-bottom: 1em;">{{it.description[pgLang]}}</div>
       </div>
             {% assign clsHide = 'hidden' %}
         {% endfor %}
@@ -57,7 +57,7 @@
     {% endif %}
     
     {% if linkPage.preview.text.size > 0 %}
-    <div class="hidden-xs col-sm-12 text-center">
+    <div class="hidden-xs col-sm-12 text-center" style="padding-bottom: 1em;">
         {% for ln in linkPage.preview.text %}
         {{ ln }}<br>
         {% endfor %}
