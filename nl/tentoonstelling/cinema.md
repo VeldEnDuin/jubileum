@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: CINEMA-MUSEUM 
+title: HET CINEMA-MUSEUM 
 embargo: true
 insert:
     - banner

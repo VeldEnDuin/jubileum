@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: Badmeester
+title: De badmeester
 embargo: true
 insert:
     - banner

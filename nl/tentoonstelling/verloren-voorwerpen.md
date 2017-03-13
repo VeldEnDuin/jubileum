@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: VERLOREN VOORWERPEN
+title: DE CHALET MET DE VERLOREN VOORWERPEN
 embargo: true
 insert:
     - banner
