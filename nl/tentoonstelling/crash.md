@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: DE CRASH
+title: De ideale crash
 embargo: true
 insert:
     - banner

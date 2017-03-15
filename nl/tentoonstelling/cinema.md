@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: CINEMA-MUSEUM 
+title: Het filmkabinet 
 embargo: true
 insert:
     - banner

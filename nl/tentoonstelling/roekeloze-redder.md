@@ -1,11 +1,11 @@
 ---
 layout: exhibit
-title: Badmeester
+title: De roekeloze redder
 embargo: true
 insert:
     - banner
 preview: 
-    image: /media/img/badmeester.jpg
+    image: /media/img/roekeloze-redder.jpg
     readmore: "Red ons"
     text: >
         Wie wordt daar zo nauwlettend in de gaten gehouden?
@@ -13,13 +13,13 @@ preview:
         
 media:
     - type: image
-      link: /media/img/badmeester-schets.jpg
+      link: /media/img/redder-schets.jpg
     - type: image
-      link: /media/img/badmeester-atelier-1.jpg
+      link: /media/img/redder-atelier-1.jpg
     - type: image
-      link: /media/img/badmeester-atelier-2.jpg
+      link: /media/img/redder-atelier-2.jpg
     - type: image
-      link: /media/img/badmeester-atelier-3.jpg
+      link: /media/img/redder-atelier-3.jpg
       
 
 ---

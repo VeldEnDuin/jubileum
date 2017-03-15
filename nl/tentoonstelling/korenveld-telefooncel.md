@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: HER MAJESTY'S BEST KEPT SECRET
+title: Her Majesty's best kept secret
 embargo: true
 
 insert:

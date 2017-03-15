@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: TIJDSMIJLPAAL
+title: Flitspalen
 embargo: true
 insert:
     - banner

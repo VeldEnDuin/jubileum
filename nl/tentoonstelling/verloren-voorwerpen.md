@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: VERLOREN VOORWERPEN
+title: Onderdak voor verloren voorwerpen
 embargo: true
 insert:
     - banner
