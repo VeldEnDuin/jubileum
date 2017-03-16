@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: Her Majesty's best kept secret
+title: The milling fields
 embargo: true
 
 insert:
