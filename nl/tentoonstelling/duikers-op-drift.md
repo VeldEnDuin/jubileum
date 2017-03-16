@@ -15,8 +15,6 @@ media:
     - type: image
       link: /media/img/duikers-atelier-0.jpg
     - type: image
-      link: /media/img/duikers-atelier-1.jpg
-    - type: image
       link: /media/img/duikers-atelier-2.jpg
     - type: image
       link: /media/img/duikers-atelier-3.jpg
@@ -24,6 +22,9 @@ media:
       code: adg9FS5ZsOs
       view: /media/video/duikers-sylvie.jpg
       title: Making Of...
+    - type: image
+      link: /media/img/duikers-kunstraaf-cover-201701-600px.jpg
+      title: Kunstraaf 2017-jan
 ---
 
 Twee duikers...verloren in het graslandschap. Niemand noteerde hun verhaal en dat prikkelt de fantasie. Bedenk je eigen versie over hoe ze hier terechtgekomen zijn en bezorg het ons. De mooiste verhalen worden op de site gezet.
