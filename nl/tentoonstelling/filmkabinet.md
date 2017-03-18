@@ -2,8 +2,7 @@
 layout: exhibit
 title: Het filmkabinet 
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/campingcinema.jpg
     readmore: "Zwijmel mee"

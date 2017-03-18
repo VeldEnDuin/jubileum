@@ -2,8 +2,7 @@
 layout: exhibit
 title: Onderdak voor verloren voorwerpen
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/verloren-voorwerpen-chalet.jpg
     readmore: "Vind terug"

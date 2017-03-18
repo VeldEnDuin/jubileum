@@ -3,8 +3,7 @@ layout: exhibit
 title: Her Majesty's best kept secret
 embargo: true
 
-insert:
-    - banner
+
 preview: 
     image: /media/img/korenveld.jpg
     readmore: "Proef meer"

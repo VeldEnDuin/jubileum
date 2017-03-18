@@ -3,8 +3,7 @@ layout: exhibit
 title: Duikers op Drift
 
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/duikers-op-drift.jpg
     readmore: "Duik mee"

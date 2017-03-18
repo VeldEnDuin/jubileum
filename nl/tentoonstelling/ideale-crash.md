@@ -2,8 +2,7 @@
 layout: exhibit
 title: De ideale crash
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/crash.jpg
     readmore: "Huiver mee"

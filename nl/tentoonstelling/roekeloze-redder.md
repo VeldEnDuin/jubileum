@@ -2,8 +2,7 @@
 layout: exhibit
 title: De roekeloze redder
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/roekeloze-redder.jpg
     readmore: "Red ons"

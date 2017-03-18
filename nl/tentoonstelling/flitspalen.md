@@ -2,8 +2,7 @@
 layout: exhibit
 title: Flitspalen
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/tijdspalen.jpg
     readmore: "Ontdek meer"

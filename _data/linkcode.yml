@@ -65,45 +65,45 @@ goeddoel_index:
 
 
 exhibit_crash:
-    nl: /nl/tentoonstelling/crash.html
+    nl: /nl/tentoonstelling/ideale-crash.html
     fr: /fr/exposition/crash.html
     de: /de/ausstellung/crash.html
-
-exhibit_lostfound:
-    nl: /nl/tentoonstelling/verloren-voorwerpen.html
-    fr: /fr/exposition/perdus-et-trouves.html
-    de: /de/ausstellung/verloren-und-gefunden.html
-
-exhibit_cinema:
-    nl: /nl/tentoonstelling/cinema.html
-    fr: /fr/exposition/cinema.html
-    de: /de/ausstellung/kino.html
 
 exhibit_duikdrift:
     nl: /nl/tentoonstelling/duikers-op-drift.html
     fr: /fr/exposition/plongeurs-derive.html
     de: /de/ausstellung/taucher-geratewohl.html
 
-exhibit_haag:
-    nl: /nl/tentoonstelling/klaaghaag.html
-    fr: /fr/exposition/haie-des-lamentations.html
-    de: /de/ausstellung/klagehecke.html
-
-exhibit_tijdpaal:
-    nl: /nl/tentoonstelling/tijd-mijl-paal.html
-    fr: /fr/exposition/jalons-de-temps.html
-    de: /de/ausstellung/zeit-meilenstein.html
-
 exhibit_redder:
     nl: /nl/tentoonstelling/roekeloze-redder.html
     fr: /fr/exposition/surveillant.html
     de: /de/ausstellung/supervisor.html
 
+exhibit_tijdpaal:
+    nl: /nl/tentoonstelling/flitspalen.html
+    fr: /fr/exposition/jalons-de-temps.html
+    de: /de/ausstellung/zeit-meilenstein.html
+
 exhibit_korentelcel:
-    nl: /nl/tentoonstelling/korenveld-telefooncel.html
+    nl: /nl/tentoonstelling/milling-fields.html
     fr: /fr/exposition/champ-de-ble-telephone.html
     de: /de/ausstellung/cornfield-telefon.html
     
+exhibit_cinema:
+    nl: /nl/tentoonstelling/filmkabinet.html
+    fr: /fr/exposition/cinema.html
+    de: /de/ausstellung/kino.html
+
+exhibit_lostfound:
+    nl: /nl/tentoonstelling/verloren-voorwerpen.html
+    fr: /fr/exposition/perdus-et-trouves.html
+    de: /de/ausstellung/verloren-und-gefunden.html
+
+exhibit_haag:
+    nl: /nl/tentoonstelling/klaaghaag.html
+    fr: /fr/exposition/haie-des-lamentations.html
+    de: /de/ausstellung/klagehecke.html
+
 openingsuren:
     nl: http://www.veldenduin.be/nl/goed-om-weten/praktisch.html
     fr: http://www.veldenduin.be/fr/bon-a-savoir/pratique.html
