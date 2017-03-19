@@ -15,6 +15,6 @@ media:
       title: The Complaint Song
 ---
 
-Klagen is van alle tijden en een essentieel onderdeel van elke geslaagde vakantie. Veld & Duin wou hieraan graag tegemoet komen en vond in de klaaghaag de ideale oplossing.
+Klagen is van alle tijden en een essentieel onderdeel van elke geslaagde vakantie. Veld & Duin wou graag aan het onbehagen tegemoetkomen en vond in de klaaghaag de ideale oplossing.
 
-In het verleden kwamen onder andere al Tripadvisor en Zoover op studiebezoek om alles te vernemen over dit baanbrekende concept.
+Recent kwamen onder andere al Tripadvisor en Zoover op studiebezoek om alles te vernemen over dit unieke concept.

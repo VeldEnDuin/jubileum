@@ -7,7 +7,7 @@ preview:
     image: /media/img/tijdspalen.jpg
     readmore: "Ontdek meer"
     text: >
-        Vijftig jaar wereld-en campinggeschiedenis aan de 5 tijdsmijlpalen.
+        Vijftig jaar wereld-en campinggeschiedenis aan de 5 flitspalen.
 media:
     - type: youtube
       code: Qlc7iLLSQZE
@@ -31,6 +31,7 @@ media:
       title: van 2007 tot 2016
 ---
 
-De camping is de voorbije 50 jaar voortdurend in beweging geweest. Dat blijkt echter voor Bredene en de wereld niet zoveel anders te zijn. 
+De camping is de voorbije 50 jaar voortdurend in beweging geweest. Een halve eeuw is zo voorbijgeflitst. Dat is voor Bredene en de rest van de wereld  niet anders. 
 
 Bekijk hier de 5 wereldcampingfilmpjes. 
+

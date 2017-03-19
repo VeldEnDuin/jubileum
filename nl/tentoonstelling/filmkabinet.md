@@ -7,7 +7,7 @@ preview:
     image: /media/img/campingcinema.jpg
     readmore: "Zwijmel mee"
     text: >
-        Tijd voor wat nostalgie in onze retro campingcinema anex museum.
+        Tijd voor wat nostalgie in ons filmkabinet anex museum.
         
 media:
     - type: image
@@ -46,6 +46,7 @@ media:
        
 ---
 
-Welkom in ons zoek-het-zelf-museum! Geef de voyeur in jezelf een kans, open de deurtjes, lades en gordijnen en krijg inzage in de geschiedenis van de camping.
+Welkom in ons zoek-het-zelf-maar-uit-curiositeitenmuseum! Geef de voyeur in jezelf een kans, open deuren, kraak lades, schuif gordijnen en krijg inzage in de geschiedenis van de camping.
 
 Nestel je daarna in de zetel om te genieten van onze Veld & Duin kortfilm.
+

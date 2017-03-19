@@ -21,7 +21,7 @@ media:
       
 ---
 
-Het was de uitdrukkelijke wens van Fernands ouders om een stukje korenveld te behouden als aandenken hoe het hier vroeger was. En toen kregen we dat telefoontje… neem de hoorn op en luister mee.
+Het was de uitdrukkelijke wens van Fernands ouders om een stukje korenveld te behouden als aandenken aan hoe het hier vroeger was. En toen kregen we dat telefoontje… neem de hoorn op en luister mee.
 
 Het [originele recept van de queen](#mx-2) vind je in de telefooncel of bij het bonusmateriaal. 
 

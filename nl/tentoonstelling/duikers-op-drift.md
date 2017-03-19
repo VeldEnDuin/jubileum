@@ -26,4 +26,6 @@ media:
       title: Kunstraaf 2017-jan
 ---
 
-Twee duikers...verloren in het graslandschap. Niemand noteerde hun verhaal en dat prikkelt de fantasie. Bedenk je eigen versie over hoe ze hier terechtgekomen zijn en bezorg het ons. De mooiste verhalen worden op de site gezet.
+Twee duikers komen boven water in het graslandschap. Niemand noteerde hun verhaal en dat prikkelt de fantasie. 
+
+Bedenk je eigen versie over hoe ze hier terechtgekomen zijn en bezorg het ons. De mooiste verhalen worden op de site gezet.
