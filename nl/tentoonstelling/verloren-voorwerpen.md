@@ -11,6 +11,7 @@ preview:
     
 ---
 
-Je kunt het zo gek niet bedenken of het is wel eens kwijtgeraakt op de camping. In de loop van de jaren werden op die manier dan ook ontzettend veel voorwerpen verzameld. Kijk door het raam of loop even binnen, misschien herken je nog iets?
+Je kunt het zo gek niet bedenken of het is wel eens zoekgeraakt op de camping. In de loop van de jaren zijn er dan ook ontzettend veel voorwerpen verzameld. Kijk door het raam of loop even binnen, misschien herken je nog iets?
 
-De zelfverklaarde Verantwoordelijke Verloren Voorwerpen is Valère. Hij heeft er zijn levenswerk van gemaakt om de spullen allemaal te verzamelen, te labelen en te proberen de rechtmatige eigenaar terug te vinden. Hij heeft beloofd om tijdens de gidsbeurten live aanwezig te zijn om jullie vragen te beantwoorden.
+De zelfverklaarde ‘Verantwoordelijke Verloren Voorwerpen’ is Valère. Hij heeft er zijn levenswerk van gemaakt om de spullen allemaal te sorteren, te labelen en te proberen de rechtmatige eigenaar terug te vinden. Hij heeft beloofd om tijdens de gidsbeurten live aanwezig te zijn om jullie vragen te beantwoorden.
+

@@ -26,6 +26,6 @@ media:
       
 ---
 
-Hoe rijm je een romantische huwelijksreis, een caravan op z’n kop en de start van Veld & Duin?
+Wat is het verband tussen een huwelijksbootje, een caravan op zijn kop en de start van Veld & Duin?
 
-Ontdek het onthutsende verhaal over een autorit die eerst een camping en vijftig jaar later een tentoonstelling werd. 
+Ontdek het baanbrekende verhaal over een autorit die eerst een camping en vijftig jaar later een tentoonstelling werd. Van een koerswijziging gesproken!
