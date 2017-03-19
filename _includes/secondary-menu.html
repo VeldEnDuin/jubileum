@@ -7,7 +7,7 @@
             {% for pg in site.pages %}
                 {% if pg.url == site.data.linkcode[m2.linkcode][pgLang] %}
   <a href="{{site.baseurl}}{{ pg.url }}" class="notd" >
-    <div class="text-center col-xs-12 col-md-6 {% if lvl2 == m2 %}active{% endif %}" >
+    <div class="text-center col-xs-6 col-sm-12 col-md-6 {% if lvl2 == m2 %}active{% endif %}" >
       <img src="{{site.baseurl}}{{pg.preview.image}}" class="img img-rounded img-responsive">
       <span class="title">{{pg.title}}</span>
     </div>

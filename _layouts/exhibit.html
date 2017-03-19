@@ -30,7 +30,7 @@ layout: default
     {{site.data.langs[pgLang].dict.mediatitle}}
   </h3>
     {% for media in page.media %}
-  <div class="vd-group-item col-xs-12 col-sm-6 col-md-4 col-lg-3 media-item" data-media="{{media | jsonify}}">
+  <div class="vd-group-item col-xs-6 col-sm-6 col-md-4 col-lg-3 media-item" data-media="{{media | jsonify}}">
     {% assign medialink = media.link %}
     {% assign typelink = '/img/svg/style/media-' |append: media.type |append: '.svg' %}
     {% assign typealtlink = '/img/svg/style/media-' |append: media.type |append: '-alt.svg' %}
