@@ -1871,6 +1871,18 @@ img.img-font {
     height: 100%;
 }
 
+.vd-exhibit-icon {
+    /*
+    height: 36px;
+    vertical-align: bottom;
+    */
+    height: 46px;
+    position: relative;
+    top: -6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
 
 /* sticky footer code */
 html, body {

@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: Duikers op Drift
+icon: /media/img/svg/duikers.svg
 
 embargo: true
 

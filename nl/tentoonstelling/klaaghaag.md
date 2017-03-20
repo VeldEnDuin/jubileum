@@ -1,6 +1,8 @@
 ---
 layout: exhibit
-title: DE KLAAGHAAG
+title: De Klaaghaag
+icon: /media/img/svg/klaaghaag.svg
+
 embargo: true
 
 preview: 

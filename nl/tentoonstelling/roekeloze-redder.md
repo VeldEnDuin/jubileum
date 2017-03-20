@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: De roekeloze redder
+icon: /media/img/svg/redder.svg
 embargo: true
 
 preview: 

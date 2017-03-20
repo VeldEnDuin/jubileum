@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: Flitspalen
+icon: /media/img/svg/flitspaal.svg
 embargo: true
 
 preview: 

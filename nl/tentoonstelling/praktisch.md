@@ -19,6 +19,8 @@ preview:
 
 De tentoonstelling  bestaat uit 8 verschillende locaties. De volgorde waarin je de locaties bezoekt is compleet onbelangrijk. 
 
+![Plan van de locaties](../../img/tentoonstelling-grondplan-800.jpg)
+
 De tentoonstelling is elke dag te bezoeken tussen 9 tot 21 uur. Het filmkabinet en de chalet met de verloren voorwerpen zijn enkel te bezoeken tijdens de [openingsuren van de receptie][openingsuren.nl].
 
 Tijdens het feestweekend van 3 juni worden rondleidingen met gids voorzien (vooraf inschrijven). Eventuele extra rondleidingen worden aangekondigd op de jubileumsite en facebook.

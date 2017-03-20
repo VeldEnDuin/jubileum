@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: The milling fields
+icon: /media/img/svg/milling-fields.svg
 embargo: true
 
 

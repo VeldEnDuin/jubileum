@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: Onderdak voor verloren voorwerpen
+icon: /media/img/svg/verlorenvoorwerp.svg
 embargo: true
 
 preview: 

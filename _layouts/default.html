@@ -115,7 +115,10 @@ tcs: [1,2,3,5,6,9]
     {% if lvl2nav %}
           </div>
           <div class="col-sm-4 col-xs-12 ">
+        {% comment %}
         {% include geonav.html %}
+        {% endcomment %}
+        
         {% include secondary-menu.html %}
           </div>
     {% endif %}

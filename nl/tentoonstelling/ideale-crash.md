@@ -1,6 +1,7 @@
 ---
 layout: exhibit
 title: De ideale crash
+icon: /media/img/svg/crash.svg
 embargo: true
 
 preview: 
