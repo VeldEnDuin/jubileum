@@ -1,7 +1,10 @@
 ---
 layout: exhibit
 title: Onderdak voor verloren voorwerpen
-icon: /media/img/svg/verlorenvoorwerp.svg
+icon: 
+    src: /media/img/svg/verlorenvoorwerp.svg
+    color: blauw
+    fill: blauw
 embargo: true
 
 preview: 

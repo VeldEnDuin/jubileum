@@ -1,7 +1,10 @@
 ---
 layout: exhibit
 title: Duikers op Drift
-icon: /media/img/svg/duikers.svg
+icon: 
+    src: /media/img/svg/duikers.svg
+    color: rood
+    fill: geel
 
 embargo: true
 

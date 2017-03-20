@@ -1,7 +1,8 @@
 ---
 layout: exhibit
 title: Het filmkabinet
-icon: /media/img/svg/filmkabinet.svg
+icon: 
+    src: /media/img/svg/filmkabinet.svg
 embargo: true
 
 preview: 

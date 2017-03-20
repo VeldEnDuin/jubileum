@@ -4,8 +4,11 @@ layout: default
 {% include layout-prelude.html %}
 
 <h2 class="pull-left">
-{% if page.icon %}
-  <img src="{{site.baseurl}}{{page.icon}}" class="vd-exhibit-icon">
+{% if page.icon.src %}
+  <img src="{{site.baseurl}}{{page.icon.src}}" 
+       class="jub-exhibit-icon
+           {%if page.icon.color %}b-{{page.icon.color}}{% endif %}
+           {%if page.icon.fill  %}f-{{page.icon.fill}}{% endif %}" >
 {% endif %}
     {{page.title}}
 </h2>

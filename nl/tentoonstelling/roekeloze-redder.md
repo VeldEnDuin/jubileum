@@ -1,7 +1,11 @@
 ---
 layout: exhibit
 title: De roekeloze redder
-icon: /media/img/svg/redder.svg
+icon: 
+    src: /media/img/svg/redder.svg
+    color: blauw
+    fill: geel
+    
 embargo: true
 
 preview: 

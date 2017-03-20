@@ -1,7 +1,10 @@
 ---
 layout: exhibit
 title: The milling fields
-icon: /media/img/svg/milling-fields.svg
+icon: 
+    src: /media/img/svg/milling-fields.svg
+    color: rood
+    fill: geel
 embargo: true
 
 

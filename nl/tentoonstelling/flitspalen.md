@@ -1,7 +1,10 @@
 ---
 layout: exhibit
 title: Flitspalen
-icon: /media/img/svg/flitspaal.svg
+icon: 
+    src: /media/img/svg/flitspaal.svg
+    color: rood
+    fill: geel
 embargo: true
 
 preview: 

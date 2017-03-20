@@ -1871,7 +1871,7 @@ img.img-font {
     height: 100%;
 }
 
-.vd-exhibit-icon {
+.jub-exhibit-icon {
     /*
     height: 36px;
     vertical-align: bottom;
@@ -1879,10 +1879,41 @@ img.img-font {
     height: 46px;
     position: relative;
     top: -6px;
-    border: 1px solid #159499;
+    border: 1px solid #000;
     border-radius: 3px;
 }
 
+.jub-exhibit-icon.b-geel {
+    border-color: #fed120;
+}
+.jub-exhibit-icon.b-groen {
+    border-color: #3aa642;
+}
+.jub-exhibit-icon.b-blauw {
+    border-color: #159499;
+}
+.jub-exhibit-icon.b-oranje {
+    border-color: #ed7f2c;
+}
+.jub-exhibit-icon.b-rood {
+    border-color: #bc3c20;
+}
+
+.jub-exhibit-icon.f-geel {
+    background-color: rgba(254, 209, 32, 0.3);
+}
+.jub-exhibit-icon.f-groen {
+    background-color: rgba(58, 166, 66, 0.3);
+}
+.jub-exhibit-icon.f-blauw {
+    background-color: rgba(21, 148, 153, 0.3);
+}
+.jub-exhibit-icon.f-oranje {
+    background-color: rgba(237, 127, 44, 0.3);
+}
+.jub-exhibit-icon.f-rood {
+    background-color: rgba(188, 60, 32, 0.3);
+}
 
 /* sticky footer code */
 html, body {

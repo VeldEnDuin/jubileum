@@ -1,7 +1,10 @@
 ---
 layout: exhibit
 title: De Klaaghaag
-icon: /media/img/svg/klaaghaag.svg
+icon: 
+    src: /media/img/svg/klaaghaag.svg
+    color: groen
+    fill: groen
 
 embargo: true
 

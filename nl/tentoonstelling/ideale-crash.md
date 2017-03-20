@@ -1,7 +1,10 @@
 ---
 layout: exhibit
 title: De ideale crash
-icon: /media/img/svg/crash.svg
+icon: 
+    src: /media/img/svg/crash.svg
+    color: blauw
+    fill: geel
 embargo: true
 
 preview: 
