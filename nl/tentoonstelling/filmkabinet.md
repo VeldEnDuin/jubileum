@@ -13,37 +13,17 @@ preview:
         
 media:
     - type: image
-      link: /media/img/cinema-scan-contract-nl-1979.jpg
-    - type: image
-      link: /media/img/cinema-scan-contract-fr-1976.jpg
-    - type: image
-      link: /media/img/cinema-scan-jubi40-2007.jpg
-    - type: image
-      link: /media/img/cinema-scan-brandattest-zz-1970-02-27.jpg
+      link: /media/img/cinema-scan-vergunning-zz-1966-03-04.jpg
+      title: Vergunning 1966
     - type: image
       link: /media/img/cinema-scan-campinglijst-zz-1968.jpg
-    - type: image
-      link: /media/img/cinema-scan-apen-kust-2015.jpg
-    - type: image
-      link: /media/img/cinema-scan-jubi40-2-2007.jpg
+      title: Prijzen 1968
     - type: image
       link: /media/img/cinema-scan-lawaai-1990.jpg
-    - type: image
-      link: /media/img/cinema-scan-contract-de-1976.jpg
-    - type: image
-      link: /media/img/cinema-scan-vernieuws-2007.jpg
-    - type: image
-      link: /media/img/cinema-scan-vergunning-zz-1966-03-04.jpg
-    - type: image
-      link: /media/img/cinema-scan-hrg-ost-1969.jpg
+      title: Krantenartikel 1990
     - type: image
       link: /media/img/cinema-scan-contract-nl-1976.jpg
-    - type: image
-      link: /media/img/cinema-scan-hln-2007-08-24.jpg
-    - type: image
-      link: /media/img/cinema-scan-vergunning-zz-1967-06-29.jpg
-    - type: image
-      link: /media/img/cinema-scan-distributie-1979.jpg
+      title: Contract 1976
 
        
 ---

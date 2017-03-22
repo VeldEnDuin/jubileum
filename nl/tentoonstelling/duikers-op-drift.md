@@ -17,17 +17,20 @@ preview:
 media:
     - type: image
       link: /media/img/duikers-atelier-0.jpg
+      title: Voorbereiding Duikers
     - type: image
       link: /media/img/duikers-atelier-2.jpg
+      title: Voorbereiding Duikers
     - type: image
       link: /media/img/duikers-atelier-3.jpg
+      title: Sylvie Crutelle
     - type: youtube
       code: adg9FS5ZsOs
       view: /media/video/duikers-sylvie.jpg
       title: Making Of...
     - type: image
       link: /media/img/duikers-kunstraaf-cover-201701-600px.jpg
-      title: Kunstraaf 2017-jan
+      title: Kunstmagazine Kunstraaf januari 2017
 ---
 
 Twee duikers komen boven water in het graslandschap. Niemand noteerde hun verhaal en dat prikkelt de fantasie. 

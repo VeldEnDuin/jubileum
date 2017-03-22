@@ -18,12 +18,13 @@ preview:
 media:
     - type: image
       link: /media/img/redder-schets.jpg
+      title: Conceptschets
     - type: image
       link: /media/img/redder-atelier-1.jpg
+      title: Voorbereiding Roekeloze Redder 
     - type: image
       link: /media/img/redder-atelier-2.jpg
-    - type: image
-      link: /media/img/redder-atelier-3.jpg
+      title: Voorbereiding Roekeloze Redder 
       
 
 ---

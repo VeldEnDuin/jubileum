@@ -21,7 +21,13 @@ media:
       title: Koren in de wind...
     - type: image
       link: /media/img/scones.jpg
-      title: Koninklijk Recept voor Scones
+      title: Recept voor koninklijke scones
+    - type: image
+      link: /media/img/milling-ma-queen.jpg
+      title: Koninklijk bezoek
+    - type: image
+      link: /media/img/milling-oorkonde.jpg
+      title: Hofleverancier
       
 ---
 
