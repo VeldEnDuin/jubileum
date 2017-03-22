@@ -18,6 +18,9 @@ media:
       link: /media/audio/complaint-song.mp3
       view: /media/audio/complaints-artist.jpg
       title: The Complaint Song
+    - type: image
+      link: /media/img/complaint-song-lyrics.png
+      title: Lyrics
 ---
 
 Klagen is van alle tijden en een essentieel onderdeel van elke geslaagde vakantie. Veld & Duin wou graag aan het onbehagen tegemoetkomen en vond in de klaaghaag de ideale oplossing.
