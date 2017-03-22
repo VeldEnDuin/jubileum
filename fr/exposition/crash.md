@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: DE CRASH
+title: LE CRASH RÊVÉ
 embargo: true
 insert:
     - banner
@@ -26,3 +26,4 @@ media:
       title: trouwfeest
       
 ---
+
