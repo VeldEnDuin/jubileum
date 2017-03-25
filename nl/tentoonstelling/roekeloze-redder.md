@@ -24,8 +24,11 @@ media:
       title: Voorbereiding Roekeloze Redder 
     - type: image
       link: /media/img/redder-atelier-2.jpg
-      title: Voorbereiding Roekeloze Redder 
-      
+      title: Voorbereiding Roekeloze Redder
+    - type: youtube
+      code: dOQ-zynqqn8
+      view: /media/video/redder-sylvie.jpg
+      title: Making Of...
 
 ---
 
