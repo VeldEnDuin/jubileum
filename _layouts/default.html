@@ -142,11 +142,17 @@ tcs: [1,2,3,5,6,9]
 
         <!-- more footer elements? -->
         <div id="contact" class="vd-contact" itemscope itemtype="http://schema.org/Place">
-        <a href="{{ site.url }}{{ pgLang }}" class="vd-barelink">
         <div class="container-fluid" >
-          <span>&copy; 2016 mini-site by </span> <img src="{{site.baseurl}}/img/style/by_veldenduin.png">
+          <a href="{{ site.url }}{{ pgLang }}" class="vd-barelink">
+            <span>&copy; 2016 mini-site by </span> <img src="{{site.baseurl}}/img/style/by_veldenduin.png">
+          </a>
+    {% if page.layout == 'exhibit' %}
+          <span> in samenwerking met </span> 
+          <a href="https://www.facebook.com/Olapaloma-212601222116238/">
+            <img src="{{site.baseurl}}/img/style/olapaloma.png">
+          </a>
+    {% endif %}
         </div>
-        </a>
         </div>
       </div>
     </footer>
