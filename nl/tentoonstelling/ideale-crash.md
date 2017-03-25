@@ -27,6 +27,9 @@ media:
       link: /media/video/crash-nonkelpetrol.mp4
       view: /media/video/crash-nonkelpetrol.jpg
       title: trouwfeest
+    - type: image
+      link: /media/img/crash-pv.jpg
+      title: proces verbaal
       
 ---
 
