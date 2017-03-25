@@ -7,9 +7,10 @@ preview:
     readmore: "Praktische Info"
     text: >
         <strong>De wereld als camping</strong><br>
-        1/4 - 12/11<br>
-        een ludieke ontdekkingsreis<br>
-        naar hoe het (n)ooit is geweest
+        1/4 - 12/11/2017</strong><br>
+        Acht verschillende locaties op de camping</strong><br>
+        blikken met een knipoog terug</strong><br>
+        op 50 jaar Veld & Duin</strong><br>
 ---
 
 {% include links.md %}
