@@ -151,7 +151,7 @@ header.spaced {
 }
 
 .btn-lg.btn-info {
-    background-image: url('/img/style/btn_k3_background.svg');
+    background-image: url('../img/style/btn_k3_background.svg');
 }
 
 .bg-k1 .btn-lg.btn-success {
