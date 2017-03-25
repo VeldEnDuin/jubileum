@@ -12,7 +12,12 @@ preview:
     readmore: "Vind terug"
     text: >
         Bezoek het levenswerk van Valère, Verantwoordelijke Verloren Voorwerpen.
-    
+
+media:
+    - type: youtube
+      code: HPQ_NYWXdME
+      view: /media/video/valere.jpg
+      title: Portret van Valère
 ---
 
 Je kunt het zo gek niet bedenken of het is wel eens zoekgeraakt op de camping. In de loop van de jaren zijn er dan ook ontzettend veel voorwerpen verzameld. Kijk door het raam of loop even binnen, misschien herken je nog iets?
