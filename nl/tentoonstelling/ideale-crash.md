@@ -30,6 +30,9 @@ media:
     - type: image
       link: /media/img/crash-pv.jpg
       title: proces verbaal
+    - type: image
+      link: /media/img/crash-old.jpg
+      title: 19 mei 1967
       
 ---
 
