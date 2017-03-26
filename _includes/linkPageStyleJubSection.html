@@ -91,24 +91,6 @@
     {% endif %}
 
     <div class="atbottom">
-    {% if select_mode == 'vgroup' %}
-        {% if linkPage.media.size > 0 or linkPage.content.size > 0%}
-            {% assign medias = linkPage.media |map: 'type' |uniq %}
-            {% if linkPage.content.size > 0 %}
-                {% assign medias = medias |push: 'text' |uniq %}
-            {% endif %}
-
-      <div class="col-xs-12">
-        <span class="media center-block text-center row row-centered" role="group">
-            {% for media in medias %}
-          <img class="col-xs-2 col-centered img img-responsive img-circle"
-            src="{{site.baseurl}}/img/svg/style/media-{{media}}.svg" >
-            {% endfor %}
-        </span>
-      </div>
-        {% endif %}
-    {% endif %}
-
     {% if select_mode == 'vgroup' or select_mode == 'see_more' %}
       <div class="jub-more">
         <button class="btn btn-lg btn-success center-block">{{see_more_label}}</button>
