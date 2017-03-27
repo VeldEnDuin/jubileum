@@ -1,28 +1,42 @@
 ---
 layout: exhibit
-title: DE CRASH
+title: DER IDEALE UNFALL
+icon: 
+    src: /media/img/svg/crash.svg
+    color: blauw
+    fill: geel
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/crash.jpg
-    readmore: "Huiver mee"
+    readmore: "Fiebern Sie mit"
     text: >
-        Hoe het allemaal begon: de ontstaansgeschiedenis van Veld & Duin.
+        Wie alles begann: die Entstehungsgeschichte von Veld & Duin
         
 media:
     - type: image
       link: /media/img/crash-trouwfoto.jpg
-      title: trouwfoto
+      title: Hochzeitsfoto
     - type: image
       link: /media/img/crash-trouwakte.jpg
-      title: trouwakte
+      title: Trauschein
     - type: image
-      link: /media/img/crash-menukaart.png
-      title: menukaart
+      link: /media/img/crash-spijskaart.png
+      title: Speisekarte
     - type: video
-      link: /media/video/crash-trouwfeest.mp4
-      view: /media/img/crash-trouwfeest.jpg
-      title: trouwfeest
+      link: /media/video/crash-nonkelpetrol.mp4
+      view: /media/video/crash-nonkelpetrol.jpg
+      title: Hochzeitsfeier
+    - type: image
+      link: /media/img/crash-pv.jpg
+      title: Polizeibericht
+    - type: image
+      link: /media/img/crash-old.jpg
+      title: 19. Mai 1967
       
 ---
+
+Welcher Zusammenhang besteht zwischen einem Ehehafen, einem auf dem Kopf stehenden Wohnwagen und der Gründung von Veld & Duin?
+
+Entdecken Sie die bahnbrechende Geschichte einer Autofahrt, die zuerst in einen Campingplatz und fünfzig Jahre später in eine Ausstellung mündete. Das war doch mal ein Richtungswechsel!
+

@@ -1,28 +1,26 @@
 ---
 layout: exhibit
-title: VERLOREN VOORWERPEN
+title: LE CHALET AUX OBJETS PERDUS
+icon: 
+    src: /media/img/svg/verlorenvoorwerp.svg
+    color: blauw
+    fill: blauw
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/verloren-voorwerpen-chalet.jpg
-    readmore: "Vind terug"
+    readmore: "Retrouvez-moi!"
     text: >
-        Bezoek het levenswerk van Valère, Verantwoordelijke Verloren Voorwerpen.
+        Découvrez toute l’œuvre de Valère, responsable des objets perdus.
     
 media:
-    - type: image
-      link: /media/img/demo/demo-01.jpg
-    - type: image
-      link: /media/img/demo/demo-02.jpg
-    - type: image
-      link: /media/img/demo/demo-03.jpg
-    - type: image
-      link: /media/img/demo/demo-04.jpg
-    - type: image
-      link: /media/img/demo/demo-05.jpg
-    - type: image
-      link: /media/img/demo/demo-06.jpg
-    - type: image
-      link: /media/img/demo/demo-07.jpg
+    - type: youtube
+      code: HPQ_NYWXdME
+      view: /media/video/valere.jpg
+      title: Portrait de Valère
+      
 ---
+
+On ne l’imaginerait pas, mais cet objet a bien été égaré sur le camping. Au fil des ans, une quantité incroyable d’objets a ainsi été amassée. Regardez par la fenêtre ou franchissez la porte, peut-être reconnaîtrez-vous l’un d’entre eux?
+
+Le responsable autoproclamé des objets perdus s’appelle Valère. L’œuvre de sa vie, c’est de trier ces objets, les étiqueter et tenter de retrouver leur propriétaire attitré. Il nous a promis d’être présent pendant les visites guidées pour répondre à vos questions. 

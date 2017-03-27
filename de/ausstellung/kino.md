@@ -1,33 +1,33 @@
 ---
 layout: exhibit
-title: CINEMA-MUSEUM 
+title: DAS FILMKABINETT
+icon: 
+    src: /media/img/svg/filmkabinet.svg
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/campingcinema.jpg
-    readmore: "Zwijmel mee"
+    readmore: "Schwärmen Sie mit"
     text: >
-        Tijd voor wat nostalgie in onze retro campingcinema anex museum.
+        Zeit für ein wenig Nostalgie in unserem Retro-Campingkino mit Museum.
         
 media:
     - type: image
-      link: /media/img/demo/demo-01.jpg
-      title: sisal gekleurd
-    - type: audio
-      link: /media/audio/demo/demo-01.mp3
-      view: /media/img/demo/demo-07.jpg
-      title: maanlanding
-    - type: video
-      link: /media/video/demo/demo-01.mp4
-      view: /media/video/demo/demo-01.png
-      title: konijnehol
+      link: /media/img/cinema-scan-vergunning-zz-1966-03-04.jpg
+      title: Zulassung 1966
+    - type: image
+      link: /media/img/cinema-scan-campinglijst-zz-1968.jpg
+      title: Preise 1968
+    - type: image
+      link: /media/img/cinema-scan-lawaai-1990.jpg
+      title: Zeitungsartikel 1990
+    - type: image
+      link: /media/img/cinema-scan-contract-nl-1976.jpg
+      title: Kontrakt 1976
        
 ---
 
-### Komt dat zien!
+Willkommen in unserem Entdecke-alles-selbst-Kuriositätenmuseum! Geben Sie dem Voyeur in Ihnen eine Chance: Öffnen Sie Türen, knacken Sie Schubladen, ziehen Sie Vorhänge zur Seite und erhalten Sie Einblick in die Geschichte des Campingplatzes.
 
-Vivamus viverra, nisi vel vestibulum lobortis, augue neque lobortis justo, quis suscipit tellus mauris quis lacus. Fusce sollicitudin erat vel auctor tincidunt. Proin dictum, nibh sit amet bibendum ullamcorper, lorem augue [tincidunt lacus](#mx-1), a molestie orci diam a ligula. 
-
-Mauris et aliquam tortor, eget vulputate nisl. Pellentesque sem elit, finibus in aliquet vel, gravida quis nulla. Nulla aliquet placerat nisl id volutpat. Morbi [elementum nec](#mx-2) purus non tempor. Vivamus a dictum nibh. Fusce sagittis egestas massa et consequat. [Suspendisse in](#mx-3) mollis ligula. Duis pulvinar id tellus in volutpat.
+Machen Sie es sich danach in dem Sessel gemütlich und genießen Sie unseren Veld-&-Duin-Kurzfilm.
 

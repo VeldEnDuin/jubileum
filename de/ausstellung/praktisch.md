@@ -1,50 +1,49 @@
 ---
 layout: exhibit
-title: "Die Welt als Campingplatz."
+
 embargo: true
 
 preview: 
     readmore: "Praktisch"
     text: >
-        <strong>De wereld als camping</strong><br>
+        <strong>Die Welt als Campingplatz</strong><br>
         1/4 - 12/11<br>
-        een ludieke ontdekkingsreis<br>
-        naar hoe het (n)ooit is geweest
+        Eine spielerische Entdeckungs-Weltreise zu 50 Jahren Campingplatz,<br>
+        wo das Unvorstellbare möglich wird
 ---
 
 
 {% include links.md %}
 
-_TODO TRANSLATE_
-
-
-Acht verschillende locaties op de camping blikken met een knipoog terug op vijftig jaar Veld & Duin. Hou u klaar voor nieuwe herinneringen.
-
-Kom voor een totaalbeleving zeker ter plaatse kijken.  Voor de kinderen is er een uitdagende zoektocht, en voor iedereen ook een extra tentoonstellingsgids.  Met uw smartphone erbij kun je het bezoek trouwens optimaal combineren met het bonusmateriaal op deze website.
-
 
 ## Praktisch
 
-De tentoonstelling  bestaat uit 8 verschillende locaties. De volgorde waarin je de locaties bezoekt is compleet onbelangrijk. 
+Die Ausstellung hat 8 verschiedene Standorte. Die Reihenfolge, in der Sie diese Ausstellungsteile besuchen, ist nicht wichtig. 
 
-De tentoonstelling is elke dag te bezoeken van 9 tot 21 uur. Het campingmuseum en de verloren voorwerpen chalet zijn enkel te bezoeken tijdens de [openingsuren van de receptie][openingsuren.nl].
+Die Ausstellung kann jeden Tag zwischen 9 und 21 Uhr besucht werden. Das Campingmuseum und das Chalet mit den Fundsachen können nur während den [Öffnungszeiten der Rezeption][openingsuren.de] besucht werden. 
 
-Tijdens het feestweekend van 3 juni worden rondleidingen met gids voorzien (vooraf inschrijven). Eventuele extra rondleidingen worden aangekondigd op de jubileumsite en facebook.
+Während des Festwochenendes vom 3. Juni werden geführte Rundgänge vorgesehen (bitte vorher anmelden). Eventuelle zusätzliche Führungen werden auf der Jubiläums-Webseite und auf Facebook angekündigt.
 
+Auch Kinder werden Spaß an der Ausstellung haben - Beteiligen Sie sich am Wettbewerb und gewinnen Sie einen schönen Preis.
 
-## Bonusmateriaal
-
-Haal nog meer uit je bezoek en breng je smartphone of tablet meer voor extra bonusmateriaal.
-
-Dat materiaal vind je op deze website. Per locatie is er een infobord met een specifieke QR-code die je meteen naar de juiste pagina brengt.
-
-Onze jubileumsite is voor iedereen publiek en gratis toegankelijk. Wil je toch liever je data-abonnement sparen, dan kun je gebruik maken van de [wifi op de camping][wifi.nl]. Tickets tijdens [openingsuren receptie][openingsuren.nl] vanaf € 2.
-
-Uiteraard kun je voor of na je geplande bezoek het materiaal op deze pagina's ook thuis bekijken.
+Ausstellungsleitfaden mit Kinderpuzzle erhältlich an der Rezeption oder im Display.
 
 
-## Tenslotte
+## Bonusmaterial
 
-Vragen we de bezoekers het nodige respect op te brengen door niks mee te nemen of te beschadigen en de kampeerders die rond een locatie wonen niet te storen.
+Machen Sie noch mehr aus Ihrem Besuch. Für Bonusmaterial benötigen Sie nur Ihr Smartphone oder Ihren Tablet-PC. Vor Ort nutzen Sie am besten Ihre Ohren und hören sich die Klangfragmente an.
 
-Geniet, herinner en verwonder en laat ons graag weten wat je ervan vond.
+Das Bonusmaterial finden Sie auf dieser Webseite Vor Ort gibt es an jedem Standort eine Tafel mit einem QR-Code, der Sie im Handumdrehen zur richtigen Seite bringt.
+
+Unsere Jubiläumswebseite ist für jedermann öffentlich und kostenlos zugänglich. Möchten Sie Ihr Datenvolumen lieber schonen, dann nutzen Sie doch das WLAN des Campingplatzes. Tickets sind während der [Öffnungszeiten][openingsuren.de] an der Rezeption erhältlich (ab € 2).
+
+Selbstverständlich können Sie das Material auf diesen Seiten vor oder nach Ihrem geplanten Besuch auch zu Hause ansehen.
+
+Die vollständigen Geschichten zu jedem Standort finden Sie im Begleitheft.
+
+
+## Abschließende Bitte
+
+Bitte verhalten Sie sich rücksichtsvoll: Nehmen Sie nichts mit, beschädigen Sie nichts und stören Sie keine Camper, deren Platz in der Nähe eines Standorts liegt.
+
+Genießen Sie die Ausstellung, erinnern Sie sich und lassen Sie uns wissen, was Sie davon halten.

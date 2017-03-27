@@ -4,7 +4,7 @@ title: "Le monde en tant que camping."
 embargo: true
 
 preview: 
-    readmore: "Pratique"
+    readmore: "Infos pratiques"
     text: >
         <strong>Le monde en tant que camping</strong><br>
         1/4 - 12/11<br>
@@ -24,17 +24,19 @@ Des visites guidées seront prévues pendant le week-end festif du 3 juin (insc
 
 L'exposition est une chouette activité à faire avec vos enfants: participez au concours et remportez un superbe prix.
 
-
+Le guide de l’exposition et le puzzle pour les enfants sont disponibles à la réception ou sur le présentoir.
 
 ## Bonus
 
 Profitez au maximum de votre visite ! Emmenez votre smartphone ou votre tablette pour bénéficier d’infos supplémentaires. Sur place, utilisez de préférence des oreillettes pour écouter les passages audio. 
 
-Dat materiaal vind je op deze website. Per locatie is er een infobord met een specifieke QR-code die je meteen naar de juiste pagina brengt.
+Vous trouverez les bonus sur ce site Internet. Il y a sur chaque site un panneau dévoilant un code QR qui vous amène directement à la bonne page. 
 
 Notre site du jubilé est accessible à tous gratuitement. Si vous préférez ménager votre abonnement data, vous pouvez utiliser le [wifi du camping][wifi.fr]. Tickets disponibles pendant les [heures d’ouverture de la réception][openingsuren.fr] (à partir de 2 €). 
 
-Uiteraard kun je voor of na je geplande bezoek het materiaal op deze pagina's ook thuis bekijken.
+Car avant ou après votre visite, vous pouvez aussi consulter les bonus sur ces pages à la maison. 
+
+Vous découvrirez l’intégralité des histoires de chaque site dans le guide.
 
 
 ## Pour terminer…

@@ -1,33 +1,33 @@
 ---
 layout: exhibit
-title: CINEMA-MUSEUM 
+title: CINÉMATOGRAPHIQUES
+icon: 
+    src: /media/img/svg/filmkabinet.svg
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/campingcinema.jpg
-    readmore: "Zwijmel mee"
+    readmore: "Par ici le spectacle"
     text: >
-        Tijd voor wat nostalgie in onze retro campingcinema anex museum.
+        L’heure est à la nostalgie dans notre cinéma rétro...
         
 media:
     - type: image
-      link: /media/img/demo/demo-01.jpg
-      title: sisal gekleurd
-    - type: audio
-      link: /media/audio/demo/demo-01.mp3
-      view: /media/img/demo/demo-07.jpg
-      title: maanlanding
-    - type: video
-      link: /media/video/demo/demo-01.mp4
-      view: /media/video/demo/demo-01.png
-      title: konijnehol
+      link: /media/img/cinema-scan-vergunning-zz-1966-03-04.jpg
+      title: Permis 1966
+    - type: image
+      link: /media/img/cinema-scan-campinglijst-zz-1968.jpg
+      title: Prix 1968
+    - type: image
+      link: /media/img/cinema-scan-lawaai-1990.jpg
+      title: Article de journal 1990
+    - type: image
+      link: /media/img/cinema-scan-contract-nl-1976.jpg
+      title: Contrat de 1976
        
 ---
 
-### Komt dat zien!
+Bienvenue dans notre cabinet de curiosités «la grande farfouille»! Laissez libre cours à votre curiosité! Ouvrez les portes, faites grincer les tiroirs, faites glisser les rideaux et découvrez l’histoire du camping! 
 
-Vivamus viverra, nisi vel vestibulum lobortis, augue neque lobortis justo, quis suscipit tellus mauris quis lacus. Fusce sollicitudin erat vel auctor tincidunt. Proin dictum, nibh sit amet bibendum ullamcorper, lorem augue [tincidunt lacus](#mx-1), a molestie orci diam a ligula. 
-
-Mauris et aliquam tortor, eget vulputate nisl. Pellentesque sem elit, finibus in aliquet vel, gravida quis nulla. Nulla aliquet placerat nisl id volutpat. Morbi [elementum nec](#mx-2) purus non tempor. Vivamus a dictum nibh. Fusce sagittis egestas massa et consequat. [Suspendisse in](#mx-3) mollis ligula. Duis pulvinar id tellus in volutpat.
+Puis blottissez-vous dans le fauteuil pour visionner notre vidéo Veld & Duin. 
 

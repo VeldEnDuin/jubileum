@@ -1,41 +1,41 @@
 ---
 layout: exhibit
-title: TIJDSMIJLPAAL
+title: RADARS
+icon: 
+    src: /media/img/svg/flitspaal.svg
+    color: rood
+    fill: geel
 embargo: true
-insert:
-    - banner
+
 preview: 
     image: /media/img/tijdspalen.jpg
-    readmore: "Ontdek meer"
+    readmore: "Envie d’en savoir plus?"
     text: >
-        Bekijk vijftig jaar wereld-en campinggeschiedenis aan de 5 tijdsmijlpalen.
+        Un demi-siècle d’histoire du camping en cinq moments-clés. 
+        
 media:
     - type: youtube
       code: Qlc7iLLSQZE
       view: /media/video/jubi-mijlpaal-6776.jpg
-      title: van 1967 tot 1976
+      title: de 1967 à 1976
     - type: youtube
       code: BfHJaqUjoeE
       view: /media/video/jubi-mijlpaal-7786.jpg
-      title: van 1977 tot 1986
+      title: de 1977 à 1986
     - type: youtube
       code: nPFtPHxTwi4
       view: /media/video/jubi-mijlpaal-8796.jpg
-      title: van 1987 tot 1996
+      title: de 1987 à 1996
     - type: youtube
       code: PQ2cygTd-6Y
       view: /media/video/jubi-mijlpaal-9706.jpg
-      title: van 1997 tot 2006
+      title: de 1997 à 2006
     - type: youtube
       code: VNMenB9JK50
       view: /media/video/jubi-mijlpaal-0716.jpg
-      title: van 2007 tot 2016
+      title: de 2007 à 2016
 ---
 
-# van 1967 tot 1977
+Le camping a constamment évolué en un demi-siècle. Cinquante années qui ont filé à la vitesse de l’éclair. Pour Bredene comme pour le reste du monde. Découvrez sur le site les cinq vidéos consacrées au camping dans le monde. 
 
-De oprichting van Camping Veld & Duin was meteen het startschot voor een waarlijk fabuleus decenium/ Zoals je kunt zien in ons [eerste beknopt tien-jaren-verslag](#mx-1) bevatte dit onder andere:
-
-* en vele andere vermeldenswaarde wetenswardigheden en memorabele gebeurtenisfeiten.
-
-Voorwaar.
+Découvrez ici les cinq vidéos consacrées au camping et au monde.   
