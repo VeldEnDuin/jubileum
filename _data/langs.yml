@@ -48,7 +48,7 @@ fr:
         today: "Aujourd’hui"
         formwait: "Formulaire d’inscription en cours de chargement... (veuillez patienter)"
         warn-no-flash: Désolé, votre appareil ne supporte pas Flash.
-        practical: "(fr) Praktische Info"
+        practical: "Infos pratiques"
 
     gcse:
         use: Veuillez introduire un mot clé!
@@ -73,7 +73,7 @@ de:
         today: "heute"
         formwait: Anmeldungsformular wird geladen... (bitte warten)
         warn-no-flash: Leider wird FlashPlayer nicht unterstützt.
-        practical: "(de) Praktische Info"
+        practical: "Praktische Info"
 
     gcse:
         use: Geben Sie einen Suchbegriff ein!
