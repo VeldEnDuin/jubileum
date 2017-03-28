@@ -243,7 +243,7 @@
 //              view.setCenter(getCenterWithHeading(c, -c[2], view.getResolution()));
 //              view.setRotation(-c[2]);
               var c = ol.proj.transform([position.longitude, position.latitude], 'EPSG:4326', 'EPSG:3857')
-              //view.setCenter(c);
+              view.setCenter(c);
               locator.setPosition(c);
             
               if (heading && speed) {
