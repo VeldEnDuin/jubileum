@@ -12,7 +12,7 @@ preview:
           amount: "2"
           icon: "/img/svg/style/icon-amor.svg"
         - unit: "Gesammelt am {now}"
-          amount: "{bedrag}"
+          amount: "€ 225"
           icon: "/img/svg/style/icon-euro.svg"
         - unit: "Aktionen"
           amount: "2"
