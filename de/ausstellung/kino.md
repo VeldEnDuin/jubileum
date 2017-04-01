@@ -24,7 +24,10 @@ media:
     - type: image
       link: /media/img/cinema-scan-contract-nl-1976.jpg
       title: Kontrakt 1976
-       
+    - type: app
+      link: /app/vroeger-en-nu
+      view: /media/app/vroeger-nu.png
+      title: Vergleichen Sie die Luftaufnahmen
 ---
 
 Willkommen in unserem Entdecke-alles-selbst-Kuriositätenmuseum! Geben Sie dem Voyeur in Ihnen eine Chance: Öffnen Sie Türen, knacken Sie Schubladen, ziehen Sie Vorhänge zur Seite und erhalten Sie Einblick in die Geschichte des Campingplatzes.
