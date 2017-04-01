@@ -4,9 +4,11 @@
     nl: Memory
     fr: Memory
     de: Memory
+    en: Memory
 - id: 145500842
   img: /img/game/shuffle-screen.png
   name:
     nl: Schuifpuzzel
     fr: Taquin
     de: Schiebepuzzle
+    en: Sliding puzzle
