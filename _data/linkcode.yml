@@ -21,95 +21,115 @@ facts:
     nl: "/nl/index.html#feitjes"
     fr: "/fr/index.html#chiffres"
     de: "/de/index.html#fakten"
+    en: "/en/index.html#facts"
 facts_include:
     nl: /nl/feitjes.html
     fr: /fr/chiffres.html
     de: /de/fakten.html
+    en: /en/facts.html
 
 exhibit:
     nl: "/nl/index.html#tentoonstelling"
     fr: "/fr/index.html#exposition"
     de: "/de/index.html#ausstellung"
+    en: "/en/index.html#exposition"
 exhibit_index:
     nl: /nl/tentoonstelling/praktisch.html
     fr: /fr/exposition/pratique.html
     de: /de/ausstellung/praktisch.html
+    en: /en/exhibition/practical.html
 
 games:
     nl: "/nl/index.html#spelletjes"
     fr: "/fr/index.html#jeux"
     de: "/de/index.html#spiele"
+    en: "/en/index.html#games"
 games_index:
     nl: /nl/spelletjes.html
     fr: /fr/jeux.html
     de: /de/spiele.html
+    en: /en/games.html
 
 program:
     nl: "/nl/index.html#kalender"
     fr: "/fr/index.html#calendrier"
     de: "/de/index.html#kalender"
+    en: "/en/index.html#calender"
 program_index:
     nl: /nl/kalender.html
     fr: /fr/calendrier.html
     de: /de/kalender.html
+    en: /en/calender.html
 
 
 goeddoel:
     nl: "/nl/index.html#goeddoel"
     fr: "/fr/index.html#charite"
     de: "/de/index.html#guterzweck"
+    en: "/en/index.html#charity"
 goeddoel_index:
     nl: /nl/goed-doel.html
     fr: /fr/bonnes-causes.html
     de: /de/guter-zweck.html
+    en: /en/charity.html
 
 
 exhibit_crash:
     nl: /nl/tentoonstelling/ideale-crash.html
-    fr: /fr/exposition/crash.html
-    de: /de/ausstellung/crash.html
+    fr: /fr/exposition/crash-reve.html
+    de: /de/ausstellung/idealer-unfall.html
+    en: /en/exhibition/ideal-crash.html
 
 exhibit_duikdrift:
     nl: /nl/tentoonstelling/duikers-op-drift.html
     fr: /fr/exposition/plongeurs-derive.html
-    de: /de/ausstellung/taucher-geratewohl.html
+    de: /de/ausstellung/taucher-auf-drift.html
+    en: /en/exhibition/divers-adrift.html
 
 exhibit_redder:
     nl: /nl/tentoonstelling/roekeloze-redder.html
-    fr: /fr/exposition/surveillant.html
-    de: /de/ausstellung/supervisor.html
+    fr: /fr/exposition/sauveteur-temeraire.html
+    de: /de/ausstellung/tollkune-retter.html
+    en: /en/exhibition/reckless-rescuer.html
 
 exhibit_tijdpaal:
     nl: /nl/tentoonstelling/flitspalen.html
-    fr: /fr/exposition/jalons-de-temps.html
-    de: /de/ausstellung/zeit-meilenstein.html
+    fr: /fr/exposition/radars.html
+    de: /de/ausstellung/schnappschuss.html
+    en: /en/exhibition/speed-cameras.html
 
 exhibit_korentelcel:
     nl: /nl/tentoonstelling/milling-fields.html
-    fr: /fr/exposition/champ-de-ble-telephone.html
-    de: /de/ausstellung/cornfield-telefon.html
+    fr: /fr/exposition/milling-fields.html
+    de: /de/ausstellung/milling-fields.html
+    en: /en/exhibition/milling-fields.html
     
 exhibit_cinema:
     nl: /nl/tentoonstelling/filmkabinet.html
-    fr: /fr/exposition/cinema.html
-    de: /de/ausstellung/kino.html
+    fr: /fr/exposition/cabinet-cinema.html
+    de: /de/ausstellung/filmkabinett.html
+    en: /en/exhibition/filmcabinet.html
 
 exhibit_lostfound:
     nl: /nl/tentoonstelling/verloren-voorwerpen.html
-    fr: /fr/exposition/perdus-et-trouves.html
-    de: /de/ausstellung/verloren-und-gefunden.html
+    fr: /fr/exposition/objets-perdus.html
+    de: /de/ausstellung/fundsachen.html
+    en: /en/exhibition/lost-and-found.html
 
 exhibit_haag:
     nl: /nl/tentoonstelling/klaaghaag.html
     fr: /fr/exposition/haie-des-lamentations.html
     de: /de/ausstellung/klagehecke.html
+    en: /en/exhibition/complaint-hedge.html
 
 openingsuren:
     nl: http://www.veldenduin.be/nl/goed-om-weten/praktisch.html
     fr: http://www.veldenduin.be/fr/bon-a-savoir/pratique.html
     de: http://www.veldenduin.be/de/gut-zu-wissen/praktisch.html
+    en: http://www.veldenduin.be/en/worth-knowing/practical.html
     
 wifi:
     nl: http://www.veldenduin.be/nl/voorzieningen/internet.html
     fr: http://www.veldenduin.be/fr/equipements/internet.html
     de: http://www.veldenduin.be/de/annehmlichkeiten/internet.html
+    en: http://www.veldenduin.be/en/amenities/internet.html

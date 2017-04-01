@@ -80,3 +80,28 @@ de:
         wait: Suchauftrag läuft...
         empty: Leider kein Ergebnis für diesen Suchbegriff gefunden.
 
+en:
+    label: EN
+    directions: ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+    months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    dict:
+        all: all
+        imgloading: Images are being loaded...
+        readmore: Read more
+        close: Close
+        top: top
+        next: next
+        outloud: Listen
+        mediatitle: Media
+        ago: "% days ago."
+        still: "still % days"
+        today: "today"
+        formwait: Form is being loaded (please wait)
+        warn-no-flash: Unfortunately your device does not support FlashPlayer.
+        practical: "Practical info"
+
+    gcse:
+        use: Please enter a search term
+        wait: Searching...
+        empty: No matches found
+
