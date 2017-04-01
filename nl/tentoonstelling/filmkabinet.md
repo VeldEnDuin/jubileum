@@ -24,6 +24,10 @@ media:
     - type: image
       link: /media/img/cinema-scan-contract-nl-1976.jpg
       title: Contract 1976
+    - type: app
+      link: /app/vroeger-en-nu
+      view: /media/app/vroeger-nu.png
+      title: Vergelijk de luchtfoto&apos;s
 
        
 ---
