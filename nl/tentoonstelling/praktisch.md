@@ -41,7 +41,7 @@ Uiteraard kun je voor of na je geplande bezoek het materiaal op deze pagina's oo
 De volledige verhalen bij elke locatie vind je in de tentoonstellingsgids die verkrijgbaar is op de tentoonstelling.
 
 
-## Tenslotte
+## Ten slotte
 
 Vragen we de bezoekers het nodige respect op te brengen door niks mee te nemen of te beschadigen en de kampeerders die in de buurt van een locatie wonen niet te storen.
 
