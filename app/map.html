@@ -369,14 +369,14 @@ images:
         }
         try {
             geoloc = new MyGeoLocation(500, showPosition, function() {
-                showMessage("Time out trying to locate you.");
+                showMessage("warning", "Time out trying to locate you.");
             });
             $locbtn.click(function () {
                 $infoDiv.slideUp(); infoshow = false;
                 geoloc.once();
             });
         } catch (e) {
-            showMessage("Error trying to use GPS locator.");  
+            showMessage("danger", "Error trying to use GPS locator | " + e);  
         }
         
         $close = $('#close');
