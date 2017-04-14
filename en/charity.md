@@ -4,7 +4,7 @@ title: Charity
 
 preview:
     text:
-        - "We support: “Zorghuis Oostende” and “Huis aan Zee."
+        - "We support: “Zorghuis Oostende” and “Huis aan Zee.”"
         - "Make a donation to charity on the account 'Zorghuis - Huis aan Zee'"
         - "IBAN: BE79 7340 4345 8433 - BIC: KREDBEBB"
     facts:
