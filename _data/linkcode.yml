@@ -86,6 +86,10 @@ exhibit_duikdrift:
     de: /de/ausstellung/taucher-auf-drift.html
     en: /en/exhibition/divers-adrift.html
 
+duikverhaal:
+    nl: /nl/tentoonstelling/duikers-verhalen.html
+
+
 exhibit_redder:
     nl: /nl/tentoonstelling/roekeloze-redder.html
     fr: /fr/exposition/sauveteur-temeraire.html

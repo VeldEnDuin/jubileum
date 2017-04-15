@@ -32,7 +32,9 @@ media:
       link: /media/img/duikers-kunstraaf-cover-201701-600px.jpg
       title: Kunstmagazine Kunstraaf januari 2017
 ---
+{% include links.md %}
+
 
 Twee duikers komen boven water in het graslandschap. Niemand noteerde hun verhaal en dat prikkelt de fantasie. 
 
-Bedenk je eigen versie over hoe ze hier terechtgekomen zijn en bezorg het ons. De mooiste verhalen worden op de site gezet.
+Bedenk je eigen versie over hoe ze hier terechtgekomen zijn en bezorg het ons. De [mooiste verhalen publiceren we hier op de site][duikverhaal.nl].
