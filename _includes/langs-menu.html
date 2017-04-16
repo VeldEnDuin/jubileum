@@ -17,7 +17,7 @@
     {% if ln != pgLang and hrefLangVariants[ln] %}
         {% assign langVariantRef = hrefLangVariants[ln] %}
     {% endif %}
-            <a href="{{site.baseurl}}{{ langVariantRef }}">{{ lang[1].label }}</a>
+            <a href="{{ langVariantRef }}">{{ lang[1].label }}</a>
         </li>
 {% endfor %}
     </ul>
