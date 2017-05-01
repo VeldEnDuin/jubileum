@@ -34,7 +34,9 @@ media:
 
       
 ---
+{% include links.md %}
+
 
 Zwei Taucher kommen in der Graslandschaft an die Oberfläche. Niemand schrieb ihre Geschichte auf und das regt die Fantasie an. 
 
-Erfinden Sie Ihre eigene Version, wie sie hierhergekommen sind, und schicken Sie sie uns zu. Die schönsten Geschichten werden auf der Webseite veröffentlicht.
+Erfinden Sie Ihre eigene Version, wie sie hierhergekommen sind, und schicken Sie sie uns zu. Die schönsten Geschichten werden [hier auf der Webseite][duikverhaal.de] veröffentlicht.

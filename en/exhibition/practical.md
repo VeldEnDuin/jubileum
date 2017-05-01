@@ -35,7 +35,7 @@ Preferably use earphones for listening to the audio clips.
 
 You can find bonus material on this website. There is a sign with a QR-code which takes you to the right page at every location.
 
-OConsulting our anniversary site is free. Would you rather save your data subscription, feel free to use our  [wifi on the campsite][wifi.en]. Tickets during [opening hours of the reception][openingsuren.en] available as from € 2.
+Consulting our anniversary site is free. Would you rather save your data subscription, feel free to use our  [wifi on the campsite][wifi.en]. Tickets during [opening hours of the reception][openingsuren.en] available as from € 2.
 Naturally you can have a look at all the material at home, before or after your visit.
 
 

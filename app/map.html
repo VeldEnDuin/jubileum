@@ -1,0 +1,390 @@
+---
+title: Map
+images:
+    - /media/app/map.png
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include layout-prelude.html %}
+    <title>Map</title>
+    
+    <!-- meta-data -->
+    {% include meta.html %}
+        
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.0.1/build/ol.js"></script>
+    <script src="../js/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    
+    <style type="text/css">
+      html, body, .map {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+      img.logo {
+          height: 120px;
+          cursor: pointer;
+          cursor: hand;
+      }
+      img.icon {
+          height: 40px;
+          cursor: pointer;
+          cursor: hand;
+      }
+
+      .menu {
+        position: absolute;
+        top: 0px;
+        padding: 0.5em;
+        width: 100%;
+        background: #222;
+        color: #ffeecf;
+        border-color: #111;
+      }
+      .menu .btn {
+        color: #222;
+        margin-left: 2px;
+      }
+      .menu .btn:hover {
+        font-weight: bold;
+      }
+      .menu img.logo {
+        height: 2.2em;
+        cursor: pointer;
+        cursor: hand;
+      }
+      .floater {
+        display: none;
+        position: absolute;
+        width: 280px;
+        top: 3em;
+        right: 2px;
+        background: #222;
+        overflow: hidden;
+        margin: 2px;
+        border: 2px solid #ffeecf;
+        padding: 1em;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <template role="marker" data-config='{"zoomlimits": {"max": 15}, "layout": "bottom-left", "animate": {"zoom": 17}}'>
+      <img class="logo" src="./map/marker_logo_veldenduin.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97834,51.25236], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-crash.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97854,51.25162], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-duikers.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97893,51.24996], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-redder.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97899,51.25083], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-flitspaal.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97907,51.24939], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-milling.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97779,51.25141], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-filmkabinet.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97779,51.25141], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-verlorenvoorwerp.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97767,51.25184], "animate": {"zoom": 19}}'>
+      <img class="icon" src="./map/display-klaaghaag.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97907,51.25233], "zoomlimits": {"min": 19}}'>
+      <img class="icon" src="./map/mark-toilet.svg" />
+    </template>
+    <template role="marker" data-config='{"geo": [2.97954,51.24982], "zoomlimits": {"min": 19}}'>
+      <img class="icon" src="./map/mark-toilet.svg" />
+    </template>
+    <template id="locator" >
+      <img class="locator" src="./map/geolocation_marker.png" />
+    </template>
+    
+    <div id="map" class="map"></div>
+
+    <div class="menu navbar navbar-inverse">
+      <button id="close" class="pull-right btn "><span class="glyphicon glyphicon-remove"></span></button>
+      <div id="msgDiv" class="floater">
+          Da werkt nie
+      </div>
+      <button id="geoloc" class="pull-right btn "><span class="glyphicon glyphicon-map-marker"></span></button>
+      <button id="info" class="pull-right btn "><span class="glyphicon glyphicon-info-sign"></span></button>
+      <div id="infoDiv" class="floater">
+        <h4><span class="glyphicon glyphicon-info-sign"></span> Info</h4>
+        <div>
+          De kaartlaag in deze applicatie komt van de 
+          <a href="https://wiki.osmfoundation.org">OpenStreetMap Foundation</a>
+          <hr>
+          La couche de carte dans cette demande provient de la 
+          <a href="https://wiki.osmfoundation.org">Fondation OpenStreetMap</a>
+          <hr>
+          Die Kartenschicht in dieser Anwendung kommt von der 
+          <a href="https://wiki.osmfoundation.org">OpenStreetMap Foundation</a>
+          <hr>
+          The map layer in this application comes from the 
+          <a href="https://wiki.osmfoundation.org"> OpenStreetMap Foundation</a>
+        </div>
+      </div>
+      <div><img id="recenter" class="logo" src="../img/svg/logo/logo_veldenduin.svg"></div>
+    </div>
+    <script>
+      "use strict";
+      function isEmpty(a) {
+          return (a === null || a === undefined || (a.hasOwnProperty("length") && a.length === 0));
+      }   
+
+      function isString(s) {
+          return Object.prototype.toString.call(s) === '[object String]';
+      }   
+
+      var map, view, imageExtent, $markers, center, $locator, locator;
+      proj4.defs("EPSG:31370", "+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 " +
+                 "+lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 " +
+                 "ellps=intl +towgs84=106.869,-52.2978,103.724,-0.33657,0.456955,-1.84218,1 "+
+                 "units=m +no_defs");
+
+      imageExtent = [53018,216498,53293,216990];
+      view = new ol.View({
+          center: ol.proj.transform(ol.extent.getCenter(imageExtent), 'EPSG:31370', 'EPSG:3857'),
+          zoom: 17
+      });
+
+      function MyGeoLocation(period, fnOnUpdate, fnOnTimeOut) {
+          if (!navigator.geolocation) {
+              console.log("GEOLOCATION NOT SUPPORTED");
+              throw "#nogeo"
+          }
+          this.period = Number(period);
+          this.period = (!isNaN(this.period)) ? this.period : 500;
+          this.handle = null;
+          this.watchdog = null;
+          this.position = null;
+          this.heading = null;
+          this.speed = null;
+          this.lasttime = null;
+//          this.positions = [];
+          this.fnOnUpdate = fnOnUpdate || function () {};
+          this.fnOnTimeOut = fnOnTimeOut || function () {};
+      }
+      
+      MyGeoLocation.prototype.update = function(position) {
+          this.position = position;
+          this.lasttime = Date.now();
+          // TODO calculate speed, heading, ... using the last x positions and timings
+          this.fnOnUpdate({
+              "position": this.position.coords,
+              "heading": this.position.coords.heading,
+              "speed": this.position.coords.speed,
+              "ts": this.lasttime
+          });
+      }
+      
+      MyGeoLocation.prototype.once = function(fn) {
+          console.log("once");
+          this.fnOnUpdate = fn || this.fnOnUpdate;
+          this.start(true);
+      }
+      
+      MyGeoLocation.prototype.start = function(onlyOnce) {
+          onlyOnce = !!onlyOnce;
+          var me = this;
+          this.stop();
+          function onGeoUpdate (position) {
+              console.log("ongeoupdate|", onlyOnce);
+              if (me.watchdog) { // shut the dog
+                  clearTimeout(me.watchdog);
+                  me.watchdog = null;
+              }
+              me.update(position);
+              me.handle = onlyOnce ? null : setTimeout(requestGeoUpdate,  me.period);
+          }
+          function requestGeoUpdate () {
+              console.log("requestgeoupdate");
+              navigator.geolocation.getCurrentPosition(onGeoUpdate);
+          }
+          function waitTimeOut () {
+              me.watchdog = null;
+              me.stop();
+              me.fnOnTimeOut();
+          }
+          me.watchdog = setTimeout(waitTimeOut,  5 * me.period); // launch the dog
+          me.handle = setTimeout(requestGeoUpdate, 0);
+      }
+      
+      MyGeoLocation.prototype.stop = function () {
+          if (this.handle !== null) {
+              clearTimeout(this.handle);
+              this.handle = null;
+          }
+      }
+
+      MyGeoLocation.prototype.toggle = function () {
+          if (this.handle === null) {
+              this.start();
+          } else {
+              this.stop();
+          }
+      }
+
+
+
+
+      map = new ol.Map({
+        controls: [],
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.OSM()
+            }),
+            new ol.layer.Image({
+                source: new ol.source.ImageStatic({
+                    url: './map/grondplan.svg',
+                    crossOrigin: '',
+                    projection: 'EPSG:31370',
+                    imageExtent: imageExtent
+                })
+            })
+        ],
+        target: 'map',
+        view: view
+      });
+
+      center = ol.proj.transform(view.getCenter(), 'EPSG:3857', 'EPSG:4326');
+      $markers = $('template[role="marker"]');
+      $markers.each(function() {
+          var $mt = $(this),
+              config = $mt.data('config') || {},
+              geo = config.geo || center,
+              animate = config.animate,
+              zoomlims = config.zoomlimits || {"min": 16},
+              layout = config.layout || 'center-left',
+              $el = $($mt.html()),
+              ov = new ol.Overlay({
+                  position: ol.proj.fromLonLat(geo),
+                  positioning: layout,
+                  element: $el.get(0),
+                  stopEvent: false
+              });
+              $mt.data('adapt-to-zoom', function (zoom) {
+                  if (isEmpty(zoom)) {return; }
+                  if (!isEmpty(zoomlims.min)) {
+                      if (zoom < zoomlims.min) {  $el.hide(); }
+                      else { $el.show(); }
+                  } 
+                  if (!isEmpty(zoomlims.max)) { 
+                      if (zoom > zoomlims.max) {  $el.hide(); }
+                      else { $el.show(); }
+                  }
+              });
+              map.addOverlay(ov);
+        
+              if (!isEmpty(config.animate)) {
+                  animate.center = ol.proj.fromLonLat(geo);
+                  animate.duration = animate.duration || 5000;
+                  $el.click(function () { view.animate(animate); });
+              }
+      });
+      function updateVisibleMarkers(event) {
+          var zoom = view.getZoom();
+          
+          if (isEmpty(event) || event.key === "resolution") {
+              $markers.each(function() { $(this).data('adapt-to-zoom')(zoom)});
+          }
+      }
+      view.on("propertychange", updateVisibleMarkers);
+      updateVisibleMarkers();
+      
+
+      $locator = $($('template#locator').html());
+      locator = null;
+        
+      function showPosition(geodata) {
+          console.log("show position:", geodata);
+          var position = geodata.position,
+              lon = position.longitude,
+              lat = position.latitude,
+              c = ol.proj.fromLonLat([lon, lat]);
+          if (locator === null) {
+              locator = new ol.Overlay({
+                  position: c,
+                  positioning: 'center-center',
+                  element: $locator.get(0),
+                  stopEvent: false
+              });
+              map.addOverlay(locator);
+              console.log("locator added at", c);
+          } else {
+              locator.setPosition(c);
+              console.log("locator positioned at", c);
+          }
+      }
+
+      $(function() {
+        var $info, $infoDiv, infoshow,
+            $locbtn, $msgDiv, confshow, 
+            $hori, $verti, $oldsel, $newsel, options,
+            $close, $center, geoloc,
+            geovdcenter = view.getCenter();
+        
+        $center = $('#recenter');
+        $center.click(function () {
+            view.animate({duration: 5000, zoom: 17, center: geovdcenter});
+        });
+      
+        $info = $('#info');
+        $infoDiv = $('div#infoDiv');
+        infoshow = false;
+        $info.click(function () {
+            $msgDiv.slideUp(); 
+            if (infoshow === true) {
+                $infoDiv.slideUp(500);
+            } else {
+                $infoDiv.slideDown(500);
+            }
+            infoshow = !(infoshow);
+        });
+      
+        $locbtn = $('#geoloc');
+        $msgDiv = $('div#msgDiv');
+        function hideMessage () {
+            $msgDiv.slideUp();
+        }
+        function showMessage(mode, msg) {
+            console.log("msg:: ", msg);
+            mode = mode || 'info';
+            $msgDiv.html('<div class="alert alert-' + mode + '">' + msg + '</div>');
+            $msgDiv.slideDown();
+            setTimeout(hideMessage, 5000);
+        }
+        try {
+            geoloc = new MyGeoLocation(500, showPosition, function() {
+                showMessage("warning", "Time out trying to locate you.");
+            });
+            $locbtn.click(function () {
+                $infoDiv.slideUp(); infoshow = false;
+                geoloc.once();
+            });
+        } catch (e) {
+            showMessage("danger", "Error trying to use GPS locator | " + e);  
+        }
+        
+        $close = $('#close');
+        $close.click(function () {
+            window.history.back();
+        });
+      
+    });
+    </script>
+  </body>
+</html>
