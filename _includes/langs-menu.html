@@ -1,7 +1,5 @@
 {% for codelink in site.data.linkcode %}
-    <!-- test {{pgLink}} == {{codelink[1][pgLang]}} in {{pgLang}} -->
     {% if pgLink == codelink[1][pgLang] %}
-         <!-- match -->
          {% assign hrefLangVariants = codelink[1] %}
     {% endif %}
 {% endfor %}
