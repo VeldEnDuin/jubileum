@@ -1,5 +1,6 @@
+{%capture extPgLink%}{{site.baseurl}}{{pgLink}}{%endcapture%}
 {% for codelink in site.data.linkcode %}
-    {%capture extPgLink%}{{site.baseurl}}{{pgLink}}{%endcapture%}
+    <!-- test {{extPgLink}} == {{codelink[1][pgLang]}} in {{pgLang}} -->
     {% if extPgLink == codelink[1][pgLang] %}
          {% assign hrefLangVariants = codelink[1] %}
     {% endif %}
