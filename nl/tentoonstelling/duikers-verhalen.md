@@ -10,7 +10,6 @@ embargo: true
 
 ---
 
-
 Hier kom ik boven,  
 Maar wáár kom ik vandaan?  
 Niemand weet van mijn bestaan.  
@@ -96,3 +95,8 @@ Hij heeft vandaag zijn plicht gedaan!
 
 ___
 
+Hey Emma, zie jij wat ik zie? Wat dan Emelie? Wij zij, denk ik, de plas over gezwommen. Wij zijn aan de Belgische kust. Wat? Ja, kom, we gaan die brug daar over en dan zien we meer!! Zie je dat standbeeld daar? Wel dat is Staf Versluys, ik heb daar al over gelezen! Wie Emma? Wel die Staf is een wereldreiziger en scheepsbouwer en staat in Bredene. Kom Emelie we gaan verder. Zeg Emelie, zie ginder is een camping, kom, ziet er gezellig uit! Emma, vind jij dat gezellig, een caravan in de gracht? Emma, lees eens goed, deze camping n° 30 Veld & Duin viert dit jaar zijn 50e verjaardag! We huren ons hier een chalet of caravan en zie daar die bungalow met zijn go-car boven op het dak, daar kunnen we tweedehands kledij kopen. Maar neen Emelie, dat zijn verloren voorwerpen, door de jaren heen verzameld. Ach, geeft niet, we gaan naar de Kapelstraat daar zijn winkels genoeg! Zeg Emelie, we gaan de camping eens rond, helaba, we zijn hier niet alleen en ook niet de eerste, hier zijn ooit nog diepzeeduikers geweest!! En daar zie, viewmasters, amai, 50 jaar, zoveel veranderd!!! Zelfs de Queen heeft een boodschap achtergelaten. Leuk zo'n camping. Emma, vind jij dit ook zo gezellig? Wel Emelie, ik vind het hier reuze, proper, vriendelijk, zelfs hondvriendelijk, kindvriendelijk, zie die grote blaas eens! Neen, Emma, dat is een trampoline. Leuk, zo kan je wat kilo's kwijt! Zelfs het gras wordt hier afgedaan, wij moeten hier niks doen! En die douches zo proper en we kunnen zelfs onze was hier doen! We blijven nog wat, kom we gaan ons inschrijven!!! Amai zeg, die camping hier, heb juist de kampingkrant gelezen. In 1967 zijn een zekere Fernand en Maria hier begonnen op het korenveld van de ouders. Uit hun liefde en gevrij zijn Els en Stefaan gekomen, die zowat mee de fakkel hebben overgenomen en die hebben zich ook al voortgeplant, met Theo, Fien, Tuur en Jef. Zo het is dus echt een familiebedrijf. Ja Emma, we blijven hier nog wat, we kopen hier iets. Zo gezellig en na al die jaren zoveel veranderd maar eigenlijk niks. Gezelligheid, vriendelijk en properheid, bereidwiligheid, alles met "heid" is troef.
+
+Proficiat voor de ganse ploeg en doe er nog vele jaren bij! 
+
+*anoniem ingezonden - April 2017*
