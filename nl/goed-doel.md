@@ -12,7 +12,7 @@ preview:
           amount: "2"
           icon: "/img/svg/style/icon-amor.svg"
         - unit: "ingezameld op {now}"
-          amount: "€ 735"
+          amount: "€ 1310"
           icon: "/img/svg/style/icon-euro.svg"
         - unit: "acties"
           amount: "2"
