@@ -10,6 +10,14 @@ embargo: true
 
 ---
 
+HET VERHAAL VAN DE 2 DUIKERS!
+
+Op een mooie zomerdag gingen 2 kindjes in een vijvertje gaan duiken. Ze hadden een duikpak en snorkels mee en een picknickmand. Het gras kietelde aan hun voeten. Ze aten eerst wat en genoten van het uitzicht. Daarna doken ze het water in, ze speelden met een bal en hadden heel veel plezier. Opeens viel het kleinste kindje in een put diep in het water. Het ander kindje liep naar de put toe en viel naar voor ook in de put. Ze vielen in een diepe slaap. Na een lange tijd werden ze terug wakker. Ze zaten met de helft van hun lichaam vast in het gras op een hele mooie versierde camping. Het was een paradijs. De camping noemde VELD & DUIN!
+
+*Inte Heyvaert - juni 2017*
+
+___
+
 Hier kom ik boven,  
 Maar wáár kom ik vandaan?  
 Niemand weet van mijn bestaan.  
