@@ -33,6 +33,10 @@ media:
     - type: image
       link: /media/img/crash-old.jpg
       title: 19 mai 1967
+    - type: youtube
+      code: AErazxVXkHw
+      view: /media/img/bellehistoire.jpg
+      title: Une Belle Histoire - Michel Fugain
       
 ---
 
