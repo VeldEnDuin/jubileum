@@ -347,42 +347,6 @@ items:
     images:
       - /img/programma/waterglijbaan.jpg
 
-  - date: 2017-08-18
-    title:
-      nl: "Grote Veld & Duin-quiz"
-      fr: "Grand quiz Veld & Duin"
-      de: "Das große Veld & Duin-Quiz"
-      en: "Big Veld & Duin quiz"
-    description:
-      nl: >
-          Maak ploegjes van 4-5 personen en schrijf je in voor deze unieke campingquiz (max 10 ploegen). Met een mix van camping-kust-jubileum en andere vragen en opdrachten is de quiz geschikt voor iedereen. Supporters welkom. </br>
-          <ul>
-            <li>start: 19 u.                       </li>
-            <li>vooraf inschrijven aan de receptie </li>
-          </ul>
-      fr: >
-          Formez des équipes de 4 ou 5 personnes et inscrivez-vous à notre super quiz de camping (maximum 10 équipes). Ce quiz, qui combine les thèmes du camping, du littoral et du jubilé avec d’autres questions et missions, est à la portée de tous. Les supporters sont les bienvenus! </br>
-          <ul>
-            <li>début: 19 h                        </li>
-            <li>inscription préalable à la réception </li>
-          </ul>
-      de: >
-          Bilden Sie kleine Teams von 4 bis 5 Personen und melden Sie sich für dieses einzigartige Camping-Quiz an (max. 10 Teams). Das Quiz ist eine Mischung von Camping-Küste-Jubiläum und anderen Fragen und Aufträgen, sodass jeder teilnehmen kann. Jeder ist willkommen, um sein Team anzuspornen und zum Sieg zu verhelfen! </br>
-          <ul>
-            <li>Start: 19 Uhr                       </li>
-            <li>vorab anmelden an der Rezeption </li>
-          </ul>
-      en: >
-          Make a team of 4 or 5 persons and register for our unique quiz (maximum 10 teams). Everybody can participate as the quiz is a mixture of camping, coast and anniversary themes and other questions and missions. Supporters are most welcome! </br>
-          <ul>
-            <li>Start: 7 p.m.                       </li>
-            <li>please register in advance at the reception </li>
-          </ul>
-
-    images:
-      - /img/programma/quiz.jpg
-
-
   - date: 2017-08-25
     title:
       nl: "Gidsbeurt natuurgebied d'Heye"
