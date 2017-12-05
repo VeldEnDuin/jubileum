@@ -12,7 +12,7 @@ preview:
           amount: "2"
           icon: "/img/svg/style/icon-amor.svg"
         - unit: "récoltés au {now}"
-          amount: "€ 6340"
+          amount: "€ 10000"
           icon: "/img/svg/style/icon-euro.svg"
         - unit: "actions"
           amount: "2"
